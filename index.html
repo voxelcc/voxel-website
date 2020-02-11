@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en" class="h-100">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,14 +19,14 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h3><a href="#">Smart Home</a></h3>
+        <h3><a href="#">Smart&nbsp;Home</a></h3>
         <h3><a href="#">Hub</a></h3>
         <h3><a href="#">Explore</a></h3>
         <h3><a href="#">About</a></h3>
     </div>
 
 
-    <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand sticky-top">
         <div class="container justify-content-center">
             <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
                 <li>
@@ -41,7 +42,7 @@
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end hidelogin">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Hub Login</a>
+                    <a class="nav-link" href="login.html">Login</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-primary" onclick="openSideNav()" href="#">Sign up</a>
@@ -55,37 +56,144 @@
 
     <main role="main" class="container flex-shrink-0">
         <div class="jumbotron">
-            <h3>Own Your Smart Home</h3>
-            <a class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">Watch the video</a>
+            <h1>Own Your Smart Home</h1>
+            <a class="btn btn-lg btn-primary" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lQAUq_zs-XU">Watch the video</a>
         </div>
+
+        <hr class="featurette-divider">
+
+        <h2>Voxel: rethinking the smart home. </h2>
+        <div class="row">
+            <div class="col-md">
+                <h6>Your smart home should work for you, not for Jeff Bezos. Your smart home should work for you, not for Jeff Bezos. Your smart home should work for you, not for Jeff Bezos. </h6>
+            </div>
+
+            <div class="col-md">
+                <div class="kickstarter-box">
+                    <h4>Launching on <img src="kickstarter.png" style="height: 25px"></h4>
+
+
+                    <div class="input-group">
+
+
+                        <div class="form-label-group">
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                            <label for="inputEmail">Email address</label>
+                        </div>
+
+
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button" style="border-top-right-radius: 5px; border-bottom-right-radius: 5px; height: 50px;">Register for updates</button>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h3 class="featurette-heading">Make your home work for you. </h3>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <a class="btn btn-lg btn-primary" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lQAUq_zs-XU">Voxel Starter Kit</a>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="placeholder.svg" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h3 class="featurette-heading">Keep your privacy.</h3>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodplo.</p>
+                <a class="btn btn-lg btn-primary" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lQAUq_zs-XU">Our data policy</a>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" src="placeholder.svg" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h3 class="featurette-heading">Join the movement.</h3>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <a class="btn btn-lg btn-primary" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lQAUq_zs-XU">Visit the Voxel Hub</a>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="placeholder.svg" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+
+
+
     </main>
 
+    <div class="container-fluid">
+
+        <!-- Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <!-- BS4 Responsive Embed (https://parrot-tutorial.com/bootstrap4/util_embed.html) -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 
 
     <footer class="footer mt-auto py-3">
         <div class="container">
             <div class="row">
-                <div class="col-3">
-                    <h3><a href="#">Smart Home</a></h3>
-                    <h3><a href="#">Hub</a></h3>
+                <div class="col-lg">
+                    <h3><a href="#">Products</a></h3>
+                    <h3><a href="#">Portal</a></h3>
                     <h3><a href="#">Explore</a></h3>
-                    <h3><a href="#">About</a></h3>
                 </div>
-                <div class="col-3">
+                <div class="col-lg">
                     <h4><a href="#">Starter kit</a></h4>
                     <h4><a href="#">New releases</a></h4>
                     <h4><a href="#">Upcoming</a></h4>
                     <h4><a href="#">About</a></h4>
                 </div>
-                <div class="col">
-                    2 of 2
+                <div class="col-lg">
+                    <p><a href="mailto:team@voxel.cc">team@voxel.cc</a></p>
+                    <p>&copy; <script>
+                            document.write(new Date().getFullYear());
+                        </script> Voxel Company </p>
                 </div>
             </div>
-            <p>Copyright voxel.cc <script>
-                    document.write(new Date().getFullYear());
-                </script>. All rights reserved. </p>
-
         </div>
     </footer>
 
@@ -95,5 +203,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="bootstrap.bundle.js"></script>
     <script src="main.js"></script>
+
 
 </body></html>
