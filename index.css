@@ -6,5 +6,5 @@
 .jumbotron {
     border-radius: 0px;
     text-align: center;
-
+    min-height: 500px;
 }
