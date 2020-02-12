@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.typekit.net/zlz7bjm.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+
+    <title>voxel.cc</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
+        <h3><a href="#">Smart&nbsp;Home</a></h3>
+        <h3><a href="#">Hub</a></h3>
+        <h3><a href="#">Explore</a></h3>
+        <h3><a href="#">About</a></h3>
+    </div>
+
+
+    <nav class="navbar navbar-expand sticky-top">
+        <div class="container justify-content-center">
+            <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
+                <li>
+                    <div class="button-container" id="ben" onclick="openSideNav()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav flex-fill justify-content-center">
+                <li class="nav-item"><a class="navbar-brand" href="#">voxel.cc</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav flex-fill w-100 justify-content-end hidelogin">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" onclick="openSideNav()" href="#">Sign up</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <main role="main" class="container flex-shrink-0">
+
+        <div style="max-width: 1000px" class="mx-auto">
+
+            <h4>We're still in development! </h4>
+
+
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+
+            <hr>
+
+            <form class="needs-validation" novalidate="">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="username">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                        <div class="invalid-feedback" style="width: 100%;">
+                            Your username is required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                    <div class="invalid-feedback">
+                        Please enter your shipping address.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Country</label>
+                        <select class="custom-select d-block w-100" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Zip code required.
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <div class="container-fluid">
+
+        <!-- Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <!-- BS4 Responsive Embed (https://parrot-tutorial.com/bootstrap4/util_embed.html) -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <h3><a href="#">Products</a></h3>
+                    <h3><a href="#">Portal</a></h3>
+                    <h3><a href="#">Explore</a></h3>
+                </div>
+                <div class="col-lg">
+                    <h4><a href="#">Starter kit</a></h4>
+                    <h4><a href="#">New releases</a></h4>
+                    <h4><a href="#">Upcoming</a></h4>
+                    <h4><a href="#">About</a></h4>
+                </div>
+                <div class="col-lg">
+                    <p><a href="mailto:team@voxel.cc">team@voxel.cc</a></p>
+                    <p>&copy; <script>
+                            document.write(new Date().getFullYear());
+                        </script> Voxel Company </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="main.js"></script>
+
+
+</body></html>
