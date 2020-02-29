@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en" class="h-100 w-100">
 
 <head>
     <!-- Required meta tags -->
@@ -8,14 +8,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://use.typekit.net/zlz7bjm.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="product.css">
 
     <title>voxel.cc</title>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body>
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
@@ -54,56 +56,195 @@
     </nav>
 
 
-    <main role="main" class="container flex-shrink-0">
-
-
-
-
-
-    </main>
-
-    <div class="container-fluid">
-
-        <!-- Modal -->
-        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body p-0">
-                        <!-- BS4 Responsive Embed (https://parrot-tutorial.com/bootstrap4/util_embed.html) -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" allowfullscreen></iframe>
-                        </div>
+    <!-- Full Page Image Header with Vertically Centered Content -->
+    <header class="masthead mb-5">
+        <!--
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
+                        <p class="lead">A great starter layout for a landing page</p>
                     </div>
                 </div>
             </div>
+-->
+    </header>
+
+
+    <main role="main">
+
+
+
+        <div class="container flex-shrink-0">
+
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="text-break">Welcome home</h2>
+                </div>
+
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md">
+                    <h4>The powerful, modular smart home controller, open-sourced. </h4>
+
+                </div>
+                <div class="col-md">
+                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
+                    </p>
+
+                </div>
+
+            </div>
+
         </div>
 
-    </div>
 
 
 
-    <footer class="footer mt-auto py-3">
+
+        <div class="slickcarousel mx-auto" style="max-width: 1470px">
+            <div><img src="placeholder.svg"></div>
+            <div><img src="placeholder.svg"></div>
+            <div><img src="placeholder.svg"></div>
+            <div><img src="placeholder.svg"></div>
+            <div><img src="placeholder.svg"></div>
+        </div>
+
+        <div class="container flex-shrink-0">
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h3 class="featurette-heading">Modular as fuck </h3>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" src="placeholder.svg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h3 class="featurette-heading text-right">Idea to invention in minutes</h3>
+                    <p class="text-right"> Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodplo.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" src="placeholder.svg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide pt-5 pb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/BtbjCFUvBXs/1920x1080" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/BtbjCFUvBXs/1920x1080" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/BtbjCFUvBXs/1920x1080" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <div class="container flex-shrink-0">
+
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h3 class="featurette-heading">Code your way</h3>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" src="placeholder.svg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette pb-5">
+                <div class="col-md-7 order-md-2">
+                    <h3 class="featurette-heading text-right">Powerful and compatible</h3>
+                    <p class="text-right">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodplo.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" src="placeholder.svg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <!-- /END THE FEATURETTES -->
+
+
+        </div>
+
+        <div class="techspecs">
+            <div class="container flex-shrink-0 pt-5 pb-5">
+                <h4>Tech specs</h4>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+    <footer class="footer mt-5 py-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg">
-                    <h3><a href="#">Products</a></h3>
-                    <h3><a href="#">Portal</a></h3>
-                    <h3><a href="#">Explore</a></h3>
+                <div class="col-sm-auto">
+                    <h3><a href="#">Shop</a></h3>
+                    <h3><a href="#">Community</a></h3>
+                    <h3><a href="#">Projects</a></h3>
                 </div>
-                <div class="col-lg">
-                    <h4><a href="#">Starter kit</a></h4>
-                    <h4><a href="#">New releases</a></h4>
-                    <h4><a href="#">Upcoming</a></h4>
-                    <h4><a href="#">About</a></h4>
+                <div class="col-sm-auto">
+                    <h4><a href="#">Welcome Home Pack</a></h4>
+                    <h4><a href="#">Upcoming Releases</a></h4>
+                    <h4><a href="#">About us</a></h4>
+                    <h4><a href="#">Get in touch</a></h4>
                 </div>
-                <div class="col-lg">
-                    <p><a href="mailto:team@voxel.cc">team@voxel.cc</a></p>
-                    <p>&copy; <script>
+                <div class="col-sm text-right">
+
+                    <p style="position:absolute; bottom:0; right:0;">&copy; <script>
                             document.write(new Date().getFullYear());
-                        </script> Voxel Company </p>
+                        </script> Voxel</p>
+
                 </div>
             </div>
         </div>
@@ -114,6 +255,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="bootstrap.bundle.js"></script>
+    <script src="slick/slick.js"></script>
     <script src="main.js"></script>
 
 
