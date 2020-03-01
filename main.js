@@ -1,12 +1,10 @@
 //https://codepen.io/jagadeshanh/pen/pNqLYX
 function openSideNav() {
-    //    document.getElementById("ben").classList.toggle("change");
     document.getElementById("mySidenav").classList.toggle("openclose");
 }
 
 
 function closeSideNav() {
-    //    document.getElementById("ben").classList.toggle("change");
     document.getElementById("mySidenav").classList.toggle("openclose");
 }
 
@@ -43,16 +41,14 @@ $(document).ready(function () {
             {
                 breakpoint: 1024,
                 settings: {
-//                    slidesToShow: 5,
-                //                    slidesToScroll: 5,
                     dots: true,
+                    centerMode: true,
+
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
-//                    slidesToShow: 2,
-//                    slidesToScroll: 2,
                     dots: true,
 
                 }
@@ -60,8 +56,6 @@ $(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
-//                    slidesToShow: 1,
-//                    slidesToScroll: 1,
                     dots: true,
 
                 }
