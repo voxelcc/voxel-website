@@ -13,13 +13,13 @@
 
     .carousel-inner {
         background-color: aqua;
-        padding-bottom: 50%
+        padding-bottom: 70%
     }
 
 
     .carousel-caption {
         color: black;
-        bottom: -50%;
+        bottom: -60%;
         text-align: left;
         max-height;
         50%;
@@ -69,10 +69,11 @@
 
 .card {
     flex-wrap: wrap !important;
-    min-width: 350px;
-    max-width: 350px;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    min-width: 325px;
+    max-width: 325px;
+    max-width: 100% !important;
+    /*    margin-left: auto !important;*/
+    /*    margin-right: auto !important;*/
     margin-bottom: 30px !important;
 }
 
