@@ -75,3 +75,8 @@
     margin-right: auto !important;
     margin-bottom: 30px !important;
 }
+
+.slickcarousel p {
+    padding: 10px;
+    text-align: center;
+}
