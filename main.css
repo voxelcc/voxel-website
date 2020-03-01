@@ -54,6 +54,40 @@ p {
     font-size: 18px;
 }
 
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 60px;
+
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+
+
 a {}
 
 img {}
@@ -94,11 +128,13 @@ button {}
 }
 
 /* Increase container width on large screens, make it look nicer */
+/*
 @media (min-width: 1600px) {
     .container {
         max-width: 1500px;
     }
 }
+*/
 
 
 .footer {
