@@ -9,10 +9,15 @@
 }
 
 
+.carousel-indicators li {
+    background-color: #dddddd;
+}
+
+
 @media (max-width: 767px) {
 
     .carousel-inner {
-        background-color: aqua;
+        /*        background-color: aqua;*/
         padding-bottom: 70%
     }
 
@@ -41,7 +46,7 @@
 @media (min-width: 768px) {
 
     .carousel-inner {
-        background-color: aqua;
+        /*        background-color: aqua;*/
         /*        height: 1000px*/
     }
 
