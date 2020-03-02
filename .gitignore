@@ -12,3 +12,5 @@ slick/slick-theme.scss
 slick/slick.less
 slick/slick.min.js
 slick/slick.scss
+bootstrap.bundle.js
+bootstrap.css
