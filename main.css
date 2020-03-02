@@ -55,7 +55,7 @@ h5 {
     font-weight: 500;
     font-style: italic;
     /*    font-size: 25px;*/
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h6 {
@@ -89,7 +89,7 @@ p {
     }
 
     h5 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     h6 {

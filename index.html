@@ -67,7 +67,7 @@
 
         <div class="container flex-shrink-0 pt-5">
 
-            <header>
+            <header class="mb-5">
                 <div class="overlay"></div>
                 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                     <source src="placeholder.mp4" type="video/mp4">
@@ -86,22 +86,25 @@
 
             <div class="row pt-5 pb-5">
                 <div class="col-md-7">
-                    <h2 class="text-break pb-3">The smart home for <span class="replace-me">community.<span style="display:none">,freedom.,privacy.</span></span></h2>
+                    <h2 class="text-break pb-5">The smart home for <span class="replace-me1">freedom.<span style="display:none">,community.,privacy.</span></span></h2>
 
 
 
-                    <div class="row">
-                        <div class="col">
-                            <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
-                            </p>
-                        </div>
-                        <div class="col">
-                            <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
-                            </p>
-                        </div>
-                    </div>
+                    <!--                    <div class="row">-->
+                    <!--                        <div class="col">-->
 
-                    <div class="kickstarter-box mt-3">
+                    <h5>Not <span class="replace-me2">closed doors.<span style="display:none">,big tech.,big data.</span></span></h5>
+                    <p>
+                        From beginner to expert, our magnetic modules and intuitive software give you the tools and flexibility to create whatever you want. Compatible with all your favourite devices.
+                    </p>
+                    <!--                        </div>-->
+                    <!--                        <div class="col">-->
+                    <p>We’re designing our latest products around you; the crazy inventors, smart home wizards and new makers. We’re on a mission to bring open source smart homes to the world, powered by our amazing community: join the movement.
+                    </p>
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+                    <div class="kickstarter-box mt-5">
                         <h4>Launching on <img src="kickstarter.png" style="height: 25px"></h4>
                         <div class="input-group">
                             <div class="form-label-group">
@@ -244,7 +247,21 @@
 
     <script src="replaceme.min.js"></script>
     <script>
-        var replace = new ReplaceMe(document.querySelector('.replace-me'), {
+        var replace = new ReplaceMe(document.querySelector('.replace-me1'), {
+            animation: 'animated faster flipInX', // Animation class or classes
+            speed: 2000, // Delay between each phrase in miliseconds
+            separator: ',', // Phrases separator
+            hoverStop: false, // Stop rotator on phrase hover
+            clickChange: false, // Change phrase on click
+            loopCount: 'infinite', // Loop Count - 'infinite' or number
+            autoRun: true, // Run rotator automatically
+            onInit: false, // Function
+            onChange: false, // Function
+            onComplete: false // Function
+        });
+    </script>
+    <script>
+        var replace = new ReplaceMe(document.querySelector('.replace-me2'), {
             animation: 'animated faster flipInX', // Animation class or classes
             speed: 2000, // Delay between each phrase in miliseconds
             separator: ',', // Phrases separator
