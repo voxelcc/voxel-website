@@ -19,33 +19,38 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h3><a href="#">Smart&nbsp;Home</a></h3>
-        <h3><a href="#">Hub</a></h3>
-        <h3><a href="#">Explore</a></h3>
-        <h3><a href="#">About</a></h3>
+        <h3><a href="shop.html">Shop</a></h3>
+        <h3><a href="hub.html">Hub</a></h3>
+        <h3><a href="hub.html">Projects</a></h3>
+        <h4><a href="product.html">Welcome&nbsp;Home&nbsp;Pack</a></h4>
+        <h4><a href="product.html#upcoming">Upcoming&nbsp;Releases</a></h4>
+        <h4><a href="about.html">About&nbsp;us</a></h4>
+        <h4><a href="about.html">Get&nbsp;in&nbsp;touch</a></h4>
     </div>
+
 
 
     <nav class="navbar navbar-expand sticky-top">
         <div class="container justify-content-center">
             <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
                 <li>
-                    <div class="button-container" id="ben" onclick="openSideNav()">
+                    <div class="button-container d-inline-block" id="ben" onclick="openSideNav()">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                     </div>
                 </li>
             </ul>
-            <ul class="nav navbar-nav flex-fill justify-content-center">
-                <li class="nav-item"><a class="navbar-brand" href="#">voxel.cc</a></li>
+            <ul class="nav navbar-nav flex-fill justify-content-center d-none d-md-block">
+                <li class="nav-item"><a class="navbar-brand" href="index.html">voxel.cc</a></li>
 
             </ul>
-            <ul class="nav navbar-nav flex-fill w-100 justify-content-end hidelogin">
+            <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
+                    <!--                    <a class="nav-link d-none d-md-block" href="login.html">Login</a>-->
                 </li>
+
                 <li class="nav-item">
-                    <a class="btn btn-primary" onclick="openSideNav()" href="#">Sign up</a>
+                    <!--                    <a class="btn btn-primary" href="shop.html">Sign up</a>-->
                 </li>
             </ul>
 
@@ -181,28 +186,29 @@
     <footer class="footer mt-5 py-4">
         <div class="container">
             <div class="row">
-                <div class="col-sm-auto">
-                    <h3><a href="#">Shop</a></h3>
-                    <h3><a href="#">Community</a></h3>
-                    <h3><a href="#">Projects</a></h3>
+                <div class="col-lg">
+                    <h3><a href="shop.html">Shop</a></h3>
+                    <h3><a href="hub.html">Hub</a></h3>
+                    <h3><a href="hub.html">Projects</a></h3>
                 </div>
-                <div class="col-sm-auto">
-                    <h4><a href="#">Welcome Home Pack</a></h4>
-                    <h4><a href="#">Upcoming Releases</a></h4>
-                    <h4><a href="#">About us</a></h4>
-                    <h4><a href="#">Get in touch</a></h4>
+                <div class="col-lg-5">
+                    <h4><a href="product.html">Welcome Home Pack</a></h4>
+                    <h4><a href="product.html#upcoming">Upcoming Releases</a></h4>
+                    <h4><a href="about.html">About us</a></h4>
+                    <h4><a href="about.html">Get in touch</a></h4>
                 </div>
-                <div class="col-sm text-right">
-
-                    <p style="position:absolute; bottom:0; right:0;">&copy; <script>
+                <div class="col-sm">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-5">
+                    <p class="px-3" style="position:absolute; bottom:0; right:0;">&copy; <script>
                             document.write(new Date().getFullYear());
                         </script> Voxel</p>
-
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
