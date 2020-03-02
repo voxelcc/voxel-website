@@ -1,4 +1,4 @@
-/vendor/
+vendor/
 .DS_Store
 cut_code
 slick/ajax-loader.gif
