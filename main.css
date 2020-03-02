@@ -65,7 +65,7 @@ h6 {
 }
 
 p {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
 }
 
@@ -183,6 +183,10 @@ button {}
 }
 
 
+.slickimage {
+    max-height: 294px;
+}
+
 .navbar {
     height: 80px;
     background-color: white;
@@ -277,14 +281,10 @@ button {}
 
 .featurette-divider {
     margin: 3rem 0;
-    /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
+    margin-bottom: 20px;
 }
 
 
