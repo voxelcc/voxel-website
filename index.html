@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
 
     <title>voxel.cc</title>
 </head>
@@ -61,16 +62,40 @@
 
     <main role="main">
 
-        <div class="container flex-shrink-0">
 
+
+
+        <div class="container flex-shrink-0 pt-5">
+
+            <header>
+                <div class="overlay"></div>
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="placeholder.mp4" type="video/mp4">
+                </video>
+                <div class="container h-100">
+                    <div class="d-flex h-100 text-center align-items-center">
+                        <div class="w-100 text-white">
+                            <h1>Own your<br> smart home</h1>
+                            <a class="btn btn-lg btn-primary" href="shop.html">Video coming soon</a>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <!--
             <div class="jumbotron pt-5 pb-5">
                 <h1 class="pt-5">Own Your <br> Smart Home</h1>
-                <!--            <a class="btn btn-lg btn-primary" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lQAUq_zs-XU">Watch the video</a>-->
+                            <a class="btn btn-lg btn-primary" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lQAUq_zs-XU">Watch the video</a>
             </div>
+-->
 
             <div class="row pt-5 pb-5">
                 <div class="col-md-7">
-                    <h2 class="text-break pb-5">The smart home platform for community.</h2>
+                    <h2 class="text-break pb-5">The smart home platform for <span class="replace-me">community.<span style="display:none">,freedom.,privacy.</span></span></h2>
+
+
 
                     <div class="row">
                         <div class="col">
@@ -224,6 +249,22 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="bootstrap.bundle.js"></script>
     <script src="main.js"></script>
+
+    <script src="replaceme.min.js"></script>
+    <script>
+        var replace = new ReplaceMe(document.querySelector('.replace-me'), {
+            animation: 'animated faster flipInX', // Animation class or classes
+            speed: 2000, // Delay between each phrase in miliseconds
+            separator: ',', // Phrases separator
+            hoverStop: false, // Stop rotator on phrase hover
+            clickChange: false, // Change phrase on click
+            loopCount: 'infinite', // Loop Count - 'infinite' or number
+            autoRun: true, // Run rotator automatically
+            onInit: false, // Function
+            onChange: false, // Function
+            onComplete: false // Function
+        });
+    </script>
 
 
 </body></html>
