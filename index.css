@@ -13,7 +13,7 @@ header video {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -38,6 +38,18 @@ header .overlay {
     z-index: 1;
 }
 
+
+@media (max-width: 1200px) {
+
+    header video {
+        height: 100%;
+        width: auto;
+    }
+}
+
+
+
+/*
 @media (pointer: coarse) and (hover: none) {
     header {
         background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
@@ -47,3 +59,4 @@ header .overlay {
         display: none;
     }
 }
+*/
