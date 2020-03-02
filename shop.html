@@ -15,6 +15,30 @@
     <title>voxel.cc</title>
 </head>
 
+<!-- <?php
+require('vendor/autoload.php');
+
+// define variables and set to empty values
+$message  = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (empty($_POST["message"])) {
+        $message = "";
+    } else {
+        $message = test_input($_POST["message"]);
+        }
+    }
+    
+
+function test_input($data)
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+?> -->
+
 <body class="d-flex flex-column h-100">
 
     <div id="mySidenav" class="sidenav">
@@ -108,15 +132,36 @@
             <div class="mb-4">
                 <div class="kickstarter-box mx-auto">
                     <h4>Thoughts, ideas and feedback</h4>
-                    <div class="form-group">
+                    <form method="POST" action="">
+                        <!--Insert this line into action ="" when ready for deploy: <?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>-->
+                        <div class="form-group">
+                            <!--<?php
+                                    $message = '<h2>Message:</h2><p>'  . $message . '</p>';
+                                    $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+                                    $mail->isSMTP();
+                                    //$mail->SMTPDebug = 1;
+                                    $mail->CharSet = 'UTF-8';
+                                    $mail->SMTPAuth = true;
+                                    $mail->SMTPSecure = 'tls';
+                                    $mail->Host = 'smtp.gmail.com';
+                                    $mail->Port = '587';
+                                    $mail->Username = "isstracker2019@gmail.com";
+                                    $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+                                    $mail->SetFrom('isstracker2019@gmail.com');
+                                    $mail->addAddress('olithompson@rocketmail.com');
+                                    $mail->Subject = 'New Contact Form Submission';
+                                    $mail->Body = $message;
+                                    $mail->IsHTML(true);
+                                    $mail->send();
+                                    echo ('<br><h3 style ="font-size: 20px;"> Thanks for your message </h3><br>');
+                                ?> -->
+                            <label for="inputFeedback">For makers, by makers</label>
+                            <textarea class="form-control" id="inputFeedback" rows="5" placeholder="What do you want to see from this project?" name="message"></textarea>
 
-                        <label for="inputFeedback">For makers, by makers</label>
-                        <textarea class="form-control" id="inputFeedback" rows="5" placeholder="What do you want to see from this project?"></textarea>
+                            <small id="emailHelp" class="form-text text-muted">If you'd like a reply from us, include your details! </small>
 
-                        <small id="emailHelp" class="form-text text-muted">If you'd like a reply from us, include your details! </small>
-
-                    </div>
-                    <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                        </div>
+                        <button type="submit" class="btn btn-primary pull-right" value="Clear">Submit</button>
                 </div>
             </div>
 
@@ -202,7 +247,8 @@
             </div>
             <div class="row">
                 <div class="col pt-5">
-                    <p class="px-3" style="position:absolute; bottom:0; right:0;">&copy; <script>
+                    <p class="px-3" style="position:absolute; bottom:0; right:0;">&copy;
+                        <script>
                             document.write(new Date().getFullYear());
                         </script> Voxel</p>
                 </div>
@@ -217,4 +263,6 @@
     <script src="main.js"></script>
 
 
-</body></html>
+</body>
+
+</html>
