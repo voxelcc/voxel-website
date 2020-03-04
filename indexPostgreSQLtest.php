@@ -143,8 +143,10 @@ function test_input($data)
                             </div>
                             <?php
                             if ($kickstarteremail <> "") {
-                               $conn = pg_connect(getenv("postgres://vulobmbnkqnevx:4418595e233c039564958927a230ebcad953f1b9aa9748a5919c9ac17a5cb530@ec2-54-246-89-234.eu-west-1.compute.amazonaws.com:5432/ddi961ov6qbkvb"));
-                                echo ('<h4 style ="padding: 10px;">Thanks!</h4>');
+                               $conn = pg_connect(getenv("DATABASE_URL"));
+                               $query = "INSERT INTO KickStarterEmauils VALUES ('$_POST[kickstarteremail]'";
+                               $result = pg_query($query); 
+                               echo ('<h4 style ="padding: 10px;">Thanks!</h4>');
                             }
                             ?>
                             <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
