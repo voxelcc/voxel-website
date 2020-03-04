@@ -1,3 +1,4 @@
-RewriteEngine On 
+#Force from http to https
 RewriteCond %{HTTPS} off 
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} =www.voxel.cc
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301]
