@@ -159,7 +159,7 @@ function test_input($data)
                             $mail->Body = $kickstarteremail;
                             $mail->IsHTML(true);
                             $mail->send();
-                            echo ('<h5 style ="padding: 10px;">Thanks!</h5>');
+                            echo ('<h4 style ="padding: 10px;">Thanks!</h4>');
                         }
                         ?>
                         <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
@@ -201,7 +201,7 @@ function test_input($data)
                                 $mail->Body = $message;
                                 $mail->IsHTML(true);
                                 $mail->send();
-                                echo ('<h5 style =" padding: 10px;">Thanks for your message! </h5>');
+                                echo ('<h4 style =" padding: 10px;">Thanks for your message! </h4>');
                             }
                             ?>
                         <small id="emailHelp" class="form-text text-muted">If you'd like a reply from us, include your details! </small>
@@ -245,7 +245,7 @@ function test_input($data)
                                 $mail->Body = $email;
                                 $mail->IsHTML(true);
                                 $mail->send();
-                                echo ('<h5 style ="padding: 10px;">Thanks!</h5>');
+                                echo ('<h4 style ="padding: 10px;">Thanks!</h4>');
                             }
                             ?>
                             <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small> 
