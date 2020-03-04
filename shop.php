@@ -132,10 +132,13 @@ function test_input($data)
                 <div class="kickstarter-box">
                     <h4>Sign up for <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/kickstarter.png" style="height: 25px"> updates</h4>
                     <p>Be the first to know:</p>
-
-                    <div class="input-group mb-3">
                     <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-                    <input type="email" class="form-control" placeholder="Email Address" name="kickstarteremail">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address" name="kickstarteremail">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit">Sign up</button>
+                            </div>
+                        </div>
                         <?php
                         if ($kickstarteremail <> "") {
                             $kickstarteremail = '<h2>Kickstarter Email:</h2><p>' . $kickstarteremail . '</p>';
@@ -156,18 +159,12 @@ function test_input($data)
                             $mail->Body = $kickstarteremail;
                             $mail->IsHTML(true);
                             $mail->send();
-                            echo ('<h4 style ="padding: 10px;">Thanks! </h4>');
+                            echo ('<h5 style ="padding: 10px;">Thanks!</h5>');
                         }
                         ?>
-                        <div class="input-group-append">
-                            <button class="btn btn-primary" type="submit">Sign up</button>
-                        </div>
-                        </form>
                         <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
-                     
-
-                    </div>
-
+                    </form>
+                
                 </div>
 
             </div>
@@ -182,8 +179,9 @@ function test_input($data)
                         <div class="form-group">
                             <label for="inputFeedback">For makers, by makers</label>
                             <textarea class="form-control" id="inputFeedback" rows="5" placeholder="What do you want to see from this project?" name="message"></textarea>
-
-                            <?php
+                        </div>
+                        <input type="submit" class="btn btn-primary pull-right"></input>
+                        <?php
                             if ($message <> "") {
                                 $message = '<h2>Message:</h2><p>'  . $message . '</p>';
                                 $mail = new PHPMailer\PHPMailer\PHPMailer(true);
@@ -203,14 +201,10 @@ function test_input($data)
                                 $mail->Body = $message;
                                 $mail->IsHTML(true);
                                 $mail->send();
-                                echo ('<h4 style =" padding: 10px;">Thanks for your message </h4>');
+                                echo ('<h5 style =" padding: 10px;">Thanks for your message! </h5>');
                             }
                             ?>
-                        </div>
-
-                        <input type="submit" class="btn btn-primary pull-right"></input>
                         <small id="emailHelp" class="form-text text-muted">If you'd like a reply from us, include your details! </small>
-
                     </form>
                 </div>
             </div>
@@ -220,52 +214,42 @@ function test_input($data)
                 <div class="kickstarter-box" style="margin-left: auto">
                     <h4>We need you!</h4>
                     <p>Calling all developers, smart home wizards and open source enthusiasts. Join our contributers Google Group:</p>
-
-                    <div class="form-group">
-                        <p for="feedbackTextArea"></p>
-
-                        <div class="input-group">
-
-
-                            <div class="input-group mb-3">
-                                <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-                                    <input type="email" class="form-control" placeholder="Email Address" name="email">
-                                    <?php
-                                            if ($email <> "") {
-                                                $email = '<h2>Message:</h2><p>'  . $email . '</p>';
-                                                $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-                                                $mail->isSMTP();
-                                                //$mail->SMTPDebug = 1;
-                                                $mail->CharSet = 'UTF-8';
-                                                $mail->SMTPAuth = true;
-                                                $mail->SMTPSecure = 'tls';
-                                                $mail->Host = 'smtp.gmail.com';
-                                                $mail->Port = '587';
-                                                $mail->Username = "isstracker2019@gmail.com";
-                                                $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
-                                                $mail->SetFrom('isstracker2019@gmail.com');
-                                                $mail->addAddress('olithompson@rocketmail.com');
-                                                //$mail->addAddress('team@voxel.cc');
-                                                $mail->Subject = 'New Email Submission';
-                                                $mail->Body = $email;
-                                                $mail->IsHTML(true);
-                                                $mail->send();
-                                                echo ('<h4 style ="padding: 10px;">Thanks! </h4>');
-                                            }
-                                            ?>
+                    <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                        <div class="form-group">
+                            <p for="feedbackTextArea"></p>
+                            <div class="input-group">
+                                <div class="input-group mb-3">
+                                 <input type="email" class="form-control" placeholder="Email Address" name="email">
                                     <div class="input-group-append">
                                         <input class="btn btn-primary" type="submit" value="Join"></input>
                                     </div>
-                                    <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small>
-
-                                </form>
-
+                                </div>
                             </div>
-
-
-
-
-                        </div>
+                            <?php
+                            if ($email <> "") {
+                                $email = '<h2>Message:</h2><p>'  . $email . '</p>';
+                                $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+                                $mail->isSMTP();
+                                //$mail->SMTPDebug = 1;
+                                $mail->CharSet = 'UTF-8';
+                                $mail->SMTPAuth = true;
+                                $mail->SMTPSecure = 'tls';
+                                $mail->Host = 'smtp.gmail.com';
+                                $mail->Port = '587';
+                                $mail->Username = "isstracker2019@gmail.com";
+                                $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+                                $mail->SetFrom('isstracker2019@gmail.com');
+                                $mail->addAddress('olithompson@rocketmail.com');
+                                //$mail->addAddress('team@voxel.cc');
+                                $mail->Subject = 'New Email Submission';
+                                $mail->Body = $email;
+                                $mail->IsHTML(true);
+                                $mail->send();
+                                echo ('<h5 style ="padding: 10px;">Thanks!</h5>');
+                            }
+                            ?>
+                            <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small> 
+                        </form>
                     </div>
                 </div>
 
