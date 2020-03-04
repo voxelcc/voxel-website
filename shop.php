@@ -191,7 +191,7 @@ if (empty($values)) {
 
             <div class="mb-4">
                 <div class="kickstarter-box">
-                    <h4>Sign up for <img src="http://drive.google.com/uc?id=1q1QnPT-jam_EJf7_WdFyMInKRpHB3Bvb" style="height: 25px"> updates</h4>
+                    <h4>Sign up for <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/kickstarter.png" style="height: 25px"> updates</h4>
                     <p>Be the first to know:</p>
 
                     <div class="input-group mb-3">
