@@ -20,6 +20,15 @@ require('vendor/autoload.php');
 // define variables and set to empty values
 $message  = "";
 $email = "";
+$kickstarteremail ="";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (empty($_POST["kickstarteremail"])) {
+        $kickstarteremail = "";
+    } else {
+        $kickstarteremail = test_input($_POST["kickstarteremail"]);
+        }
+    }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["message"])) {
@@ -36,6 +45,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = test_input($_POST["email"]);
         }
     }
+
+
 
 function test_input($data)
 {
@@ -123,13 +134,11 @@ function test_input($data)
                     <p>Be the first to know:</p>
 
                     <div class="input-group mb-3">
-                    <form method="POST" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>">
-                        <input type="email" class="form-control" placeholder="Email Address" name="email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary" type="submit">Sign up</button>
-                        </div>
+                    <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                    <input type="email" class="form-control" placeholder="Email Address" name="kickstarteremail">
                         <?php
-                            $email = '<h2>Email:</h2><p>'  . $email . '</p>';
+                        if ($kickstarteremail <> "") {
+                            $kickstarteremail = '<h2>Kickstarter Email:</h2><p>' . $kickstarteremail . '</p>';
                             $mail = new PHPMailer\PHPMailer\PHPMailer(true);
                             $mail->isSMTP();
                             //$mail->SMTPDebug = 1;
@@ -142,18 +151,23 @@ function test_input($data)
                             $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
                             $mail->SetFrom('isstracker2019@gmail.com');
                             $mail->addAddress('olithompson@rocketmail.com');
-                            $mail->addAddress('team@voxel.cc');
+                            //$mail->addAddress('team@voxel.cc');
                             $mail->Subject = 'New Kickstarter Email Submission';
-                            $mail->Body = $email;
+                            $mail->Body = $kickstarteremail;
                             $mail->IsHTML(true);
                             $mail->send();
-                            echo ('<br><h3 style ="font-size: 20px;"> Thanks! </h3><br>');
+                            echo ('<h4 style ="padding: 10px;">Thanks! </h4>');
+                        }
                         ?>
-                    </form>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">Sign up</button>
+                        </div>
+                        </form>
+                        <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
+                     
 
                     </div>
 
-                    <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
                 </div>
 
             </div>
@@ -163,36 +177,40 @@ function test_input($data)
             <div class="mb-4">
                 <div class="kickstarter-box mx-auto">
                     <h4>Thoughts, ideas and feedback</h4>
-                    <form method="POST" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>">
+                    <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                         <!--Insert this line into action ="" when ready for deploy: -->
                         <div class="form-group">
                             <label for="inputFeedback">For makers, by makers</label>
                             <textarea class="form-control" id="inputFeedback" rows="5" placeholder="What do you want to see from this project?" name="message"></textarea>
 
-                            <small id="emailHelp" class="form-text text-muted">If you'd like a reply from us, include your details! </small>
                             <?php
-                                    $message = '<h2>Message:</h2><p>'  . $message . '</p>';
-                                    $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-                                    $mail->isSMTP();
-                                    //$mail->SMTPDebug = 1;
-                                    $mail->CharSet = 'UTF-8';
-                                    $mail->SMTPAuth = true;
-                                    $mail->SMTPSecure = 'tls';
-                                    $mail->Host = 'smtp.gmail.com';
-                                    $mail->Port = '587';
-                                    $mail->Username = "isstracker2019@gmail.com";
-                                    $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
-                                    $mail->SetFrom('isstracker2019@gmail.com');
-                                    $mail->addAddress('olithompson@rocketmail.com');
-                                    $mail->addAddress('team@voxel.cc');
-                                    $mail->Subject = 'New Message Submission';
-                                    $mail->Body = $message;
-                                    $mail->IsHTML(true);
-                                    $mail->send();
-                                    echo ('<br><h3 style ="font-size: 20px;"> Thanks for your message </h3><br>');
-                                ?>
+                            if ($message <> "") {
+                                $message = '<h2>Message:</h2><p>'  . $message . '</p>';
+                                $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+                                $mail->isSMTP();
+                                //$mail->SMTPDebug = 1;
+                                $mail->CharSet = 'UTF-8';
+                                $mail->SMTPAuth = true;
+                                $mail->SMTPSecure = 'tls';
+                                $mail->Host = 'smtp.gmail.com';
+                                $mail->Port = '587';
+                                $mail->Username = "isstracker2019@gmail.com";
+                                $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+                                $mail->SetFrom('isstracker2019@gmail.com');
+                                $mail->addAddress('olithompson@rocketmail.com');
+                                // $mail->addAddress('team@voxel.cc');
+                                $mail->Subject = 'New Message Submission';
+                                $mail->Body = $message;
+                                $mail->IsHTML(true);
+                                $mail->send();
+                                echo ('<h4 style =" padding: 10px;">Thanks for your message </h4>');
+                            }
+                            ?>
                         </div>
-                        <button type="submit" class="btn btn-primary pull-right" value="Clear">Submit</button>
+
+                        <input type="submit" class="btn btn-primary pull-right"></input>
+                        <small id="emailHelp" class="form-text text-muted">If you'd like a reply from us, include your details! </small>
+
                     </form>
                 </div>
             </div>
@@ -203,8 +221,6 @@ function test_input($data)
                     <h4>We need you!</h4>
                     <p>Calling all developers, smart home wizards and open source enthusiasts. Join our contributers Google Group:</p>
 
-
-
                     <div class="form-group">
                         <p for="feedbackTextArea"></p>
 
@@ -212,32 +228,36 @@ function test_input($data)
 
 
                             <div class="input-group mb-3">
-                                <form method="POST" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>">
+                                <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                                     <input type="email" class="form-control" placeholder="Email Address" name="email">
+                                    <?php
+                                            if ($email <> "") {
+                                                $email = '<h2>Message:</h2><p>'  . $email . '</p>';
+                                                $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+                                                $mail->isSMTP();
+                                                //$mail->SMTPDebug = 1;
+                                                $mail->CharSet = 'UTF-8';
+                                                $mail->SMTPAuth = true;
+                                                $mail->SMTPSecure = 'tls';
+                                                $mail->Host = 'smtp.gmail.com';
+                                                $mail->Port = '587';
+                                                $mail->Username = "isstracker2019@gmail.com";
+                                                $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+                                                $mail->SetFrom('isstracker2019@gmail.com');
+                                                $mail->addAddress('olithompson@rocketmail.com');
+                                                //$mail->addAddress('team@voxel.cc');
+                                                $mail->Subject = 'New Email Submission';
+                                                $mail->Body = $email;
+                                                $mail->IsHTML(true);
+                                                $mail->send();
+                                                echo ('<h4 style ="padding: 10px;">Thanks! </h4>');
+                                            }
+                                            ?>
                                     <div class="input-group-append">
-                                        <button class="btn btn-primary" type="submit">Join</button>
+                                        <input class="btn btn-primary" type="submit" value="Join"></input>
                                     </div>
-                                        <?php
-                                        $message = '<h2>Message:</h2><p>'  . $message . '</p>';
-                                        $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-                                        $mail->isSMTP();
-                                        //$mail->SMTPDebug = 1;
-                                        $mail->CharSet = 'UTF-8';
-                                        $mail->SMTPAuth = true;
-                                        $mail->SMTPSecure = 'tls';
-                                        $mail->Host = 'smtp.gmail.com';
-                                        $mail->Port = '587';
-                                        $mail->Username = "isstracker2019@gmail.com";
-                                        $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
-                                        $mail->SetFrom('isstracker2019@gmail.com');
-                                        $mail->addAddress('olithompson@rocketmail.com');
-                                        $mail->addAddress('team@voxel.cc');
-                                        $mail->Subject = 'New Email Submission';
-                                        $mail->Body = $email;
-                                        $mail->IsHTML(true);
-                                        $mail->send();
-                                        echo ('<br><h3 style ="font-size: 20px;"> Thanks! </h3><br>');
-                                        ?>
+                                    <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small>
+
                                 </form>
 
                             </div>
@@ -246,10 +266,6 @@ function test_input($data)
 
 
                         </div>
-                        <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small>
-
-
-
                     </div>
                 </div>
 
