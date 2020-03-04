@@ -146,7 +146,7 @@ function test_input($data)
                                $conn = pg_connect(getenv("DATABASE_URL"));
                                $query = "INSERT INTO KickStarterEmauils VALUES ('$_POST[kickstarteremail]'";
                                $result = pg_query($query); 
-                               echo ('<h4 style ="padding: 10px;">Thanks!</h4>');
+                               echo ($result);
                             }
                             ?>
                             <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
