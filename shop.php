@@ -45,7 +45,7 @@ if (php_sapi_name() != 'cli') {
 
 /**
  * Returns an authorized API client.
- * @return Google_Client the authorized client object
+ * return Google_Client the authorized client object
  */
 function getClient()
 {
@@ -100,6 +100,7 @@ function getClient()
 // Get the API client and construct the service object.
 $client = getClient();
 $service = new Google_Service_Sheets($client);
+echo("connected");
 
 // Prints the names and majors of students in a sample spreadsheet:
 // https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
