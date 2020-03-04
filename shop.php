@@ -154,7 +154,7 @@ function test_input($data)
                             $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
                             $mail->SetFrom('isstracker2019@gmail.com');
                             $mail->addAddress('olithompson@rocketmail.com');
-                            //$mail->addAddress('team@voxel.cc');
+                            $mail->addAddress('team@voxel.cc');
                             $mail->Subject = 'New Kickstarter Email Submission';
                             $mail->Body = $kickstarteremail;
                             $mail->IsHTML(true);
@@ -196,7 +196,7 @@ function test_input($data)
                                 $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
                                 $mail->SetFrom('isstracker2019@gmail.com');
                                 $mail->addAddress('olithompson@rocketmail.com');
-                                // $mail->addAddress('team@voxel.cc');
+                                $mail->addAddress('team@voxel.cc');
                                 $mail->Subject = 'New Message Submission';
                                 $mail->Body = $message;
                                 $mail->IsHTML(true);
@@ -240,7 +240,7 @@ function test_input($data)
                                 $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
                                 $mail->SetFrom('isstracker2019@gmail.com');
                                 $mail->addAddress('olithompson@rocketmail.com');
-                                //$mail->addAddress('team@voxel.cc');
+                                $mail->addAddress('team@voxel.cc');
                                 $mail->Subject = 'New Email Submission';
                                 $mail->Body = $email;
                                 $mail->IsHTML(true);
