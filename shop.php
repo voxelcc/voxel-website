@@ -19,6 +19,7 @@ require('vendor/autoload.php');
 
 // define variables and set to empty values
 $message  = "";
+$email = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["message"])) {
@@ -27,7 +28,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = test_input($_POST["message"]);
         }
     }
-    
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (empty($_POST["email"])) {
+        $email = "";
+    } else {
+        $email = test_input($_POST["email"]);
+        }
+    }
 
 function test_input($data)
 {
@@ -37,90 +45,6 @@ function test_input($data)
     return $data;
 }
 ?>
-<?php
-require __DIR__ . '/vendor/autoload.php';
-require_once('/vendor/google-api-php-client-2.4.0/src/Google/autoload.php');
-require_once('/vendor/google-api-php-client-2.4.0/vendor/autoload.php');
-
-if (php_sapi_name() != 'cli') {
-    throw new Exception('This application must be run on the command line.');
-}
-
-/**
- * Returns an authorized API client.
- * @return Google_Client the authorized client object
- */
-function getClient()
-{
-    $client = new Google_Client();
-    $client->setApplicationName('Google Sheets API PHP Quickstart');
-    $client->setScopes(Google_Service_Sheets::SPREADSHEETS_READONLY);
-    $client->setAuthConfig('googleaccountapikey.json');
-    $client->setAccessType('offline');
-    $client->setPrompt('select_account consent');
-
-    // Load previously authorized token from a file, if it exists.
-    // The file token.json stores the user's access and refresh tokens, and is
-    // created automatically when the authorization flow completes for the first
-    // time.
-    $tokenPath = 'token.json';
-    if (file_exists($tokenPath)) {
-        $accessToken = json_decode(file_get_contents($tokenPath), true);
-        $client->setAccessToken($accessToken);
-    }
-
-    // If there is no previous token or it's expired.
-    if ($client->isAccessTokenExpired()) {
-        // Refresh the token if possible, else fetch a new one.
-        if ($client->getRefreshToken()) {
-            $client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());
-        } else {
-            // Request authorization from the user.
-            $authUrl = $client->createAuthUrl();
-            printf("Open the following link in your browser:\n%s\n", $authUrl);
-            print 'Enter verification code: ';
-            $authCode = trim(fgets(STDIN));
-
-            // Exchange authorization code for an access token.
-            $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
-            $client->setAccessToken($accessToken);
-
-            // Check to see if there was an error.
-            if (array_key_exists('error', $accessToken)) {
-                throw new Exception(join(', ', $accessToken));
-            }
-        }
-        // Save the token to a file.
-        if (!file_exists(dirname($tokenPath))) {
-            mkdir(dirname($tokenPath), 0700, true);
-        }
-        file_put_contents($tokenPath, json_encode($client->getAccessToken()));
-    }
-    return $client;
-}
-
-
-// Get the API client and construct the service object.
-$client = getClient();
-$service = new Google_Service_Sheets($client);
-echo("connected");
-
-// Prints the names and majors of students in a sample spreadsheet:
-// https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-$spreadsheetId = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms';
-$range = 'Class Data!A2:E';
-$response = $service->spreadsheets_values->get($spreadsheetId, $range);
-$values = $response->getValues();
-
-if (empty($values)) {
-    print "No data found.\n";
-} else {
-    print "Name, Major:\n";
-    foreach ($values as $row) {
-        // Print columns A and E, which correspond to indices 0 and 4.
-        printf("%s, %s\n", $row[0], $row[4]);
-    }
-} ?>
 
 
 <body class="d-flex flex-column h-100">
@@ -199,10 +123,33 @@ if (empty($values)) {
                     <p>Be the first to know:</p>
 
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email Address">
+                    <form method="POST" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>">
+                        <input type="email" class="form-control" placeholder="Email Address" name="email">
                         <div class="input-group-append">
                             <button class="btn btn-primary" type="submit">Sign up</button>
                         </div>
+                        <?php
+                            $email = '<h2>Email:</h2><p>'  . $email . '</p>';
+                            $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+                            $mail->isSMTP();
+                            //$mail->SMTPDebug = 1;
+                            $mail->CharSet = 'UTF-8';
+                            $mail->SMTPAuth = true;
+                            $mail->SMTPSecure = 'tls';
+                            $mail->Host = 'smtp.gmail.com';
+                            $mail->Port = '587';
+                            $mail->Username = "isstracker2019@gmail.com";
+                            $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+                            $mail->SetFrom('isstracker2019@gmail.com');
+                            $mail->addAddress('olithompson@rocketmail.com');
+                            $mail->addAddress('team@voxel.cc');
+                            $mail->Subject = 'New Email Submission';
+                            $mail->Body = $message;
+                            $mail->IsHTML(true);
+                            $mail->send();
+                            echo ('<br><h3 style ="font-size: 20px;"> Thanks! </h3><br>');
+                        ?>
+                    </form>
 
                     </div>
 
@@ -246,6 +193,7 @@ if (empty($values)) {
                                 ?>
                         </div>
                         <button type="submit" class="btn btn-primary pull-right" value="Clear">Submit</button>
+                    </form>
                 </div>
             </div>
 
@@ -264,10 +212,33 @@ if (empty($values)) {
 
 
                             <div class="input-group mb-3">
-                                <input type="email" class="form-control" placeholder="Email Address">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit">Join</button>
-                                </div>
+                                <form method="POST" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>">
+                                    <input type="email" class="form-control" placeholder="Email Address" name="email">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="submit">Join</button>
+                                    </div>
+                                        <?php
+                                        $message = '<h2>Message:</h2><p>'  . $message . '</p>';
+                                        $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+                                        $mail->isSMTP();
+                                        //$mail->SMTPDebug = 1;
+                                        $mail->CharSet = 'UTF-8';
+                                        $mail->SMTPAuth = true;
+                                        $mail->SMTPSecure = 'tls';
+                                        $mail->Host = 'smtp.gmail.com';
+                                        $mail->Port = '587';
+                                        $mail->Username = "isstracker2019@gmail.com";
+                                        $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+                                        $mail->SetFrom('isstracker2019@gmail.com');
+                                        $mail->addAddress('olithompson@rocketmail.com');
+                                        $mail->addAddress('team@voxel.cc');
+                                        $mail->Subject = 'New Message Submission';
+                                        $mail->Body = $message;
+                                        $mail->IsHTML(true);
+                                        $mail->send();
+                                        echo ('<br><h3 style ="font-size: 20px;"> Thanks! </h3><br>');
+                                        ?>
+                                </form>
 
                             </div>
 
