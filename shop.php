@@ -42,7 +42,7 @@ function test_input($data)
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h3><a href="shop.html">Shop</a></h3>
+        <h3><a href="shop.php">Shop</a></h3>
         <h3><a href="hub.html">Hub</a></h3>
         <h3><a href="hub.html">Projects</a></h3>
         <h4><a href="product.html">Welcome&nbsp;Home&nbsp;Pack</a></h4>
@@ -73,7 +73,7 @@ function test_input($data)
                 </li>
 
                 <li class="nav-item">
-                    <!--                    <a class="btn btn-primary" href="shop.html">Sign up</a>-->
+                    <!--                    <a class="btn btn-primary" href="shop.php">Sign up</a>-->
                 </li>
             </ul>
 
@@ -232,7 +232,7 @@ function test_input($data)
         <div class="container">
             <div class="row">
                 <div class="col-lg">
-                    <h3><a href="shop.html">Shop</a></h3>
+                    <h3><a href="shop.php">Shop</a></h3>
                     <h3><a href="hub.html">Hub</a></h3>
                     <h3><a href="hub.html">Projects</a></h3>
                 </div>
