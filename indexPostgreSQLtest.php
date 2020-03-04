@@ -144,8 +144,8 @@ function test_input($data)
                             <?php
                             if ($kickstarteremail <> "") {
                                $conn = pg_connect(getenv("DATABASE_URL"));
-                               $query = "INSERT INTO KickStarterEmauils VALUES ('$_POST[kickstarteremail]'";
-                               $result = pg_query($query); 
+                               $query = "INSERT INTO KickStarterEmails VALUES ('$_POST[kickstarteremail]'";
+                               $result = pg_query($conn, $query); 
                                echo ($result);
                             }
                             ?>
