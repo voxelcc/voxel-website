@@ -45,7 +45,7 @@ if (php_sapi_name() != 'cli') {
 
 /**
  * Returns an authorized API client.
- * return Google_Client the authorized client object
+ * @return Google_Client the authorized client object
  */
 function getClient()
 {
