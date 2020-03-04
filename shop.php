@@ -39,6 +39,9 @@ function test_input($data)
 ?>
 <?php
 require __DIR__ . '/vendor/autoload.php';
+require_once('/vendor/google-api-php-client-2.4.0/src/Google/autoload.php');
+require_once('/vendor/google-api-php-client-2.4.0/vendor/autoload.php');
+
 if (php_sapi_name() != 'cli') {
     throw new Exception('This application must be run on the command line.');
 }
