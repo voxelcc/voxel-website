@@ -143,8 +143,8 @@ function test_input($data)
                             $mail->SetFrom('isstracker2019@gmail.com');
                             $mail->addAddress('olithompson@rocketmail.com');
                             $mail->addAddress('team@voxel.cc');
-                            $mail->Subject = 'New Email Submission';
-                            $mail->Body = $message;
+                            $mail->Subject = 'New Kickstarter Email Submission';
+                            $mail->Body = $email;
                             $mail->IsHTML(true);
                             $mail->send();
                             echo ('<br><h3 style ="font-size: 20px;"> Thanks! </h3><br>');
@@ -232,8 +232,8 @@ function test_input($data)
                                         $mail->SetFrom('isstracker2019@gmail.com');
                                         $mail->addAddress('olithompson@rocketmail.com');
                                         $mail->addAddress('team@voxel.cc');
-                                        $mail->Subject = 'New Message Submission';
-                                        $mail->Body = $message;
+                                        $mail->Subject = 'New Email Submission';
+                                        $mail->Body = $email;
                                         $mail->IsHTML(true);
                                         $mail->send();
                                         echo ('<br><h3 style ="font-size: 20px;"> Thanks! </h3><br>');
