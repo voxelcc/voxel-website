@@ -1,1 +1,1 @@
-<?php include("shop.html");?>
+<?php include("shop.php");?>
