@@ -143,7 +143,7 @@ function test_input($data)
                             </div>
                             <?php
                             if ($kickstarteremail <> "") {
-                               $conn = pg_connect(getenv("DATABASE_URL"));
+                               $conn = pg_connect("ddi961ov6qbkvb");
                                if($connection) {
                                 echo 'connected';
                              } else {
