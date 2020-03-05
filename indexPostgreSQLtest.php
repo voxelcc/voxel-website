@@ -164,7 +164,7 @@ function test_input($data)
                             <?php
                             if ($kickstarteremail <> "") {
                                 $query = "INSERT INTO kickstarterEmails(email) VALUES ($kickstarteremail)";
-                                $result = pg_query($query);
+                                $pdo->query($query);
                                 echo "New record created successfully";
                             }
                             ?>
