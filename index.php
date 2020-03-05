@@ -18,6 +18,26 @@
 
 <?php
 require('vendor/autoload.php');
+$host = "ec2-54-246-89-234.eu-west-1.compute.amazonaws.com";
+$user = "vulobmbnkqnevx";
+$password = "4418595e233c039564958927a230ebcad953f1b9aa9748a5919c9ac17a5cb530";
+$dbname = "ddi961ov6qbkvb";
+$port = "5432";
+
+try{
+//Set DSN data source name
+    $dsn = "pgsql:host=" . $host . ";port=" . $port .";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
+
+
+//create a pdo instance
+$pdo = new PDO($dsn, $user, $password);
+$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_OBJ);
+$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch (PDOException $e) {
+echo 'Connection failed: ' . $e->getMessage();
+}
 
 $kickstarteremail ="";
 
@@ -143,25 +163,9 @@ function test_input($data)
                             </div>
                             <?php
                             if ($kickstarteremail <> "") {
-                                $kickstarteremail = '<h2>Kickstarter Email:</h2><p>' . $kickstarteremail . '</p>';
-                                $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-                                $mail->isSMTP();
-                                //$mail->SMTPDebug = 1;
-                                $mail->CharSet = 'UTF-8';
-                                $mail->SMTPAuth = true;
-                                $mail->SMTPSecure = 'tls';
-                                $mail->Host = 'smtp.gmail.com';
-                                $mail->Port = '587';
-                                $mail->Username = "isstracker2019@gmail.com";
-                                $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
-                                $mail->SetFrom('isstracker2019@gmail.com');
-                                $mail->addAddress('olithompson@rocketmail.com');
-                                $mail->addAddress('team@voxel.cc');
-                                $mail->Subject = 'New Kickstarter Email Submission';
-                                $mail->Body = $kickstarteremail;
-                                $mail->IsHTML(true);
-                                $mail->send();
-                                echo ('<h4 style ="padding: 10px;">Thanks!</h4>');
+                                $query = "INSERT INTO kickstarterEmails(email) VALUES('$kickstarteremail')";
+                                $pdo->query($query);
+                                echo "New record created successfully";
                             }
                             ?>
                             <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
