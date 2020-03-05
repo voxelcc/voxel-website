@@ -144,9 +144,12 @@ function test_input($data)
                             <?php
                             if ($kickstarteremail <> "") {
                                $conn = pg_connect(getenv("DATABASE_URL"));
-                               $query = "INSERT INTO KickStarterEmails VALUES ('$_POST[kickstarteremail]'";
-                               if ($conn->query($query) === TRUE) {
-                                    echo "New record created successfully";} 
+                               if($connection) {
+                                echo 'connected';
+                             } else {
+                                 echo 'there has been an error connecting';
+                             } 
+                             
                             }
                             ?>
                             <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
