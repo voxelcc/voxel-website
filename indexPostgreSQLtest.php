@@ -163,7 +163,7 @@ function test_input($data)
                             </div>
                             <?php
                             if ($kickstarteremail <> "") {
-                                $query = "INSERT INTO kickstarterEmails(email) VALUES(. $kickstarteremail .)";
+                                $query = "INSERT INTO kickstarterEmails(email) VALUES('$kickstarteremail')";
                                 $pdo->query($query);
                                 echo "New record created successfully";
                             }
