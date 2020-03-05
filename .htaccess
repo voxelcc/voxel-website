@@ -3,3 +3,8 @@
 RewriteCond %{HTTPS} off 
 RewriteCond %{HTTP_HOST} =www.voxel.cc
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301]
+
+#Stop file extension from showing
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
