@@ -3,4 +3,6 @@
 RewriteCond %{HTTPS} off 
 RewriteCond %{HTTP_HOST} =www.voxel.cc
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301]
-
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ /play.php [L] 
