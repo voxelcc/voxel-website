@@ -142,17 +142,31 @@ function test_input($data)
                                 </div>
                             </div>
                             <?php
+                                $host = "ec2-54-246-89-234.eu-west-1.compute.amazonaws.com";
+                                $user = "vulobmbnkqnevx";
+                                $password = "4418595e233c039564958927a230ebcad953f1b9aa9748a5919c9ac17a5cb530";
+                                $dbname = "ddi961ov6qbkvb";
+                                $port = "5432";
+
+                                try{
+                                //Set DSN data source name
+                                    $dsn = "pgsql:host=" . $host . ";port=" . $port .";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
+
+
+                                //create a pdo instance
+                                $pdo = new PDO($dsn, $user, $password);
+                                $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_OBJ);
+                                $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
+                                $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                                }
+                                catch (PDOException $e) {
+                                echo 'Connection failed: ' . $e->getMessage();
+                                }
+  
                             if ($kickstarteremail <> "") {
                                $conn = pg_connect(getenv("DATABASE_URL"));
-                               if($connection) {
-                                echo 'connected';
-                             } else {
-                                    $query = "INSERT INTO KickStarterEmails VALUES ('$_POST[kickstarteremail]'";
-                                    if ($conn->query($query) === TRUE) {
-                                        echo "New record created successfully";} 
+                               echo "New record created successfully";
                             }
-                        }
-                        }
                             ?>
                             <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
                         </form>
