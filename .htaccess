@@ -5,7 +5,7 @@ RewriteCond %{HTTP_HOST} =www.voxel.cc
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301]
 
 # Run Php without filename extension
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule ^(.*)$ $1.php
