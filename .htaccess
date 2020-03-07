@@ -4,11 +4,6 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME}\.php -f
   RewriteRule ^(.*)$ $1.php
-
-  #redirect to www
-  RewriteCond %{HTTPS} off [OR]
-	RewriteCond %{HTTP_HOST} ^\.voxel\.cc [NC]
-	RewriteRule (.*) https://www.voxel.cc/$1 [L,R=301]
 </IfModule>
 
 #redirect to www
