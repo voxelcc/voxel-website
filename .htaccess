@@ -6,3 +6,9 @@
   RewriteRule ^(.*)$ $1.php
 </IfModule>
 
+# Redirect to port 443
+<VirtualHost *:80>
+ServerName www.voxel.cc
+Redirect permanent / https://www.voxel.cc/
+</VirtualHost>
+
