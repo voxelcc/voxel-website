@@ -1,5 +1,9 @@
 
 
 # Run Php without filename extension
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME}.php -f
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.php -f
+  RewriteRule ^(.*)$ $1.php
+</IfModule>
