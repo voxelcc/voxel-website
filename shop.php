@@ -85,6 +85,7 @@ function test_input($data)
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
+        <h3><a href="index.php">Home</a></h3>
         <h3><a href="shop.php">Shop</a></h3>
         <h3><a href="hub.html">Hub</a></h3>
         <h3><a href="hub.html">Projects</a></h3>
@@ -166,7 +167,7 @@ function test_input($data)
                         if ($kickstarteremail <> "") {
                             $query = "INSERT INTO kickstarterEmails(email) VALUES('$kickstarteremail')";
                             $pdo->query($query);
-                            echo "New record created successfully";
+                            echo "Thanks!";
                         }
                         ?>
                         <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
@@ -236,7 +237,7 @@ function test_input($data)
                         if ($email <> "") {
                             $query = "INSERT INTO googlegroupEmails(email) VALUES('$email')";
                             $pdo->query($query);
-                            echo "New record created successfully";
+                            echo "Thanks!";
                         }
                         ?>
                             <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small> 

@@ -165,7 +165,7 @@ function test_input($data)
                             if ($kickstarteremail <> "") {
                                 $query = "INSERT INTO kickstarterEmails(email) VALUES('$kickstarteremail')";
                                 $pdo->query($query);
-                                echo "New record created successfully";
+                                echo "Thanks!";
                             }
                             ?>
                             <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
