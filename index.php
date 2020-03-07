@@ -61,9 +61,9 @@ function test_input($data)
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h2><a href="shop.php">Shop</a></h2>
-        <h2><a href="hub.html">Hub</a></h2>
-        <h2><a href="hub.html">Projects</a></h2>
+        <h3><a href="shop.php">Shop</a></h3>
+        <h3><a href="hub.html">Hub</a></h3>
+        <h3><a href="hub.html">Projects</a></h3>
         <h4><a href="product.html">Welcome&nbsp;Home&nbsp;Pack</a></h4>
         <h4><a href="product.html#upcoming">Upcoming&nbsp;Releases</a></h4>
         <h4><a href="about.html">About&nbsp;us</a></h4>
