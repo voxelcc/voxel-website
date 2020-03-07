@@ -4,11 +4,8 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME}\.php -f
   RewriteRule ^(.*)$ $1.php
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 </IfModule>
 
-# Redirect to port 443
-<VirtualHost *:80>
-ServerName www.voxel.cc
-Redirect permanent / https://www.voxel.cc/
-</VirtualHost>
 
