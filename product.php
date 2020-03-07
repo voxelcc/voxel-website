@@ -81,7 +81,7 @@
 
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="text-break">Starter Pack - Welcome Home</h1>
+                    <h1 class="text-break">Starter Pack</h1>
                 </div>
 
             </div>
