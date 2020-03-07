@@ -81,7 +81,7 @@
 
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="text-break">Welcome home</h1>
+                    <h1 class="text-break">Starter</h1>
                 </div>
 
             </div>
@@ -133,7 +133,7 @@
                 <div class="col-lg-6 mb-3 p-5">
                     <h2 class="pt-5">For makers, by makers</h2>
                     <p class="pt-3">Smart homes should be a joy to work with. </p>
-                    <p> We designed, starting with this smart home controller, the welcome home pack. Last section TBC
+                    <p> We designed, starting with this smart home controller, the Starter pack. Last section TBC
                     </p>
                     <a href="#" class="btn btn-primary">Privacy ></a>
 
@@ -423,7 +423,7 @@
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH1.png">
                     <div class="card-body">
-                        <h5 class="card-title">Welcome Home Pack</h5>
+                        <h5 class="card-title">Starter Pack</h5>
                         <p class="card-text">
                             <ul>
                                 <li>Brain + dot-matrix display</li>
@@ -533,7 +533,7 @@
                     <h2><a href="hub">Projects</a></h2>
                 </div>
                 <div class="col-lg-5">
-                    <h4><a href="product">Welcome Home Pack</a></h4>
+                    <h4><a href="product">Starter Pack</a></h4>
                     <h4><a href="product#upcoming">Upcoming Releases</a></h4>
                     <h4><a href="about">About us</a></h4>
                     <h4><a href="about">Get in touch</a></h4>

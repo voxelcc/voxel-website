@@ -283,7 +283,7 @@ function test_input($data)
                     <h3><a href="hub">Projects</a></h3>
                 </div>
                 <div class="col-lg-5">
-                    <h4><a href="product">Welcome Home Pack</a></h4>
+                    <h4><a href="product">Starter Pack</a></h4>
                     <h4><a href="product#upcoming">Upcoming Releases</a></h4>
                     <h4><a href="about">About us</a></h4>
                     <h4><a href="about">Get in touch</a></h4>
