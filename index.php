@@ -61,13 +61,13 @@ function test_input($data)
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h3><a href="shop.php">Shop</a></h3>
-        <h3><a href="hub.html">Hub</a></h3>
-        <h3><a href="hub.html">Projects</a></h3>
-        <h4><a href="product.html">Welcome&nbsp;Home&nbsp;Pack</a></h4>
-        <h4><a href="product.html#upcoming">Upcoming&nbsp;Releases</a></h4>
-        <h4><a href="about.html">About&nbsp;us</a></h4>
-        <h4><a href="about.html">Get&nbsp;in&nbsp;touch</a></h4>
+        <h3><a href="shop">Shop</a></h3>
+        <h3><a href="hub">Hub</a></h3>
+        <h3><a href="hub">Projects</a></h3>
+        <h4><a href="product">Welcome&nbsp;Home&nbsp;Pack</a></h4>
+        <h4><a href="product #upcoming">Upcoming&nbsp;Releases</a></h4>
+        <h4><a href="about">About&nbsp;us</a></h4>
+        <h4><a href="about">Get&nbsp;in&nbsp;touch</a></h4>
     </div>
 
 
@@ -83,16 +83,16 @@ function test_input($data)
                 </li>
             </ul>
             <ul class="nav navbar-nav flex-fill justify-content-center d-none d-md-block">
-                <li class="nav-item"><a class="navbar-brand" href="index.php">voxel.cc</a></li>
+                <li class="nav-item"><a class="navbar-brand" href="index ">voxel.cc</a></li>
 
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link d-none d-md-block" href="login.html">Login</a>
+                    <a class="nav-link d-none d-md-block" href="login">Login</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-primary" href="shop.php">Sign up</a>
+                    <a class="btn btn-primary" href="shop">Sign up</a>
                 </li>
             </ul>
 
@@ -117,7 +117,7 @@ function test_input($data)
                     <div class="d-flex h-100 text-center align-items-center">
                         <div class="w-100 text-white">
                             <h1>Own your<br> smart home</h1>
-                            <a class="btn btn-lg btn-primary" href="shop.php">Video coming soon</a>
+                            <a class="btn btn-lg btn-primary" href="shop">Video coming soon</a>
 
                         </div>
                     </div>
@@ -189,7 +189,7 @@ function test_input($data)
                     <h2 class="pt-4 pb-4">Welcome home pack</h2>
                     <h6>Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
                     <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
-                    <a class="btn btn-primary" href="product.html">Explore</a>
+                    <a class="btn btn-primary" href="product">Explore</a>
 
                 </div>
             </div>
@@ -207,17 +207,17 @@ function test_input($data)
                             <h2>Why Voxel</h2>
                             <h6 class="pt-3">Complete freedom to create</h6>
                             <p>Build whatever you can dream up. Completely open source and customisable.</p>
-                            <a class="btn btn-primary" href="product.html">Explore</a>
-                            <a class="btn btn-primary" href="product.html">Tutorials</a>
+                            <a class="btn btn-primary" href="product">Explore</a>
+                            <a class="btn btn-primary" href="product">Tutorials</a>
 
                             <h6 class="pt-5">Built with privacy first</h6>
                             <p>Our business model is about selling great hardware, not your data. Find out more about us:</p>
-                            <a class="btn btn-primary" href="about.html">About us</a>
+                            <a class="btn btn-primary" href="about">About us</a>
 
                             <h6 class="pt-5">Join a growing movement</h6>
                             <p>Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
                             </p>
-                            <a class="btn btn-primary" href="hub.html">Learn more</a>
+                            <a class="btn btn-primary" href="hub">Learn more</a>
                         </div>
                     </div>
 
@@ -255,7 +255,7 @@ function test_input($data)
                         <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body p-0">
-                        <!-- BS4 Responsive Embed (https://parrot-tutorial.com/bootstrap4/util_embed.html) -->
+                        <!-- BS4 Responsive Embed (https://parrot-tutorial.com/bootstrap4/util_embed) -->
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" allowfullscreen></iframe>
                         </div>
@@ -273,15 +273,15 @@ function test_input($data)
 
             <div class="row">
                 <div class="col-lg">
-                    <h2><a href="shop.php">Shop</a></h2>
-                    <h2><a href="hub.html">Hub</a></h2>
-                    <h2><a href="hub.html">Projects</a></h2>
+                    <h2><a href="shop">Shop</a></h2>
+                    <h2><a href="hub">Hub</a></h2>
+                    <h2><a href="hub">Projects</a></h2>
                 </div>
                 <div class="col-lg-5">
-                    <h4><a href="product.html">Welcome Home Pack</a></h4>
-                    <h4><a href="product.html#upcoming">Upcoming Releases</a></h4>
-                    <h4><a href="about.html">About us</a></h4>
-                    <h4><a href="about.html">Get in touch</a></h4>
+                    <h4><a href="product">Welcome Home Pack</a></h4>
+                    <h4><a href="product#upcoming">Upcoming Releases</a></h4>
+                    <h4><a href="about">About us</a></h4>
+                    <h4><a href="about">Get in touch</a></h4>
                 </div>
                 <div class="col-sm">
                 </div>

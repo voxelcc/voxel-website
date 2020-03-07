@@ -85,14 +85,14 @@ function test_input($data)
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h3><a href="index.php">Home</a></h3>
-        <h3><a href="shop.php">Shop</a></h3>
-        <h3><a href="hub.html">Hub</a></h3>
-        <h3><a href="hub.html">Projects</a></h3>
-        <h4><a href="product.html">Welcome&nbsp;Home&nbsp;Pack</a></h4>
-        <h4><a href="product.html#upcoming">Upcoming&nbsp;Releases</a></h4>
-        <h4><a href="about.html">About&nbsp;us</a></h4>
-        <h4><a href="about.html">Get&nbsp;in&nbsp;touch</a></h4>
+        <h3><a href="index">Home</a></h3>
+        <h3><a href="shop">Shop</a></h3>
+        <h3><a href="hub">Hub</a></h3>
+        <h3><a href="hub">Projects</a></h3>
+        <h4><a href="product">Welcome&nbsp;Home&nbsp;Pack</a></h4>
+        <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
+        <h4><a href="about">About&nbsp;us</a></h4>
+        <h4><a href="about">Get&nbsp;in&nbsp;touch</a></h4>
     </div>
 
 
@@ -108,16 +108,16 @@ function test_input($data)
                 </li>
             </ul>
             <ul class="nav navbar-nav flex-fill justify-content-center d-none d-md-block">
-                <li class="nav-item"><a class="navbar-brand" href="index.php">voxel.cc</a></li>
+                <li class="nav-item"><a class="navbar-brand" href="index ">voxel.cc</a></li>
 
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item">
-                    <!--                    <a class="nav-link d-none d-md-block" href="login.html">Login</a>-->
+                    <!--                    <a class="nav-link d-none d-md-block" href="login ">Login</a>-->
                 </li>
 
                 <li class="nav-item">
-                    <!--                    <a class="btn btn-primary" href="shop.php">Sign up</a>-->
+                    <!--                    <a class="btn btn-primary" href="shop ">Sign up</a>-->
                 </li>
             </ul>
 
@@ -262,7 +262,7 @@ function test_input($data)
                         <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body p-0">
-                        <!-- BS4 Responsive Embed (https://parrot-tutorial.com/bootstrap4/util_embed.html) -->
+                        <!-- BS4 Responsive Embed (https://parrot-tutorial.com/bootstrap4/util_embed ) -->
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" allowfullscreen></iframe>
                         </div>
@@ -279,15 +279,15 @@ function test_input($data)
         <div class="container">
             <div class="row">
                 <div class="col-lg">
-                    <h3><a href="shop.php">Shop</a></h3>
-                    <h3><a href="hub.html">Hub</a></h3>
-                    <h3><a href="hub.html">Projects</a></h3>
+                    <h3><a href="shop">Shop</a></h3>
+                    <h3><a href="hub">Hub</a></h3>
+                    <h3><a href="hub">Projects</a></h3>
                 </div>
                 <div class="col-lg-5">
-                    <h4><a href="product.html">Welcome Home Pack</a></h4>
-                    <h4><a href="product.html#upcoming">Upcoming Releases</a></h4>
-                    <h4><a href="about.html">About us</a></h4>
-                    <h4><a href="about.html">Get in touch</a></h4>
+                    <h4><a href="product">Welcome Home Pack</a></h4>
+                    <h4><a href="product#upcoming">Upcoming Releases</a></h4>
+                    <h4><a href="about">About us</a></h4>
+                    <h4><a href="about">Get in touch</a></h4>
                 </div>
                 <div class="col-sm">
                 </div>
