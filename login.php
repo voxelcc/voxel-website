@@ -15,22 +15,7 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 
-<?php
-/* Your password */
-$password = 'MYPASS';
 
-/* Redirects here after login */
-$redirect_after_login = 'secret_page.php';
-
-/* Will not ask password again for */
-$remember_password = strtotime('+30 days'); // 30 days
-
-if (isset($_POST['password']) && $_POST['password'] == $password) {
-    setcookie("password", $password, $remember_password);
-    header('Location: ' . $redirect_after_login);
-    exit;
-}
-?>
 
 <body>
     <form method="POST" class="form-signin">
@@ -44,15 +29,38 @@ if (isset($_POST['password']) && $_POST['password'] == $password) {
         </div>
 
         <div class="form-label-group">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password"   >
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password">
             <label for="inputPassword">Password</label>
         </div>
 
         <div class="checkbox mb-3">
             <label>
-                <input type="checkbox" value="remember-me"> Remember me
+                <input type="checkbox" name="remember-me" value="remember-me"> Remember me
             </label>
         </div>
+
+        <?php
+        /* Your password */
+        $email = getenv('PELIN_EMAIL') ?: die('"PELIN_EMAIL" config var in found in env!');
+        $password = getenv('PELIN_PASSWORD') ?: die('"PELIN_PASSWORD" config var in found in env!');
+        
+        /* Redirects here after login */
+        $redirect_after_login = 'secret_page.php';
+
+        /* Will not ask password again for */
+        $remember_password = strtotime('+30 days'); // 30 days
+
+        if (isset($_POST['password']) && isset($_POST['email'])) {
+            if ($_POST['password'] == $password && $_POST['email'] == $email) {
+                setcookie("password", $password, $remember_password);
+                header('Location: ' . $redirect_after_login);
+                exit;
+            } else {
+                echo("<h4 style='color:darkred;'>" . 'Invalid Login Credentials' . "</h4><br>");
+            }
+        }
+
+        ?>
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
