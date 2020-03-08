@@ -188,7 +188,7 @@
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO6.png">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Starter Pack Introduction</h5>
                         <p class="card-text">Unlock the full potential of the Voxel starter kit, measure and display data on the brain's display and design customised graphics to suite your needs.</p>
                         <p class="card-text"><small class="text-muted">Voxel Team</small></p>
 
@@ -197,7 +197,7 @@
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO7.png">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Smart Plug Sensor Control</h5>
                         <p class="card-text">Learn how to setup Voxel smart plugs to communicate with the brain. Configure remote sensor tiles or attach them directly to the plug.</p>
                         <p class="card-text"><small class="text-muted">Voxel Team</small></p>
                     </div>
@@ -218,11 +218,11 @@
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO8.png">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">othompson69</small></p>
+                        <p class="card-text">I used 2 motion sensor tiles as game controllers for a multi-player game of pong, programmed in scratch.</p>
+                        <p class="card-text"><small class="text-muted">othompson420</small></p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card"> 
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO9.png">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -232,8 +232,8 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">And many more</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title">And much more</h5>
+                        <p class="card-text">Stay posted for more exciting inspiration for your nect Voxel project</p>
                         <a class="btn btn-primary" href="shop ">Browse projects</a>
 
                     </div>
@@ -245,7 +245,7 @@
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO10.png">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Funding News</h5>
                         <p class="card-text">New funding recieved, Kickstarter scheduled to start early June!</p>
                         <p class="card-text"><small class="text-muted">Voxel Press</small></p>
                     </div>
@@ -253,15 +253,15 @@
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO11.png">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Voxel starter pack is at the final prototype stage, nearly ready for manufacture!</p>
+                        <h5 class="card-title">Prototyping News</h5>
+                        <p class="card-text">Voxel starter pack is at the final prototype stage, nearly ready for batch manufacture.</p>
                         <p class="card-text"><small class="text-muted">Voxel Press</small></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">And many more</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title">And much more</h5>
+                        <p class="card-text">Stay posted for exciting news about the Voxel project!</p>
                         <a class="btn btn-primary" href="shop ">Browse news</a>
 
                     </div>
