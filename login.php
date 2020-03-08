@@ -15,29 +15,48 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 
+<?php
+/* Your password */
+$password = 'MYPASS';
+
+/* Redirects here after login */
+$redirect_after_login = 'index.php';
+
+/* Will not ask password again for */
+$remember_password = strtotime('+30 days'); // 30 days
+
+if (isset($_POST['password']) && $_POST['password'] == $password) {
+    setcookie("password", $password, $remember_password);
+    header('Location: ' . $redirect_after_login);
+    exit;
+}
+?>
+
 <body>
     <form class="form-signin">
         <div class="text-center mb-4">
             <h4 class="mb-3 font-weight-normal">Login to Voxel Hub</h4>
             <p>Description</p>
         </div>
+        <form method="POST" action="secret_page.php">
+            <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>
+                <label for="inputEmail">Email address</label>
+            </div>
 
-        <div class="form-label-group">
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-            <label for="inputEmail">Email address</label>
-        </div>
+            <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
+                <label for="inputPassword">Password</label>
+            </div>
 
-        <div class="form-label-group">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-            <label for="inputPassword">Password</label>
-        </div>
-
-        <div class="checkbox mb-3">
-            <label>
-                <input type="checkbox" value="remember-me"> Remember me
-            </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            
+            <button type="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
     </form>
 </body>
 
