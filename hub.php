@@ -175,7 +175,7 @@
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO4.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2 style="white-space:nowrap">Get<br>feedback</h2>
+                            <h2 style="white-space:nowrap">Contribute</h2>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
 
