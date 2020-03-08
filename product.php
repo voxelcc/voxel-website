@@ -46,9 +46,6 @@
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link d-none d-lg-block" href="#overview">Overview</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link d-none d-md-block" href="#techspecs">Tech Specs</a>
                 </li>
                 <li class="nav-item">
