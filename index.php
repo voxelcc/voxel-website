@@ -114,8 +114,6 @@ function test_input($data)
                     <div class="d-flex h-100 text-center align-items-center">
                         <div class="w-100 text-white">
                             <h1>Own your<br> smart home</h1>
-                            <a class="btn btn-lg btn-primary" href="shop">Video coming soon</a>
-
                         </div>
                     </div>
                 </div>
