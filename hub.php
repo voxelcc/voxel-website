@@ -45,7 +45,7 @@
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link d-none d-md-block" href="loginphp">Login</a>
+                    <a class="nav-link d-none d-md-block" href="login">Login</a>
                 </li>
 
                 <li class="nav-item">
@@ -91,7 +91,7 @@
                     $password = getenv('PELIN_PASSWORD') ?: die('"PELIN_PASSWORD" config var in found in env!');
 
                     /* Redirects here after login */
-                    $redirect_after_login = 'secret_page.php';
+                    $redirect_after_login = 'secret_page';
 
                     /* Will not ask password again for */
                     $remember_password = strtotime('+30 days'); // 30 days

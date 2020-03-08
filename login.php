@@ -44,7 +44,7 @@
         $password = getenv('PELIN_PASSWORD') ?: die('"PELIN_PASSWORD" config var in found in env!');
         
         /* Redirects here after login */
-        $redirect_after_login = 'secret_page.php';
+        $redirect_after_login = 'secret_page';
 
         /* Will not ask password again for */
         $remember_password = strtotime('+30 days'); // 30 days
