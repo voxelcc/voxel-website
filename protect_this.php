@@ -1,6 +1,6 @@
 <?php
     /* Your password */
-    $password = 'VOXEL';
+    $password = getenv('PELIN_PASSWORD') ?: die('"PELIN_PASSWORD" config var in found in env!');
 
     if (empty($_COOKIE['password']) || $_COOKIE['password'] !== $password) {
         // Password not set or incorrect. Send to login.php.
