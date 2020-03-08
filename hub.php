@@ -153,7 +153,7 @@
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO1.png" class="d-block">
                         <div class="carousel-caption">
                             <h2 style="white-space:nowrap">Discover</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Discover exciting and innovative projects to serve as inspiration for your smart home, push the boundaries of what a smart home can be. </p>
                         </div>
                     </div>
 
@@ -162,25 +162,16 @@
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO2.png" class="d-block">
                         <div class="carousel-caption">
                             <h2>Create</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Challenge yourself and develop new skills whilst creating exciting interactions with Voxel. Learn electronics and programming the fun way.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO3.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2 style="white-space:nowrap">Collab</h2>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO4.png" class="d-block">
-                        <div class="carousel-caption">
                             <h2 style="white-space:nowrap">Contribute</h2>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts and innovators. </p>
                         </div>
-
                     </div>
-
                 </div>
                 <a class="carousel-control-prev" href="#featuresCarousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
