@@ -71,12 +71,12 @@
                     </div>
 
                     <div class="form-label-group">
-                        <input style ="font-size: 22px" type="email" id="inputEmail" class="form-control" name = "email" placeholder="Email address" required>
+                        <input style="font-size: 22px" type="email" id="inputEmail" class="form-control" name="email" placeholder="Email address" required>
                         <label for="inputEmail">Email address</label>
                     </div>
 
                     <div class="form-label-group">
-                        <input style ="font-size: 22px" type="password" id="inputPassword" class="form-control" name = "password" placeholder="Password" required>
+                        <input style="font-size: 22px" type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" required>
                         <label for="inputPassword">Password</label>
                     </div>
 
@@ -153,21 +153,21 @@
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO1.png" class="d-block">
                         <div class="carousel-caption">
                             <h2 style="white-space:nowrap">Discover</h2>
-                            <p>Discover exciting and innovative projects to serve as inspiration for your smart home, push the boundaries of what a smart home can be. </p>
+                            <p>Discover exciting and innovative projects to serve as inspiration for your smart home. Push the boundaries of what a smart home can be. </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO2.png" class="d-block">
                         <div class="carousel-caption">
                             <h2>Create</h2>
-                            <p>Challenge yourself and develop new skills whilst creating exciting interactions with Voxel. Learn electronics and programming the fun way.</p>
+                            <p>Challenge yourself and develop new skills whilst creating exciting interactions with Voxel. Learn electronics and programming the fun way, by building something useful.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO3.png" class="d-block">
                         <div class="carousel-caption">
                             <h2 style="white-space:nowrap">Contribute</h2>
-                            <p>Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts and innovators. </p>
+                            <p>Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts, innovators and disruptors. </p>
                         </div>
                     </div>
                 </div>
@@ -183,13 +183,13 @@
 
 
 
-            <h3 id="tutorials" name ="tutorials" class="pt-5 pb-3">Tutorials</h3>
+            <h3 id="tutorials" name="tutorials" class="pt-5 pb-3">Tutorials</h3>
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO6.png">
                     <div class="card-body">
                         <h5 class="card-title">Starter Pack Introduction</h5>
-                        <p class="card-text">Unlock the full potential of the Voxel starter kit, measure and display data on the brain's display and design customised graphics to suite your needs.</p>
+                        <p class="card-text">Unlock the full potential of the Voxel starter kit, learn how to measure and display sensor data on the dot matrix and design custom graphics to suite your needs.</p>
                         <p class="card-text"><small class="text-muted">Voxel Team</small></p>
 
                     </div>
@@ -198,7 +198,7 @@
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO7.png">
                     <div class="card-body">
                         <h5 class="card-title">Smart Plug Sensor Control</h5>
-                        <p class="card-text">Learn how to setup Voxel smart plugs to communicate with the brain. Configure remote sensor tiles or attach them directly to the plug.</p>
+                        <p class="card-text">See how easy it is to setup Voxel smart plugs to communicate with the brain. Configure remote sensor tiles or attach them directly to the plug.</p>
                         <p class="card-text"><small class="text-muted">Voxel Team</small></p>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
                         <p class="card-text"><small class="text-muted">othompson420</small></p>
                     </div>
                 </div>
-                <div class="card"> 
+                <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO9.png">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -233,7 +233,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">And much more</h5>
-                        <p class="card-text">Stay posted for more exciting inspiration for your nect Voxel project</p>
+                        <p class="card-text">Keep checking back for more exciting inspiration for your nest Voxel project</p>
                         <a class="btn btn-primary" href="shop ">Browse projects</a>
 
                     </div>

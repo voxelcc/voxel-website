@@ -207,7 +207,7 @@
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH16.png" class="d-block">
                     <div class="carousel-caption">
                         <h3>Wide Compatibility</h3>
-                        <p>Compatible with all things smart, with IFTTT. Compatible with most things dumb, with smart plugs. </p>
+                        <p>Compatible with all things smart, with IFTTT. Turn dumb things smart, with smart plugs. </p>
                     </div>
                 </div>
 
