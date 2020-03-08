@@ -71,12 +71,12 @@
                     </div>
 
                     <div class="form-label-group">
-                        <input style ="font-size: 22px" type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                        <input style ="font-size: 22px" type="email" id="inputEmail" class="form-control" name = "email" placeholder="Email address" required>
                         <label for="inputEmail">Email address</label>
                     </div>
 
                     <div class="form-label-group">
-                        <input style ="font-size: 22px" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                        <input style ="font-size: 22px" type="password" id="inputPassword" class="form-control" name = "password" placeholder="Password" required>
                         <label for="inputPassword">Password</label>
                     </div>
 
