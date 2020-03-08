@@ -175,6 +175,21 @@ function test_input($data)
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/HP2.gif" class="d-block h-100 w-100" style="object-fit: cover; max-height: 500px">
                 </div>
             </div>
+
+
+
+            <div class="row mt-5" style="background-color: aqua">
+                <div class="col-lg-6 p-0">
+                    <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/HP5.png" class="d-block h-100 w-100" style="object-fit: cover">
+                </div>
+                <div class="col-lg-6 mb-3 p-5">
+                    <h2 class="pt-4 pb-4">Starter pack</h2>
+                    <h6>Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
+                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
+                    <a class="btn btn-primary" href="product">Explore</a>
+
+                </div>
+            </div>
         </div>
 
 
@@ -219,33 +234,17 @@ function test_input($data)
             </div>
 
         </div>
-        <div class="container flex-shrink-0 pt-5">
-            <div class="row mt-5" style="background-color: aqua">
-                <div class="col-lg-6 p-0">
-                    <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/HP5.png" class="d-block h-100 w-100" style="object-fit: cover">
-                </div>
-                <div class="col-lg-6 mb-3 p-5">
-                    <h2 class="pt-4 pb-4">Starter pack</h2>
-                    <h6>Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
-                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
-                    <a class="btn btn-primary" href="product">Explore</a>
-
-                </div>
-            </div>
-        </div>
-
-
         <br>
         <br>
-        <br>
+        <br>                    
         <div class="container mt-5">
             <h2>Instagram</h2><br>
             <div style="margin: auto;" id="pixlee_container"></div>
         </div>
         <br>
         <br>
-        <br>
-
+        <br>  
+        
     </main>
 
     <div class="container-fluid">
@@ -336,16 +335,16 @@ function test_input($data)
         });
     </script>
     <script type="text/javascript">
-        window.PixleeAsyncInit = function() {
-            Pixlee.init({
-                apiKey: 'z9-RvXhCyLxcW6kapaw2'
-            });
-            Pixlee.addSimpleWidget({
-                widgetId: '25784'
-            });
-        };
-    </script>
-    <script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
+            window.PixleeAsyncInit = function() {
+                Pixlee.init({
+                    apiKey: 'z9-RvXhCyLxcW6kapaw2'
+                });
+                Pixlee.addSimpleWidget({
+                    widgetId: '25784'
+                });
+            };
+        </script>
+        <script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
 
 
 
