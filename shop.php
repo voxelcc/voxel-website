@@ -284,7 +284,6 @@ function test_input($data)
                     <h4><a href="product">Starter Pack</a></h4>
                     <h4><a href="product#upcoming">Upcoming Releases</a></h4>
                     <h4><a href="about">About us</a></h4>
-                    <h4><a href="about">Get in touch</a></h4>
                 </div>
                 <div class="col-sm">
                 </div>
