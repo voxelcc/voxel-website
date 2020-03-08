@@ -1,20 +1,9 @@
-RewriteEngine On
-
-# If we receive a forwarded http request from a proxy...
-RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
-
-# ...or just a plain old http request directly from the client
-RewriteCond %{HTTP:X-Forwarded-Proto} =""
-RewriteCond %{HTTPS} !=on
-
-# Redirect to https version
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
 # Run Php without filename extension
-#<IfModule mod_rewrite.c>
-#  RewriteCond %{REQUEST_FILENAME} !-d
-#  RewriteCond %{REQUEST_FILENAME}\.php -f
-#  RewriteRule ^(.*)$ $1.php
-#</IfModule>
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.php -f
+  RewriteRule ^(.*)$ $1.php
+</IfModule>
 
 
