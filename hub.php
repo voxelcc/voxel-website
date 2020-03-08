@@ -194,7 +194,7 @@
 
 
 
-            <h3 class="pt-5 pb-3">Tutorials</h3>
+            <h3 name ="tutorials" class="pt-5 pb-3">Tutorials</h3>
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO6.png">
@@ -217,7 +217,7 @@
                     <div class="card-body">
                         <h5 class="card-title">And many more</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <a class="btn btn-primary" href="shop ">Browse tutorials</a>
+                        <a class="btn btn-primary" href="hub#tutorials">Browse tutorials</a>
 
                     </div>
                 </div>
