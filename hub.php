@@ -204,7 +204,7 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">And many more</h5>
+                        <h5 class="card-title">And much more</h5>
                         <p class="card-text">Stay tuned for more tutorials as our community grows and we release more Voxel packs!</p>
                         <a class="btn btn-primary" href="hub#tutorials">Browse tutorials</a>
 
