@@ -64,7 +64,7 @@
             <h1 class="pt-5">Join the movement</h1>
 
             <div class="mx-auto p-4 mt-5 mb-5" style="max-width: 400px; background-color: #ddd; border-radius: 5px;">
-                <form class="form-signin">
+                <form method="POST" class="form-signin">
                     <div class="text-center mb-4">
                         <h4 class="mb-3 font-weight-normal">Login to Voxel Hub</h4>
                         <!--                        <p>Description</p>-->
