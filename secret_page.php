@@ -25,7 +25,6 @@
         <h3><a href="shop">Home</a></h3>
         <h3><a href="shop">Shop</a></h3>
         <h3><a href="hub">Hub</a></h3>
-        <h3><a href="hub">Projects</a></h3>
         <h4><a href="product">Starter&nbsp;Pack</a></h4>
         <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
         <h4><a href="about">About&nbsp;us</a></h4>
@@ -94,7 +93,6 @@ Convallis a cras semper auctor neque vitae tempus quam. In cursus turpis massa t
                 <div class="col-lg">
                     <h2><a href="shop">Shop</a></h2>
                     <h2><a href="hub">Hub</a></h2>
-                    <h2><a href="hub">Projects</a></h2>
                 </div>
                 <div class="col-lg-5">
                     <h4><a href="product">Starter Pack</a></h4>

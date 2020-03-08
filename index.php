@@ -62,7 +62,6 @@ function test_input($data)
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
         <h3><a href="shop">Shop</a></h3>
         <h3><a href="hub">Hub</a></h3>
-        <h3><a href="hub">Projects</a></h3>
         <h4><a href="product">Starter&nbsp;Pack</a></h4>
         <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
         <h4><a href="about">About&nbsp;us</a></h4>
@@ -205,7 +204,6 @@ function test_input($data)
                             <h2>Why Voxel</h2>
                             <h6 class="pt-3">Complete freedom to create</h6>
                             <p>Build whatever you can dream up. Completely open source and customisable.</p>
-                            <a class="btn btn-primary" href="product">Explore</a>
                             <a class="btn btn-primary" href="product">Tutorials</a>
 
                             <h6 class="pt-5">Built with privacy first</h6>
@@ -215,7 +213,7 @@ function test_input($data)
                             <h6 class="pt-5">Join a growing movement</h6>
                             <p>Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
                             </p>
-                            <a class="btn btn-primary" href="hub">Learn more</a>
+                            <a class="btn btn-primary" href="hub">Voxel Hub</a>
                         </div>
                     </div>
 
@@ -279,7 +277,6 @@ function test_input($data)
                 <div class="col-lg">
                     <h2><a href="shop">Shop</a></h2>
                     <h2><a href="hub">Hub</a></h2>
-                    <h2><a href="hub">Projects</a></h2>
                 </div>
                 <div class="col-lg-5">
                     <h4><a href="product">Starter Pack</a></h4>
