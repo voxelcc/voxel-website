@@ -22,7 +22,7 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h3><a href="shop">home</a></h3>
+        <h3><a href="shop">Home</a></h3>
         <h3><a href="shop">Shop</a></h3>
         <h3><a href="hub">Hub</a></h3>
         <h3><a href="hub">Projects</a></h3>

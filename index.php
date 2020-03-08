@@ -24,29 +24,28 @@ $password = "4418595e233c039564958927a230ebcad953f1b9aa9748a5919c9ac17a5cb530";
 $dbname = "ddi961ov6qbkvb";
 $port = "5432";
 
-try{
-//Set DSN data source name
-    $dsn = "pgsql:host=" . $host . ";port=" . $port .";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
+try {
+    //Set DSN data source name
+    $dsn = "pgsql:host=" . $host . ";port=" . $port . ";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
 
 
-//create a pdo instance
-$pdo = new PDO($dsn, $user, $password);
-$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_OBJ);
-$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    //create a pdo instance
+    $pdo = new PDO($dsn, $user, $password);
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
 }
-catch (PDOException $e) {
-echo 'Connection failed: ' . $e->getMessage();
-}
 
-$kickstarteremail ="";
+$kickstarteremail = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["kickstarteremail"])) {
         $kickstarteremail = "";
     } else {
         $kickstarteremail = test_input($_POST["kickstarteremail"]);
-        }
+    }
 }
 function test_input($data)
 {
@@ -153,7 +152,7 @@ function test_input($data)
                         <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                             <div class="input-group pt-3">
                                 <div class="form-label-group w-75">
-                                    <input style ="font-size: 22px;" type="email" id="inputEmail" class="form-control" placeholder="Email address" name="kickstarteremail">
+                                    <input style="font-size: 22px;" type="email" id="inputEmail" class="form-control" placeholder="Email address" name="kickstarteremail">
                                     <label for="inputEmail">Email address</label>
                                 </div>
                                 <div class="input-group-append w-25">
@@ -237,11 +236,17 @@ function test_input($data)
             </div>
 
         </div>
-
-
-
-
-
+        <br>
+        <br>
+        <br>                    
+        <div class="container mt-5">
+            <h2>Instagram</h2><br>
+            <div style="margin: auto;" id="pixlee_container"></div>
+        </div>
+        <br>
+        <br>
+        <br>  
+        
     </main>
 
     <div class="container-fluid">
@@ -332,6 +337,18 @@ function test_input($data)
             onComplete: false // Function
         });
     </script>
+    <script type="text/javascript">
+            window.PixleeAsyncInit = function() {
+                Pixlee.init({
+                    apiKey: 'z9-RvXhCyLxcW6kapaw2'
+                });
+                Pixlee.addSimpleWidget({
+                    widgetId: '25784'
+                });
+            };
+        </script>
+        <script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
+
 
 
 </body>
