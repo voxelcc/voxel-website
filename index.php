@@ -204,7 +204,7 @@ function test_input($data)
                             <h2>Why Voxel</h2>
                             <h6 class="pt-3">Complete freedom to create</h6>
                             <p>Build whatever you can dream up. Completely open source and customisable.</p>
-                            <a class="btn btn-primary" href="product">Tutorials</a>
+                            <a class="btn btn-primary" href="hub#tutorials">Tutorials</a>
 
                             <h6 class="pt-5">Built with privacy first</h6>
                             <p>Our business model is about selling great hardware, not your data. Find out more about us:</p>
