@@ -45,7 +45,7 @@
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link d-none d-md-block" href="login">Login</a>
+                    <a class="nav-link d-none d-md-block" href="hub">Login</a>
                 </li>
 
                 <li class="nav-item">
