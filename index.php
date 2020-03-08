@@ -153,7 +153,7 @@ function test_input($data)
                         <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                             <div class="input-group pt-3">
                                 <div class="form-label-group w-75">
-                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="kickstarteremail">
+                                    <input style ="font-size: 22px;" type="email" id="inputEmail" class="form-control" placeholder="Email address" name="kickstarteremail">
                                     <label for="inputEmail">Email address</label>
                                 </div>
                                 <div class="input-group-append w-25">

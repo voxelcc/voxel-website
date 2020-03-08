@@ -21,15 +21,14 @@
     <form method="POST" class="form-signin">
         <div class="text-center mb-4">
             <h4 class="mb-3 font-weight-normal">Login to Voxel Hub</h4>
-            <p>Description</p>
         </div>
         <div class="form-label-group">
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email">
+            <input style ="font-size: 22px;" type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email">
             <label for="inputEmail">Email address</label>
         </div>
 
         <div class="form-label-group">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password">
+            <input style ="font-size: 22px;" type="password" id="inputPassword" class="form-control" placeholder="Password" name="password">
             <label for="inputPassword">Password</label>
         </div>
 
