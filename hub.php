@@ -156,8 +156,6 @@
                             <p>Discover exciting and innovative projects to serve as inspiration for your smart home, push the boundaries of what a smart home can be. </p>
                         </div>
                     </div>
-
-
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO2.png" class="d-block">
                         <div class="carousel-caption">
@@ -191,7 +189,7 @@
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO6.png">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Unlock the full potential of the Voxel starter kit.</p>
                         <p class="card-text"><small class="text-muted">Voxel Team</small></p>
 
                     </div>
@@ -200,7 +198,7 @@
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO7.png">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Learn how to setup Voxel smart plugs and communicate with the brain. Configure remmote or local sensor tiles.</p>
                         <p class="card-text"><small class="text-muted">Voxel Team</small></p>
                     </div>
                 </div>
