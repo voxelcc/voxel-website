@@ -78,7 +78,7 @@
                 <div class="col-md">
                     <p>We are a team of young engineers and makers who are passionate about open source technologies and the internet of things. 
                     We found that the existing smart home market was built around personal data collection, insecure cloud services and locked off
-                    ecosystems and so we embarked on a mission to make things right.
+                    ecosystems. We have embarked on a mission to make things right.
                     </p>
                 </div>
                 <div class="col-md">
