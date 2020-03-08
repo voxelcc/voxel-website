@@ -189,7 +189,7 @@
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO6.png">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Unlock the full potential of the Voxel starter kit.</p>
+                        <p class="card-text">Unlock the full potential of the Voxel starter kit, measure and display data on the brain's display and design customised graphics to suite your needs.</p>
                         <p class="card-text"><small class="text-muted">Voxel Team</small></p>
 
                     </div>
@@ -198,14 +198,14 @@
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO7.png">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Learn how to setup Voxel smart plugs and communicate with the brain. Configure remmote or local sensor tiles.</p>
+                        <p class="card-text">Learn how to setup Voxel smart plugs to communicate with the brain. Configure remmote sensor tiles or attach them directly to the plug.</p>
                         <p class="card-text"><small class="text-muted">Voxel Team</small></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">And many more</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text">Stay tuned for more tutorials as our community grows and we release more Voxel packs!</p>
                         <a class="btn btn-primary" href="hub#tutorials">Browse tutorials</a>
 
                     </div>
