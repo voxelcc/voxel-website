@@ -194,7 +194,7 @@
 
 
 
-            <h3 if="tutorials" name ="tutorials" class="pt-5 pb-3">Tutorials</h3>
+            <h3 id="tutorials" name ="tutorials" class="pt-5 pb-3">Tutorials</h3>
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO6.png">
