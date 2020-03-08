@@ -85,6 +85,28 @@
                             <input type="checkbox" value="remember-me"> Remember me
                         </label>
                     </div>
+                    <?php
+                    /* Your password */
+                    $email = getenv('PELIN_EMAIL') ?: die('"PELIN_EMAIL" config var in found in env!');
+                    $password = getenv('PELIN_PASSWORD') ?: die('"PELIN_PASSWORD" config var in found in env!');
+
+                    /* Redirects here after login */
+                    $redirect_after_login = 'secret_page.php';
+
+                    /* Will not ask password again for */
+                    $remember_password = strtotime('+30 days'); // 30 days
+
+                    if (isset($_POST['password']) && isset($_POST['email'])) {
+                        if ($_POST['password'] == $password && $_POST['email'] == $email) {
+                            setcookie("password", $password, $remember_password);
+                            header('Location: ' . $redirect_after_login);
+                            exit;
+                        } else {
+                            echo ("<h4 style='color:darkred;'>" . 'Invalid Login Credentials' . "</h4><br>");
+                        }
+                    }
+
+                    ?>
                     <button class="btn btn-lg btn-primary btn-block" type="submit" href="shop ">Sign in</button>
                 </form>
             </div>

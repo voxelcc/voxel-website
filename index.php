@@ -139,8 +139,8 @@ function test_input($data)
                     </p>
                     <!--                        </div>-->
                     <!--                        <div class="col">-->
-                    <p>We’re designing our latest products around you; the crazy inventors, smart home wizards and new makers. We’re on a mission to bring open source smart homes to the world, powered by our amazing community. Join the movement.
-                    </p>
+                    <!-- <p>We’re designing our latest products around you; the crazy inventors, smart home wizards and new makers. We’re on a mission to bring open source smart homes to the world, powered by our amazing community. Join the movement.
+                    </p> -->
                     <!--                        </div>-->
                     <!--                    </div>-->
 
@@ -187,7 +187,6 @@ function test_input($data)
                     <h6>Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
                     <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
                     <a class="btn btn-primary" href="product">Explore</a>
-
                 </div>
             </div>
         </div>
@@ -236,15 +235,15 @@ function test_input($data)
         </div>
         <br>
         <br>
-        <br>                    
+        <br>
         <div class="container mt-5">
             <h2>Instagram</h2><br>
             <div style="margin: auto;" id="pixlee_container"></div>
         </div>
         <br>
         <br>
-        <br>  
-        
+        <br>
+
     </main>
 
     <div class="container-fluid">
@@ -334,18 +333,16 @@ function test_input($data)
         });
     </script>
     <script type="text/javascript">
-            window.PixleeAsyncInit = function() {
-                Pixlee.init({
-                    apiKey: 'z9-RvXhCyLxcW6kapaw2'
-                });
-                Pixlee.addSimpleWidget({
-                    widgetId: '25784'
-                });
-            };
-        </script>
-        <script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
-
-
+        window.PixleeAsyncInit = function() {
+            Pixlee.init({
+                apiKey: 'z9-RvXhCyLxcW6kapaw2'
+            });
+            Pixlee.addSimpleWidget({
+                widgetId: '25784'
+            });
+        };
+    </script>
+    <script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
 
 </body>
 
