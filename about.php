@@ -23,17 +23,7 @@
     <!-- Google Analytics -->
     <?php require_once('google_analytics_body.php'); ?>
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h3><a href="index">Home</a></h3>
-        <h3><a href="shop">Shop</a></h3>
-        <h3><a href="hub">Hub</a></h3>
-        <h4><a href="product">Starter&nbsp;Pack</a></h4>
-        <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
-        <h4><a href="about">About&nbsp;us</a></h4>
-    </div>
-
-    <!-- Google Analytics -->
+    <!-- Navbar -->
     <?php require_once('nav_bar.php'); ?>
 
     <main role="main">
@@ -57,8 +47,8 @@
                     </p>
                 </div>
                 <div class="col-md">
-                    <p>Voxel's focuses on providing quality hardware, allowing easy integrations with existing platforms and not proffitting off your data.
-                        All our firmware is available online, and we encourage our users to install their own custom software.
+                    <p>Voxel focuses on providing quality hardware, allowing easy integrations with existing platforms and not proffitting off your data.
+                        All our firmware is available online, and we actively encourage our users to install their own custom software.
                     </p>
 
                 </div>
