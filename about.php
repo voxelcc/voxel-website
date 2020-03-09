@@ -77,7 +77,7 @@
         </div>
 
 
-        <div class="container flex-shrink-0 pt-5 pb-5">
+        <!-- <div class="container flex-shrink-0 pt-5 pb-5">
 
             <h4>Subheading</h4>
             <div class="row mt-3">
@@ -94,7 +94,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
     </main>
 
     <?php require_once('footer.php'); ?>
