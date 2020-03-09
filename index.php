@@ -59,9 +59,6 @@ function test_input($data)
 ?>
 
 <body class="d-flex flex-column h-100">
-    <!-- Google Analytics -->
-    <?php require_once('google_analytics_body.php'); ?>
-
     <!-- Navbar -->
     <?php require_once('nav_bar.php'); ?>
 

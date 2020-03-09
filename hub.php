@@ -44,9 +44,6 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
 ?>
 
 <body class="d-flex flex-column h-100">
-    <!-- Google Analytics -->
-    <?php require('google_analytics_body.php'); ?>
-
     <!-- Navbar -->
     <?php require('nav_bar.php'); ?>
 
