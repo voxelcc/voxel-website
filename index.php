@@ -231,17 +231,6 @@ function test_input($data)
             </div>
 
         </div>
-        <br>
-        <br>
-        <br>
-        <div class="container mt-5">
-            <h2>Instagram</h2><br>
-            <div style="margin: auto;" id="pixlee_container"></div>
-        </div>
-        <br>
-        <br>
-        <br>
-
     </main>
 
     <div class="container-fluid">
@@ -331,18 +320,6 @@ function test_input($data)
             onComplete: false // Function
         });
     </script>
-    <script type="text/javascript">
-        window.PixleeAsyncInit = function() {
-            Pixlee.init({
-                apiKey: 'z9-RvXhCyLxcW6kapaw2'
-            });
-            Pixlee.addSimpleWidget({
-                widgetId: '25784'
-            });
-        };
-    </script>
-    <script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
-
 </body>
 
 </html>
