@@ -3,17 +3,8 @@
 
 <head>
     <!-- Google Analytics -->
-    <?php require_once('google_analytics_head.php'); ?>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://use.typekit.net/zlz7bjm.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <title>voxel.cc</title>
+    <?php require_once('head.php'); ?>
+    <title>vShop</title>
 </head>
 
 <?php

@@ -3,18 +3,7 @@
 
 <head>
     <!-- Google Analytics -->
-    <?php require_once('google_analytics_head.php'); ?>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://use.typekit.net/zlz7bjm.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" type="css/text/css" href="css/animate.css">
-
+    <?php require_once('head.php'); ?>
     <title>voxel.cc</title>
 </head>
 
@@ -77,7 +66,6 @@ function test_input($data)
                     </div>
                 </div>
             </header>
-
 
             <div class="row pt-5 pb-5">
                 <div class="col-lg-7">
