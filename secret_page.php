@@ -5,25 +5,11 @@
 
 <head>
     <!-- Google Analytics -->
-    <?php require_once('google_analytics_head.php'); ?>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://use.typekit.net/zlz7bjm.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" type="css/text/css" href="css/animate.css">
-
+    <?php require_once('head.php'); ?>
     <title>Secret Page</title>
 </head>
 
 <body class="d-flex flex-column h-100">
-    <!-- Google Analytics -->
-    <?php require_once('google_analytics_body.php'); ?>
-
     <!-- Navbar -->
     <?php require_once('nav_bar.php'); ?>
 
