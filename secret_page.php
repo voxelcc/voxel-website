@@ -86,33 +86,8 @@
                 Convallis a cras semper auctor neque vitae tempus quam. In cursus turpis massa tincidunt. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Malesuada fames ac turpis egestas sed tempus. Neque sodales ut etiam sit amet nisl purus. Facilisis volutpat est velit egestas. Risus nullam eget felis eget. In nisl nisi scelerisque eu ultrices vitae. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Diam sit amet nisl suscipit adipiscing bibendum est. At in tellus integer feugiat scelerisque varius morbi enim. Donec et odio pellentesque diam volutpat commodo. Tellus orci ac auctor augue mauris augue. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. At augue eget arcu dictum varius duis. Accumsan sit amet nulla facilisi morbi tempus. Diam vel quam elementum pulvinar etiam non quam lacus. Bibendum neque egestas congue quisque egestas diam in. Nec ullamcorper sit amet risus nullam eget felis eget. Consectetur purus ut faucibus pulvinar elementum integer enim.</p>
         </div>
     </main>
-    <footer class="footer mt-5 py-4">
-        <div class="container">
 
-            <div class="row">
-                <div class="col-lg">
-                    <h3><a href="index">Home</a></h3>
-                    <h2><a href="shop">Shop</a></h2>
-                    <h2><a href="hub">Hub</a></h2>
-                </div>
-                <div class="col-lg-5">
-                    <h4><a href="product">Starter Pack</a></h4>
-                    <h4><a href="product#upcoming">Upcoming Releases</a></h4>
-                    <h4><a href="about">About us</a></h4>
-                </div>
-                <div class="col-sm">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col pt-5">
-                    <p class="px-3" style="position:absolute; bottom:0; right:0;">&copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script> Voxel</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php require_once('footer.php'); ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
