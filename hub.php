@@ -51,8 +51,10 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
 ?>
 
 <body class="d-flex flex-column h-100">
-    <!-- Google Analytics -->
-    <?php require('google_analytics_body.php'); ?>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PM275CV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Navbar -->
     <?php require('nav_bar.php'); ?>
