@@ -4,7 +4,7 @@
 <head>
     <!-- Google Analytics meta tags and css-->
     <?php require_once('head.php'); ?>
-    <title>vShop</title>
+    <title>Shop</title>
 </head>
 
 <?php
