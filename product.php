@@ -490,37 +490,6 @@
                 </div>
             </div>
         </div>
-
-
-        <div style="background-color: aqua">
-            <div class="container mt-5">
-
-                <div class="row">
-                    <div class="col-lg-5 mb-3">
-                        <div class="pt-5 pb-5">
-                            <h2>Why Voxel</h2>
-                            <h6 class="pt-3">Complete freedom to create</h6>
-                            <p>Build whatever you can dream up. Completely open source and customisable.</p>
-                            <a class="btn btn-primary" href="hub#tutorials">Tutorials</a>
-
-                            <h6 class="pt-5">Built with privacy first</h6>
-                            <p>Our business model is about selling great hardware, not your data. Find out more about us:
-                            </p>
-                            <a class="btn btn-primary" href="about">About us</a>
-
-                            <h6 class="pt-5">Join a growing movement</h6>
-                            <p>Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
-                            </p>
-                            <a class="btn btn-primary" href="hub">Learn more</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/BA/BA1.jpg" class="d-block h-100 w-100" style="object-fit: cover">
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </main>
 
     <?php require_once('footer.php'); ?>
