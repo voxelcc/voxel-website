@@ -76,13 +76,13 @@
             <h4 class="pt-5">Subheading</h4>
             <div class="row mt-3">
                 <div class="col-md">
-                    <p>We are a team of young engineers and makers who are passionate about open source technologies and the internet of things. 
-                    We found that the existing smart home market was built around personal data collection, insecure cloud services and locked off
-                    ecosystems. We have embarked on a mission to make things right.
+                    <p>We are a team of young engineers and makers who are passionate about open source technologies and the internet of things.
+                        We found that the existing smart home market was built around personal data collection, insecure cloud services and locked off
+                        ecosystems. We have embarked on a mission to make things right.
                     </p>
                 </div>
                 <div class="col-md">
-                    <p>Voxel's focuses on providing quality hardware, allowing easy integrations with existing platforms and not profitting off your data. 
+                    <p>Voxel's focuses on providing quality hardware, allowing easy integrations with existing platforms and not profitting off your data.
                         All our firmware is available online, and we encourage our users to install their own custom software.
                     </p>
 
@@ -137,6 +137,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg">
+                    <h3><a href="index">Home</a></h3>
                     <h3><a href="shop">Shop</a></h3>
                     <h3><a href="hub">Hub</a></h3>
                 </div>

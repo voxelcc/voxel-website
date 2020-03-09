@@ -23,26 +23,25 @@ $password = "4418595e233c039564958927a230ebcad953f1b9aa9748a5919c9ac17a5cb530";
 $dbname = "ddi961ov6qbkvb";
 $port = "5432";
 
-try{
-//Set DSN data source name
-    $dsn = "pgsql:host=" . $host . ";port=" . $port .";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
+try {
+    //Set DSN data source name
+    $dsn = "pgsql:host=" . $host . ";port=" . $port . ";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
 
 
-//create a pdo instance
-$pdo = new PDO($dsn, $user, $password);
-$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_OBJ);
-$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-}
-catch (PDOException $e) {
-echo 'Connection failed: ' . $e->getMessage();
+    //create a pdo instance
+    $pdo = new PDO($dsn, $user, $password);
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
 }
 
 
 // define variables and set to empty values
 $message  = "";
 $email = "";
-$kickstarteremail ="";
+$kickstarteremail = "";
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -50,24 +49,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $kickstarteremail = "";
     } else {
         $kickstarteremail = test_input($_POST["kickstarteremail"]);
-        }
     }
+}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["message"])) {
         $message = "";
     } else {
         $message = test_input($_POST["message"]);
-        }
     }
+}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["email"])) {
         $email = "";
     } else {
         $email = test_input($_POST["email"]);
-        }
     }
+}
 
 
 
@@ -170,7 +169,7 @@ function test_input($data)
                         ?>
                         <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
                     </form>
-                
+
                 </div>
 
             </div>
@@ -188,28 +187,28 @@ function test_input($data)
                         </div>
                         <input type="submit" class="btn btn-primary pull-right"></input>
                         <?php
-                            if ($message <> "") {
-                                $message = '<h2>Message:</h2><p>'  . $message . '</p>';
-                                $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-                                $mail->isSMTP();
-                                //$mail->SMTPDebug = 1;
-                                $mail->CharSet = 'UTF-8';
-                                $mail->SMTPAuth = true;
-                                $mail->SMTPSecure = 'tls';
-                                $mail->Host = 'smtp.gmail.com';
-                                $mail->Port = '587';
-                                $mail->Username = "isstracker2019@gmail.com";
-                                $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
-                                $mail->SetFrom('isstracker2019@gmail.com');
-                                $mail->addAddress('olithompson@rocketmail.com');
-                                $mail->addAddress('team@voxel.cc');
-                                $mail->Subject = 'New Message Submission';
-                                $mail->Body = $message;
-                                $mail->IsHTML(true);
-                                $mail->send();
-                                echo ('<h4 style =" padding: 10px;">Thanks for your message! </h4>');
-                            }
-                            ?>
+                        if ($message <> "") {
+                            $message = '<h2>Message:</h2><p>'  . $message . '</p>';
+                            $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+                            $mail->isSMTP();
+                            //$mail->SMTPDebug = 1;
+                            $mail->CharSet = 'UTF-8';
+                            $mail->SMTPAuth = true;
+                            $mail->SMTPSecure = 'tls';
+                            $mail->Host = 'smtp.gmail.com';
+                            $mail->Port = '587';
+                            $mail->Username = "isstracker2019@gmail.com";
+                            $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+                            $mail->SetFrom('isstracker2019@gmail.com');
+                            $mail->addAddress('olithompson@rocketmail.com');
+                            $mail->addAddress('team@voxel.cc');
+                            $mail->Subject = 'New Message Submission';
+                            $mail->Body = $message;
+                            $mail->IsHTML(true);
+                            $mail->send();
+                            echo ('<h4 style =" padding: 10px;">Thanks for your message! </h4>');
+                        }
+                        ?>
                         <small id="emailHelp" class="form-text text-muted">If you'd like a reply from us, include your details! </small>
                     </form>
                 </div>
@@ -225,25 +224,25 @@ function test_input($data)
                             <p for="feedbackTextArea"></p>
                             <div class="input-group">
                                 <div class="input-group mb-3">
-                                 <input type="email" class="form-control" placeholder="Email Address" name="email">
+                                    <input type="email" class="form-control" placeholder="Email Address" name="email">
                                     <div class="input-group-append">
                                         <input class="btn btn-primary" type="submit" value="Join"></input>
                                     </div>
                                 </div>
                             </div>
                             <?php
-                        if ($email <> "") {
-                            $query = "INSERT INTO googlegroupEmails(email) VALUES('$email')";
-                            $pdo->query($query);
-                            echo "Thanks!";
-                        }
-                        ?>
-                            <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small> 
-                        </form>
-                    </div>
+                            if ($email <> "") {
+                                $query = "INSERT INTO googlegroupEmails(email) VALUES('$email')";
+                                $pdo->query($query);
+                                echo "Thanks!";
+                            }
+                            ?>
+                            <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small>
+                    </form>
                 </div>
-
             </div>
+
+        </div>
 
 
         </div>
@@ -277,9 +276,10 @@ function test_input($data)
         <div class="container">
             <div class="row">
                 <div class="col-lg">
+                    <h3><a href="index">Home</a></h3>
                     <h3><a href="shop">Shop</a></h3>
                     <h3><a href="hub">Hub</a></h3>
-                    
+
                 </div>
                 <div class="col-lg-5">
                     <h4><a href="product">Starter Pack</a></h4>
