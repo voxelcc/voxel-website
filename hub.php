@@ -2,7 +2,7 @@
 <html lang="en" class="h-100 w-100">
 
 <head>
-    <!-- Google Analytics -->
+    <!-- Google Analytics meta tags and css-->
     <?php require_once('head.php'); ?>
     <title>Hub</title>
 </head>
