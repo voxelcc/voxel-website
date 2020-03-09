@@ -24,7 +24,6 @@
         <h3><a href="index">Home</a></h3>
         <h3><a href="shop">Shop</a></h3>
         <h3><a href="hub">Hub</a></h3>
-        <h3><a href="hub">Projects</a></h3>
         <h4><a href="product">Starter&nbsp;Pack</a></h4>
         <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
         <h4><a href="about">About&nbsp;us</a></h4>
@@ -46,9 +45,6 @@
 
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link d-none d-lg-block" href="#overview">Overview</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link d-none d-md-block" href="#techspecs">Tech Specs</a>
                 </li>
@@ -135,7 +131,7 @@
                     <p class="pt-3">Smart homes should be a joy to work with. </p>
                     <p> We designed, starting with this smart home controller, the Starter pack. Last section TBC
                     </p>
-                    <a href="#" class="btn btn-primary">Privacy ></a>
+                    <a href="about" class="btn btn-primary">Privacy ></a>
 
                 </div>
 
@@ -211,7 +207,7 @@
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH16.png" class="d-block">
                     <div class="carousel-caption">
                         <h3>Wide Compatibility</h3>
-                        <p>Compatible with all things smart, with IFTTT. Compatible with most things dumb, with smart plugs. </p>
+                        <p>Compatible with all things smart, with IFTTT. Turn dumb things smart, with smart plugs. </p>
                     </div>
                 </div>
 
@@ -484,7 +480,7 @@
                     <div class="card-body">
                         <h5 class="card-title">We need you!</h5>
                         <p class="card-text">Help us decide what to develop next. We're working alongide our community to design the next releases. Have your say:</p>
-                        <a class="btn btn-primary" href="#">Join forum</a>
+                        <a class="btn btn-primary" href="hub">Join forum</a>
 
                     </div>
                 </div>
@@ -501,8 +497,7 @@
                             <h2>Why Voxel</h2>
                             <h6 class="pt-3">Complete freedom to create</h6>
                             <p>Build whatever you can dream up. Completely open source and customisable.</p>
-                            <a class="btn btn-primary" href="product">Explore</a>
-                            <a class="btn btn-primary" href="product">Tutorials</a>
+                            <a class="btn btn-primary" href="hub#tutorials">Tutorials</a>
 
                             <h6 class="pt-5">Built with privacy first</h6>
                             <p>Our business model is about selling great hardware, not your data. Find out more about us:
@@ -528,15 +523,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg">
-                    <h2><a href="shop">Shop</a></h2>
-                    <h2><a href="hub">Hub</a></h2>
-                    <h2><a href="hub">Projects</a></h2>
+                    <h3><a href="index">Home</a></h3>
+                    <h3><a href="shop">Shop</a></h3>
+                    <h3><a href="hub">Hub</a></h3>
                 </div>
                 <div class="col-lg-5">
                     <h4><a href="product">Starter Pack</a></h4>
                     <h4><a href="product#upcoming">Upcoming Releases</a></h4>
                     <h4><a href="about">About us</a></h4>
-                    <h4><a href="about">Get in touch</a></h4>
                 </div>
                 <div class="col-sm">
                 </div>

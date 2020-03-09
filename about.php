@@ -24,7 +24,6 @@
         <h3><a href="index">Home</a></h3>
         <h3><a href="shop">Shop</a></h3>
         <h3><a href="hub">Hub</a></h3>
-        <h3><a href="hub">Projects</a></h3>
         <h4><a href="product">Starter&nbsp;Pack</a></h4>
         <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
         <h4><a href="about">About&nbsp;us</a></h4>
@@ -46,7 +45,7 @@
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link d-none d-md-block" href="login">Login</a>
+                    <a class="nav-link d-none d-md-block" href="hub">Login</a>
                 </li>
 
                 <li class="nav-item">
@@ -77,13 +76,14 @@
             <h4 class="pt-5">Subheading</h4>
             <div class="row mt-3">
                 <div class="col-md">
-                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.Augment your smart home with handy environment sensors, brilliant dot
-                        matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
+                    <p>We are a team of young engineers and makers who are passionate about open source technologies and the internet of things.
+                        We found that the existing smart home market was built around personal data collection, insecure cloud services and locked off
+                        ecosystems. We have embarked on a mission to make things right.
                     </p>
                 </div>
                 <div class="col-md">
-                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.Augment your smart home with handy environment sensors, brilliant dot
-                        matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
+                    <p>Voxel's focuses on providing quality hardware, allowing easy integrations with existing platforms and not profitting off your data.
+                        All our firmware is available online, and we encourage our users to install their own custom software.
                     </p>
 
                 </div>
@@ -137,15 +137,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg">
+                    <h3><a href="index">Home</a></h3>
                     <h3><a href="shop">Shop</a></h3>
                     <h3><a href="hub">Hub</a></h3>
-                    <h3><a href="hub">Projects</a></h3>
                 </div>
                 <div class="col-lg-5">
                     <h4><a href="product">Starter Pack</a></h4>
                     <h4><a href="product#upcoming">Upcoming Releases</a></h4>
                     <h4><a href="about">About us</a></h4>
-                    <h4><a href="about">Get in touch</a></h4>
                 </div>
                 <div class="col-sm">
                 </div>
