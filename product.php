@@ -401,9 +401,8 @@
 
         <a class="anchor" id="upcoming"></a>
 
-
         <div class="container flex-shrink-0 pt-5 pb-5">
-            <h3>Upcoming releases</h3>
+            <h3 >Upcoming releases</h3>
             <!--
             <div class="row mt-3">
                 <div class="col-md">
