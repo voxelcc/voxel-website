@@ -523,7 +523,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg">
-                    <h3><a href="index">Home</a></h3>
+                    <h2><a href="index">Home</a></h2>
                     <h2><a href="shop">Shop</a></h2>
                     <h2><a href="hub">Hub</a></h2>
                 </div>
