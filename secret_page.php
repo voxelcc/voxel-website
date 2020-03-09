@@ -4,6 +4,8 @@
 <html lang="en" class="h-100">
 
 <head>
+    <!-- Google Analytics -->
+    <?php require_once('google_analytics_head.php'); ?>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,6 +21,8 @@
 </head>
 
 <body class="d-flex flex-column h-100">
+    <!-- Google Analytics -->
+    <?php require_once('google_analytics_body.php'); ?>
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
