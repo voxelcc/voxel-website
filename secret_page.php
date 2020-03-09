@@ -24,43 +24,9 @@
     <!-- Google Analytics -->
     <?php require_once('google_analytics_body.php'); ?>
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-        <h3><a href="shop">Home</a></h3>
-        <h3><a href="shop">Shop</a></h3>
-        <h3><a href="hub">Hub</a></h3>
-        <h4><a href="product">Starter&nbsp;Pack</a></h4>
-        <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
-        <h4><a href="about">About&nbsp;us</a></h4>
-    </div>
+    <!-- Navbar -->
+    <?php require_once('nav_bar.php'); ?>
 
-    <nav class="navbar navbar-expand sticky-top">
-        <div class="container justify-content-center">
-            <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
-                <li>
-                    <div class="button-container d-inline-block" id="ben" onclick="openSideNav()">
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                    </div>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav flex-fill justify-content-center d-none d-md-block">
-                <li class="nav-item"><a class="navbar-brand" href="index ">Secret Page</a></li>
-
-            </ul>
-            <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link d-none d-md-block" href="hub">Login</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="btn btn-primary" href="shop">Sign up</a>
-                </li>
-            </ul>
-
-        </div>
-
-    </nav>
     <main role="main">
         <div class="container flex-shrink-0 pt-5">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt. Dictum at tempor commodo ullamcorper a lacus. At volutpat diam ut venenatis tellus in metus vulputate. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Accumsan lacus vel facilisis volutpat est velit egestas dui. Enim neque volutpat ac tincidunt vitae semper. Diam phasellus vestibulum lorem sed risus ultricies. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Adipiscing vitae proin sagittis nisl. Vitae turpis massa sed elementum tempus egestas sed sed risus. <br><br>

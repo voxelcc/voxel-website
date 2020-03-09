@@ -33,40 +33,11 @@
         <h4><a href="about">About&nbsp;us</a></h4>
     </div>
 
-    <nav class="navbar navbar-expand sticky-top">
-        <div class="container justify-content-center">
-            <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
-                <li>
-                    <div class="button-container d-inline-block" id="ben" onclick="openSideNav()">
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                    </div>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav flex-fill justify-content-center d-none d-md-block">
-                <li class="nav-item"><a class="navbar-brand" href="index">voxel.cc</a></li>
-
-            </ul>
-            <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link d-none d-md-block" href="hub">Login</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="btn btn-primary" href="shop">Sign up</a>
-                </li>
-            </ul>
-
-        </div>
-
-    </nav>
-
+    <!-- Google Analytics -->
+    <?php require_once('nav_bar.php'); ?>
 
     <main role="main">
-
-        <header class="masthead mb-5" style="background-image: url(https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU1.gif);
-"></header>
-
+        <!-- <header class="masthead mb-5" style="background-image: url(https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU1.gif);"></header> -->
         <div class="container flex-shrink-0 pt-5">
 
             <div class="row">
@@ -77,7 +48,7 @@
             </div>
 
 
-            <h4 class="pt-5">Subheading</h4>
+            <h4 class="pt-5">Our mission</h4>
             <div class="row mt-3">
                 <div class="col-md">
                     <p>We are a team of young engineers and makers who are passionate about open source technologies and the internet of things.
@@ -86,7 +57,7 @@
                     </p>
                 </div>
                 <div class="col-md">
-                    <p>Voxel's focuses on providing quality hardware, allowing easy integrations with existing platforms and not profitting off your data.
+                    <p>Voxel's focuses on providing quality hardware, allowing easy integrations with existing platforms and not proffitting off your data.
                         All our firmware is available online, and we encourage our users to install their own custom software.
                     </p>
 
