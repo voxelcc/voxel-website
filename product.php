@@ -97,8 +97,6 @@
         </div>
 
 
-
-
         <div class="container flex-shrink-0 pt-5">
 
             <div class="row" style="background-color: aqua">
@@ -111,7 +109,7 @@
                     <p class="pt-3">Smart homes should be a joy to work with. </p>
                     <p> We designed, starting with this smart home controller, the Starter pack. Last section TBC
                     </p>
-                    <a href="about" class="btn btn-primary">Privacy ></a>
+                    <a href="about" class="btn btn-primary">Privacy</a>
 
                 </div>
 
