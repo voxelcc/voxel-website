@@ -8,8 +8,43 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <?php require_once('nav_bar.php'); ?>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
+        <h3><a href="index">Home</a></h3>
+        <h3><a href="shop">Shop</a></h3>
+        <h3><a href="hub#communityvibes">Hub</a></h3>
+        <h4><a href="product">Starter&nbsp;Pack</a></h4>
+        <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
+        <h4><a href="about">About&nbsp;us</a></h4>
+    </div>
+
+    <nav class="navbar navbar-expand sticky-top">
+        <div class="container justify-content-center">
+            <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
+                <li>
+                    <div class="button-container d-inline-block" id="ben" onclick="openSideNav()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav flex-fill justify-content-center d-none d-md-block">
+                <li class="nav-item"><a class="navbar-brand" href="index">voxel.cc</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link d-none d-md-block" href="product#techspecs">Tech Specs</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="buy_shop">Buy</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
 
     <main role="main">
 
@@ -177,7 +212,7 @@
             <div class="row featurette pt-5">
                 <div class="col-md-6">
                     <h2 class="featurette-heading">Endless Possibilities</h2>
-                    <p>Download creations for your modules from a huge selection on <a href="hub">the community
+                    <p>Download creations for your modules from a huge selection on <a href="hub#communityvibes">the community
                             Hub.</a> All completely free and open source. Modify and customise, then share your new creation with one click.
                     </p>
                 </div>
@@ -340,7 +375,7 @@
         <a class="anchor" id="upcoming"></a>
 
         <div class="container flex-shrink-0 pt-5 pb-5">
-            <h3 >Upcoming releases</h3>
+            <h3>Upcoming releases</h3>
             <!--
             <div class="row mt-3">
                 <div class="col-md">
@@ -421,7 +456,7 @@
                     <div class="card-body">
                         <h5 class="card-title">We need you!</h5>
                         <p class="card-text">Help us decide what to develop next. We're working alongide our community to design the next releases. Have your say:</p>
-                        <a class="btn btn-primary" href="hub">Join forum</a>
+                        <a class="btn btn-primary" href="hub#communityvibes">Join forum</a>
 
                     </div>
                 </div>
@@ -446,7 +481,7 @@
                             <h6 class="pt-5">Join a growing movement</h6>
                             <p>Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
                             </p>
-                            <a class="btn btn-primary" href="hub">Voxel Hub</a>
+                            <a class="btn btn-primary" href="hub#communityvibes">Voxel Hub</a>
                         </div>
                     </div>
                     <div class="col-lg-7">

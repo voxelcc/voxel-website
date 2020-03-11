@@ -157,7 +157,7 @@ function test_input($data)
                             <h6 class="pt-5">Join a growing movement</h6>
                             <p>Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
                             </p>
-                            <a class="btn btn-primary" href="hub">Voxel Hub</a>
+                            <a class="btn btn-primary" href="hub#communityvibes">Voxel Hub</a>
                         </div>
                     </div>
                     <div class="col-lg-7">
