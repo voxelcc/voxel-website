@@ -31,7 +31,7 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav flex-fill justify-content-center d-none d-md-block">
-                <li class="nav-item"><a class="navbar-brand" href="index">voxel.cc</a></li>
+            <li class="nav-item"><a class="navbar-brand" href="index">VOXEL</a></li>
 
             </ul>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
