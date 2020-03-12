@@ -2619,6 +2619,7 @@ fieldset:disabled a.btn {
     color: #fff;
     text-decoration: underline;
     font-style: italic;
+    padding: 0px;
 }
 
 .btn-secondary:hover {
