@@ -41,25 +41,27 @@
 
 
 
+
+            <div class="slickcarousel mx-auto pt-5">
+                <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU2.png" class="slickimage">
+                    <!--                <p>Ben - CEO</p>-->
+                </div>
+                <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU3.png" class="slickimage">
+                    <!--                <p>Ellie - COO</p>-->
+                </div>
+                <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU4.png" class="slickimage">
+                    <!--                <p>Gabi - CCO</p>-->
+                </div>
+                <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU5.png" class="slickimage">
+                    <!--                <p>Melisa - CMO</p>-->
+                </div>
+                <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU6.png" class="slickimage">
+                    <!--                <p>Oli - CTO</p>-->
+                </div>
+            </div>
+
         </div>
 
-        <div class="slickcarousel mx-auto pt-5" style="max-width: 1470px">
-            <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU2.png" class="slickimage">
-                <p>Ben - CEO</p>
-            </div>
-            <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU3.png" class="slickimage">
-                <p>Ellie - COO</p>
-            </div>
-            <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU4.png" class="slickimage">
-                <p>Gabi - CCO</p>
-            </div>
-            <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU5.png" class="slickimage">
-                <p>Melisa - CMO</p>
-            </div>
-            <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU6.png" class="slickimage">
-                <p>Oli - CTO</p>
-            </div>
-        </div>
         <br>
         <br>
         <br>
