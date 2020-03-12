@@ -186,8 +186,14 @@ a {
     margin: 10px 0;
 }
 
+.bar1:hover,
+.bar2:hover {
+    background-color: <?php echo $hover_button_colour; ?>;
+
+}
+
 a:hover {
-    color: #0056b3;
+    color: <?php echo($hover_button_colour); ?>;
     text-decoration: underline;
 }
 
@@ -2573,40 +2579,40 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: <?php echo $primary_colour; ?>;
-    border-color: <?php echo $primary_colour; ?>;
+    background-color: <?php echo($primary_colour); ?>;
+    border-color: <?php echo($primary_colour); ?>;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: <?php echo($hover_button_colour); ?>;
+    border-color: <?php echo($hover_button_colour_border); ?>;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem <?php echo($hover_button_colour_shadow); ?>;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: <?php echo $primary_colour; ?>;
-    border-color: <?php echo $primary_colour; ?>;
+    background-color: <?php echo($primary_colour); ?>;
+    border-color: <?php echo($primary_colour); ?>;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0062cc;
-    border-color: #005cbf;
+    background-color: <?php echo($hover_button_colour); ?>;
+    border-color: <?php echo($hover_button_colour_border); ?>;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem <?php echo($hover_button_colour_shadow); ?>;
 }
 
 .btn-secondary {
@@ -4299,6 +4305,7 @@ input[type="button"].btn-block {
 .nav-link:hover,
 .nav-link:focus {
     text-decoration: none;
+    color: <?php echo($hover_button_colour); ?>;
 }
 
 .nav-link.disabled {
@@ -4415,6 +4422,7 @@ input[type="button"].btn-block {
 .navbar-brand:hover,
 .navbar-brand:focus {
     text-decoration: none;
+    color: <?php echo($hover_button_colour); ?>;
 }
 
 .navbar-nav {

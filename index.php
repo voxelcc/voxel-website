@@ -133,7 +133,7 @@ function test_input($data)
                     <h2 class="pt-4 pb-4">Starter pack</h2>
                     <h6>Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
                     <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
-                    <a class="btn btn-primary" href="product">Explore</a>
+                    <a class="btn btn-primary" href="starterpack">Explore</a>
                 </div>
             </div>
         </div>
@@ -168,7 +168,9 @@ function test_input($data)
                 </div>
             </div>
         </div>
+        <br>
         <div class="container flex-shrink-0 pt-5">
+        <h2>Instagram</h2>
             <div class="powr-instagram-feed" id="2c68eddf_1583944683"></div>
             <script src="https://www.powr.io/powr.js?platform=html"></script>
         </div>

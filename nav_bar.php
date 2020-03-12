@@ -3,7 +3,7 @@
         <h3><a href="index">Home</a></h3>
         <h3><a href="shop">Shop</a></h3>
         <h3><a href="hub#communityvibes">Hub</a></h3>
-        <h4><a href="product">Starter&nbsp;Pack</a></h4>
+        <h4><a href="starterpack">Starter&nbsp;Pack</a></h4>
         <h4><a href="product#upcoming">Upcoming&nbsp;Releases</a></h4>
         <h4><a href="about">About&nbsp;us</a></h4>
     </div>
