@@ -123,7 +123,8 @@ function test_input($data)
                 </div>
             </div>
 
-
+            <br>
+            <br>
 
             <div class="row mt-5" style="background-color: <?php echo($secondary_colour); ?>">
                 <div class="col-lg-6 p-0">
@@ -138,9 +139,9 @@ function test_input($data)
             </div>
         </div>
 
-<br>
-<br>
-<br>
+        <br>
+        <br>
+        <br>
 
         <div style="background-color: <?php echo($secondary_colour) ?>">
 
