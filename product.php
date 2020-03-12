@@ -99,7 +99,7 @@
 
         <div class="container flex-shrink-0 pt-5">
 
-            <div class="row" style="background-color: aqua">
+            <div class="row" style="background-color: var(--secondary-colour)">
                 <div class="col-lg-6 p-0">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH9.png" class="d-block h-100 w-100" style="object-fit: cover">
                 </div>
@@ -460,7 +460,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div style="background-color: aqua">
+        <!-- <div style="background-color: var(--secondary-colour)">
 
             <div class="container mt-5">
 

@@ -17,7 +17,7 @@
 @media (max-width: 767px) {
 
     .carousel-inner {
-        /*        background-color: aqua;*/
+        /*        background-color: var(--secondary-colour);*/
         padding-bottom: 70%
     }
 
@@ -46,7 +46,7 @@
 @media (min-width: 768px) {
 
     .carousel-inner {
-        /*        background-color: aqua;*/
+        /*        background-color: var(--secondary-colour);*/
         /*        height: 1000px*/
     }
 

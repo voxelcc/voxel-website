@@ -123,7 +123,7 @@ function test_input($data)
 
 
 
-            <div class="row mt-5" style="background-color: aqua">
+            <div class="row mt-5" style="background-color: var(--secondary-colour)">
                 <div class="col-lg-6 p-0">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/HP5.png" class="d-block h-100 w-100" style="object-fit: cover">
                 </div>
@@ -138,7 +138,7 @@ function test_input($data)
 
 
 
-        <div style="background-color: aqua">
+        <div style="background-color: var(--secondary-colour)">
 
             <div class="container mt-5">
 
