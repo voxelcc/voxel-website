@@ -109,22 +109,22 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO1.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2 style="white-space:nowrap">Discover</h2>
-                            <p>Discover exciting and innovative projects to serve as inspiration for your smart home. Push the boundaries of what a smart home can be. </p>
+                            <h2 style= "color: white; white-space:nowrap">Discover</h2>
+                            <p style= "color: white;">Discover exciting and innovative projects to serve as inspiration for your smart home. Push the boundaries of what a smart home can be. </p>
                         </div>
                     </div>
                     <div class="carousel-item active">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO2.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2>Create</h2>
-                            <p>Challenge yourself and develop new skills whilst creating exciting interactions with Voxel. Learn electronics and programming the fun way, by building something useful.</p>
+                            <h2 style= "color: white;">Create</h2>
+                            <p style= "color: white;">Challenge yourself and develop new skills whilst creating exciting interactions with Voxel. Learn electronics and programming the fun way, by building something useful.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO3.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2 style="white-space:nowrap">Contribute</h2>
-                            <p>Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts, innovators and disruptors. </p>
+                            <h2 style= "color: white; white-space:nowrap">Discover</h2>
+                            <p style= "color: white;">Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts, innovators and disruptors. </p>
                         </div>
                     </div>
                 </div>
