@@ -170,7 +170,7 @@ function test_input($data)
         </div>
         <br>
         <div class="container flex-shrink-0 pt-5">
-        <h2>Instagram</h2>
+            <h3>Feed</h3>
             <div class="powr-instagram-feed" id="2c68eddf_1583944683"></div>
             <script src="https://www.powr.io/powr.js?platform=html"></script>
         </div>
@@ -220,6 +220,7 @@ function test_input($data)
             onChange: false, // Function
             onComplete: false // Function
         });
+
     </script>
     <script>
         var replace = new ReplaceMe(document.querySelector('.replace-me2'), {
@@ -234,6 +235,7 @@ function test_input($data)
             onChange: false, // Function
             onComplete: false // Function
         });
+
     </script>
 </body>
 
