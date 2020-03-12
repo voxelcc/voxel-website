@@ -19,6 +19,6 @@
 <link rel="stylesheet" type="css/text/css" href="css/animatecss.php">
 <link rel="stylesheet" href="slick/slick.css">
 <link rel="stylesheet" href="slick/slick-theme.css">
-<link rel="stylesheet" href="css/productcss.php">
+<link rel="stylesheet" href="css/starterpackcss.php">
 <link rel="stylesheet" href="css/maincss.php">
 
