@@ -126,7 +126,7 @@ function test_input($data)
             <br>
             <br>
 
-            <div class="row mt-5" style="background-color: <?php echo($secondary_colour); ?>">
+            <div class="row mt-5" style="background-color: <?php echo($starter_pack_background); ?>">
                 <div class="col-lg-6 p-0">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/HP5.png" class="d-block h-100 w-100" style="object-fit: cover">
                 </div>
@@ -143,7 +143,7 @@ function test_input($data)
         <br>
         <br>
 
-        <div style="background-color: <?php echo($secondary_colour) ?>">
+        <div style="background-color: <?php echo($why_voxel_background) ?>">
 
             <div class="container mt-5">
 

@@ -99,7 +99,7 @@
 
         <div class="container flex-shrink-0 pt-5">
 
-            <div class="row" style="background-color: var(--secondary-colour)">
+            <div class="row" style="background-color: <?php echo($for_makers_background) ?>">
                 <div class="col-lg-6 p-0">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH9.png" class="d-block h-100 w-100" style="object-fit: cover">
                 </div>
@@ -147,7 +147,7 @@
         </div>
 
 
-        <div id="featuresCarousel" class="carousel slide pt-5 pb-5 mx-auto" data-ride="carousel" data-interval="7500" style="max-width: 1470px; background-color: lightgray">
+        <div id="featuresCarousel" class="carousel slide pt-5 pb-5 mx-auto" data-ride="carousel" data-interval="7500" style="max-width: 1470px; background-color: <?php echo($effortless_monitoring_background) ?>">
             <ol class="carousel-indicators">
                 <li data-target="#featuresCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#featuresCarousel" data-slide-to="1"></li>
