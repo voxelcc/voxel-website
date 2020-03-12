@@ -8,6 +8,8 @@
 </head>
 
 <body>
+    
+<?php require("css/cssvariables.php"); ?>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
         <h3><a href="index">Home</a></h3>
@@ -105,9 +107,9 @@
                 </div>
 
                 <div class="col-lg-6 mb-3 p-5">
-                    <h2 class="pt-5">For makers, by makers</h2>
-                    <p class="pt-3">Smart homes should be a joy to work with. </p>
-                    <p> We designed, starting with this smart home controller, the Starter pack. Last section TBC
+                    <h2 style ="color: white;" class="pt-5">For makers, by makers</h2>
+                    <p style ="color: white;" class="pt-3">Smart homes should be a joy to work with. </p>
+                    <p style ="color: white;"> We designed, starting with this smart home controller, the Starter pack. Last section TBC
                     </p>
                     <a href="about" class="btn btn-primary">Privacy</a>
 
@@ -160,8 +162,8 @@
                 <div class="carousel-item active">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH14.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3>Effortless Monitoring</h3>
-                        <p>Show data from around the home. Beautifully visualised on the dot&hyphen;matrix display. Right at home, at home. </p>
+                        <h3 style ="color: white;" >Effortless Monitoring</h3>
+                        <p style ="color: white;">Show data from around the home. Beautifully visualised on the dot&hyphen;matrix display. Right at home, at home. </p>
                     </div>
                 </div>
 
@@ -169,23 +171,23 @@
                 <div class="carousel-item">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH17.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3>Custom<br>Control</h3>
-                        <p>Augment your smart home routines and schedules with the Voxel Environment and Motion Sensor Modules. Now, even smarter.</p>
+                        <h3 style ="color: white;">Custom<br>Control</h3>
+                        <p style ="color: white;">Augment your smart home routines and schedules with the Voxel Environment and Motion Sensor Modules. Now, even smarter.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH15.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3>Magic Automation</h3>
-                        <p>Google Home and Alexa integration when you want to shout, good old knobs &amp; buttons when you don't.</p>
+                        <h3 style ="color: white;">Magic Automation</h3>
+                        <p style ="color: white;">Google Home and Alexa integration when you want to shout, good old knobs &amp; buttons when you don't.</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH16.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3>Wide Compatibility</h3>
-                        <p>Compatible with all things smart, with IFTTT. Turn dumb things smart, with smart plugs. </p>
+                        <h3 style ="color: white;">Wide Compatibility</h3>
+                        <p style ="color: white;">Compatible with all things smart, with IFTTT. Turn dumb things smart, with smart plugs. </p>
                     </div>
                 </div>
 
