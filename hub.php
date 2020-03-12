@@ -203,7 +203,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO10.png">
                     <div class="card-body">
                         <h5 class="card-title">Funding News</h5>
-                        <p class="card-text">New funding recieved, Kickstarter scheduled to start early June!</p>
+                        <p class="card-text">New funding recieved, Kickstarter scheduled to start early October!</p>
                         <p class="card-text"><small class="text-muted">Voxel Press</small></p>
                     </div>
                 </div>
