@@ -1,6 +1,6 @@
 <?php
     header("Content-type: text/css; charset: UTF-8");
-    require_once("cssvariables.php")
+    require("cssvariables.php")
 ?>
 
 html {
@@ -136,7 +136,7 @@ button {} */
 
 
 .footer {
-    background-color: #f5f5f5;
+    background-color: <?php echo($tertiary_colour) ?>;
 }
 
 .masthead {
@@ -196,7 +196,7 @@ button {} */
     padding: 8px 8px 8px 32px;
     /*    text-decoration: none;*/
     /*    font-size: 25px;*/
-    color: white;
+    color: <?php echo($sidenav_text); ?>;
     display: block;
     transition: 0.3s;
     flex-wrap: nowrap;
@@ -209,7 +209,7 @@ button {} */
 
 .sidenav a:hover,
 .offcanvas a:focus {
-        color: grey;
+        color: <?php echo($sidenav_text_hover); ?>;
 } 
 
 

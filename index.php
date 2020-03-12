@@ -9,6 +9,8 @@
 
 <?php
 require('vendor/autoload.php');
+require("css/cssvariables.php");
+
 $host = "ec2-54-246-89-234.eu-west-1.compute.amazonaws.com";
 $user = "vulobmbnkqnevx";
 $password = "4418595e233c039564958927a230ebcad953f1b9aa9748a5919c9ac17a5cb530";
@@ -123,7 +125,7 @@ function test_input($data)
 
 
 
-            <div class="row mt-5" style="background-color: <?php echo $secondary_colour; ?>">
+            <div class="row mt-5" style="background-color: <?php echo($secondary_colour); ?>">
                 <div class="col-lg-6 p-0">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/HP5.png" class="d-block h-100 w-100" style="object-fit: cover">
                 </div>

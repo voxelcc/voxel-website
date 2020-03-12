@@ -8,12 +8,6 @@
   gtag('config', 'UA-159632500-1');
 </script>
 
-<?php
-    $primary_colour = "black";
-    $secondary_colour = "lightgrey";
-    $tertiary_colour = "#F5F5F5";
-?>
-
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
