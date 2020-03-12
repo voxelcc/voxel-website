@@ -20,11 +20,11 @@
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://use.typekit.net/zlz7bjm.css">
-<link rel="stylesheet" href="css/bootstrap.php">
-<link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" type="css/text/css" href="css/animate.css">
+<link rel="stylesheet" href="css/bootstrapcss.php">
+<link rel="stylesheet" href="css/indexcss.php">
+<link rel="stylesheet" type="css/text/css" href="css/animatecss.php">
 <link rel="stylesheet" href="slick/slick.css">
 <link rel="stylesheet" href="slick/slick-theme.css">
-<link rel="stylesheet" href="css/product.css">
-<link rel="stylesheet" href="css/main.php">
+<link rel="stylesheet" href="css/productcss.php">
+<link rel="stylesheet" href="css/maincss.php">
 

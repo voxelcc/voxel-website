@@ -147,7 +147,7 @@ button {} */
 }
 
 .kickstarter-box {
-    background-color: #eeeeee;
+    background-color: <?php echo($tertiary_colour) ?>;
     padding: 20px;
     border-radius: 4px;
     max-width: 700px;
