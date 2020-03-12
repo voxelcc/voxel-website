@@ -5,7 +5,7 @@
                 <div class="col-lg">
                     <h3><a href="index">Home</a></h3>
                     <h3><a href="shop">Shop</a></h3>
-                    <h3><a href="hub">Hub</a></h3>
+                    <h3><a href="hub#communityvibes">Hub</a></h3>
                 </div>
                 <div class="col-lg-5">
                     <h4><a href="product">Starter Pack</a></h4>

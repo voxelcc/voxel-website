@@ -1,1 +1,1 @@
-<?php header('Location: shop.php'); ?>
+<?php require_once('head.php'); ?>

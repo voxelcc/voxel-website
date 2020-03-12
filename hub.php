@@ -69,7 +69,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
         </div>
 
 
-        <div class="container flex-shrink-0">
+        <div class="container flex-shrink-0" id="communityvibes">
 
             <div class="row pt-5">
                 <div class="col text-center">

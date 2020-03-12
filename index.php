@@ -157,7 +157,7 @@ function test_input($data)
                             <h6 class="pt-5">Join a growing movement</h6>
                             <p>Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
                             </p>
-                            <a class="btn btn-primary" href="hub">Voxel Hub</a>
+                            <a class="btn btn-primary" href="hub#communityvibes">Voxel Hub</a>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -165,7 +165,10 @@ function test_input($data)
                     </div>
                 </div>
             </div>
-
+        </div>
+        <div class="container flex-shrink-0 pt-5">
+                <div class="powr-instagram-feed" id="2c68eddf_1583944683"></div>
+                <script src="https://www.powr.io/powr.js?platform=html#"></script>
         </div>
     </main>
 
