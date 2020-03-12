@@ -131,9 +131,9 @@ function test_input($data)
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/HP5.png" class="d-block h-100 w-100" style="object-fit: cover">
                 </div>
                 <div class="col-lg-6 mb-3 p-5">
-                    <h2 class="pt-4 pb-4">Starter pack</h2>
-                    <h6>Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
-                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
+                    <h2 style ="color: white;" class="pt-4 pb-4">Starter pack</h2>
+                    <h6 style ="color: white;" >Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
+                    <p style ="color: white;" >Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
                     <a class="btn btn-primary" href="starterpack">Explore</a>
                 </div>
             </div>
@@ -150,17 +150,17 @@ function test_input($data)
                 <div class="row">
                     <div class="col-lg-5 mb-3">
                         <div class="pt-5 pb-5">
-                            <h2>Why Voxel</h2>
+                            <h2 style ="color: white;">Why Voxel</h2>
                             <h6 class="pt-3">Complete freedom to create</h6>
-                            <p>Build whatever you can dream up. Completely open source and customisable.</p>
+                            <p style ="color: white;">Build whatever you can dream up. Completely open source and customisable.</p>
                             <a class="btn btn-primary" href="hub#tutorials">Tutorials</a>
 
-                            <h6 class="pt-5">Built with privacy first</h6>
-                            <p>Our business model is about selling great hardware, not your data. Find out more about us:</p>
+                            <h6 style ="color: white;" class="pt-5">Built with privacy first</h6>
+                            <p style ="color: white;">Our business model is about selling great hardware, not your data. Find out more about us:</p>
                             <a class="btn btn-primary" href="about">About us</a>
 
-                            <h6 class="pt-5">Join a growing movement</h6>
-                            <p>Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
+                            <h6 style ="color: white;" class="pt-5">Join a growing movement</h6>
+                            <p style ="color: white;">Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
                             </p>
                             <a class="btn btn-primary" href="hub#communityvibes">Voxel Hub</a>
                         </div>
