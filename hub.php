@@ -183,7 +183,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO9.png">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">I interfaced my voxel with my retro-pi to show my most played games!</p>
                         <p class="card-text"><small class="text-muted">bencobley</small></p>
                     </div>
                 </div>
