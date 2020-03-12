@@ -1,3 +1,9 @@
+:root {
+    --main-color: black;
+    --secondary-colour: lightgrey;
+}
+
+
 html {
     word-break: break-word !important;
     overflow-wrap: break-word !important;
@@ -292,7 +298,7 @@ button {}
 .bar2 {
     width: 30px;
     height: 5px;
-    background-color: mediumblue;
+    background-color:var(--main-color);
     margin: 10px 0;
 }
 
