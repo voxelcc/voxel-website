@@ -138,7 +138,9 @@ function test_input($data)
             </div>
         </div>
 
-
+<br>
+<br>
+<br>
 
         <div style="background-color: <?php echo($secondary_colour) ?>">
 
