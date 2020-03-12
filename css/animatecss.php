@@ -1,3 +1,7 @@
+<?php
+    header("Content-type: text/css; charset: UTF-8");
+?>
+
 @charset "UTF-8";
 
 /*!
