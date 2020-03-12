@@ -2617,14 +2617,13 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
     color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .btn-secondary:hover {
-    color: #fff;
-    background-color: #5a6268;
-    border-color: #545b62;
+    color: lightgrey;
+
 }
 
 .btn-secondary:focus,

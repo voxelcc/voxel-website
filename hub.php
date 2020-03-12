@@ -63,7 +63,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                         </label>
                     </div>
                     <?php echo($loginerror)?>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit" href="shop">Sign in</button>
+                    <button class="btn btn-lg btn-primary btn-block"  type="submit" href="shop">Sign in</button>
                 </form>
                 <a class="btn" href="shop">Sign Up</a>
             </div>
@@ -163,7 +163,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <div class="card-body">
                         <h5 class="card-title">And much more</h5>
                         <p class="card-text">Stay tuned for more tutorials as our community grows and we release more Voxel packs!</p>
-                        <a class="btn btn-primary" href="hub#tutorials">Browse tutorials</a>
+                        <a class="btn btn-secondary" style="color: black" href="hub#tutorials">Browse tutorials ></a>
 
                     </div>
                 </div>
@@ -191,7 +191,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <div class="card-body">
                         <h5 class="card-title">And much more</h5>
                         <p class="card-text">Keep checking back for more exciting inspiration for your nest Voxel project</p>
-                        <a class="btn btn-primary" href="shop ">Browse projects</a>
+                        <a class="btn btn-secondary" style="color: black" href="shop ">Browse projects ></a>
 
                     </div>
                 </div>
@@ -219,7 +219,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <div class="card-body">
                         <h5 class="card-title">And much more</h5>
                         <p class="card-text">Stay posted for exciting news about the Voxel project!</p>
-                        <a class="btn btn-primary" href="shop ">Browse news</a>
+                        <a class="btn btn-secondary" style="color: black" href="shop ">Browse news ></a>
 
                     </div>
                 </div>

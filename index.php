@@ -134,7 +134,7 @@ function test_input($data)
                     <h2 style ="color: white;" class="pt-4 pb-4">Starter pack</h2>
                     <h6 style ="color: white;" >Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
                     <p style ="color: white;" >Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
-                    <a class="btn btn-primary" href="starterpack">Explore</a>
+                    <a class="btn btn-secondary" href="starterpack">Explore ></a>
                 </div>
             </div>
         </div>
@@ -153,16 +153,16 @@ function test_input($data)
                             <h2 style ="color: white;">Why Voxel</h2>
                             <h6 class="pt-3">Complete freedom to create</h6>
                             <p style ="color: white;">Build whatever you can dream up. Completely open source and customisable.</p>
-                            <a class="btn btn-primary" href="hub#tutorials">Tutorials</a>
+                            <a class="btn btn-secondary" href="hub#tutorials">Tutorials ></a>
 
                             <h6 style ="color: white;" class="pt-5">Built with privacy first</h6>
                             <p style ="color: white;">Our business model is about selling great hardware, not your data. Find out more about us:</p>
-                            <a class="btn btn-primary" href="about">About us</a>
+                            <a class="btn btn-secondary" href="about">About us ></a>
 
                             <h6 style ="color: white;" class="pt-5">Join a growing movement</h6>
                             <p style ="color: white;">Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
                             </p>
-                            <a class="btn btn-primary" href="hub#communityvibes">Voxel Hub</a>
+                            <a class="btn btn-secondary" href="hub#communityvibes">Voxel Hub ></a>
                         </div>
                     </div>
                     <div class="col-lg-7">

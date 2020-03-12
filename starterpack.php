@@ -114,7 +114,7 @@
                     <p style ="color: white;" class="pt-3">Smart homes should be a joy to work with. </p>
                     <p style ="color: white;"> We designed, starting with this smart home controller, the Starter pack. Last section TBC
                     </p>
-                    <a href="about" class="btn btn-primary">Privacy</a>
+                    <a href="about" class="btn btn-secondary">Privacy ></a>
 
                 </div>
 
@@ -408,7 +408,7 @@
                                 <li>Motion and gesture sensor</li>
                             </ul>
                         </p>
-                        <a href="buy_shop" class="btn btn-primary">Buy</a>
+                        <a href="buy_shop" style="color: black" class="btn btn-secondary">Buy ></a>
 
                     </div>
                 </div>
@@ -417,7 +417,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Smart Plug Pack</h5>
                         <p class="card-text">3 x Voxel Brain Smart plugs with Magic Magnetic I2C Connectors. </p>
-                        <a href="buy_shop" class="btn btn-primary">Buy</a>
+                        <a href="buy_shop" style="color: black" class="btn btn-secondary">Buy ></a>
                     </div>
                 </div>
                 <div class="card">
@@ -425,7 +425,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Naked Brain</h5>
                         <p class="card-text">Just the PCBs and connectors. For integration into anything you can imagine.</p>
-                        <a href="buy_shop" class="btn btn-primary">Buy</a>
+                        <a href="buy_shop" style="color: black" class="btn btn-secondary">Buy ></a>
                     </div>
                 </div>
                 <div class="card">
@@ -460,7 +460,7 @@
                     <div class="card-body">
                         <h5 class="card-title">We need you!</h5>
                         <p class="card-text">Help us decide what to develop next. We're working alongide our community to design the next releases. Have your say:</p>
-                        <a class="btn btn-primary" href="hub">Join forum</a>
+                        <a class="btn btn-secondary" style="color: black" href="hub">Join forum ></a>
 
                     </div>
                 </div>
