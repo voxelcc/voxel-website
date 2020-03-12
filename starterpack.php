@@ -105,6 +105,9 @@
                 <div class="col-lg-6 p-0">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH9.png" class="d-block h-100 w-100" style="object-fit: cover">
                 </div>
+                <br>
+                <br>
+                <br>
 
                 <div class="col-lg-6 mb-3 p-5">
                     <h2 style ="color: white;" class="pt-5">For makers, by makers</h2>
@@ -147,7 +150,8 @@
             </div>
 
         </div>
-
+<br>
+<br>
 
         <div id="featuresCarousel" class="carousel slide pt-5 pb-5 mx-auto" data-ride="carousel" data-interval="7500" style="max-width: 1470px; background-color: <?php echo($effortless_monitoring_background) ?>">
             <ol class="carousel-indicators">
