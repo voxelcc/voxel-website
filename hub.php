@@ -63,8 +63,9 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                         </label>
                     </div>
                     <?php echo($loginerror)?>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit" href="shop ">Sign in</button>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" href="shop">Sign in</button>
                 </form>
+                <a class="btn" href="shop">Sign Up</a>
             </div>
         </div>
 
