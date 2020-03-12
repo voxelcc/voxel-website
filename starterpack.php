@@ -227,7 +227,7 @@
                     <p class="text-right">Proudly open source. Yours to hack, tinker and upgrade. So modular that it arrives dissasembled: the ESP-8266 chip and dot-matrix display are yours to integrate into anything. </p>
                 </div>
                 <div class="col-md-6 order-md-1">
-                    <img class="featurette-image img-fluid mx-auto" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH13.png" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH13.gif" alt="Generic placeholder image">
                 </div>
             </div>
 
