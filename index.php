@@ -151,7 +151,7 @@ function test_input($data)
                     <div class="col-lg-5 mb-3">
                         <div class="pt-5 pb-5">
                             <h2 style ="color: white;">Why Voxel</h2>
-                            <h6 class="pt-3">Complete freedom to create</h6>
+                            <h6 style ="color: white;" class="pt-3">Complete freedom to create</h6>
                             <p style ="color: white;">Build whatever you can dream up. Completely open source and customisable.</p>
                             <a class="btn btn-secondary" href="hub#tutorials">Tutorials ></a>
 

@@ -96,7 +96,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
 
 
 
-            <div id="featuresCarousel" class="carousel slide pt-5 pb-5 mx-auto" data-ride="carousel" style="max-width: 1470px;">
+            <div id="featuresCarousel" class="carousel slide pt-5 pb-5 mx-auto" data-ride="carousel" style="max-width: 1470px; background-color: #1D98B3;">
                 <ol class="carousel-indicators">
                     <li data-target="#featuresCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#featuresCarousel" data-slide-to="1"></li>

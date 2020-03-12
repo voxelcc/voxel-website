@@ -249,7 +249,7 @@
 
                 <div class="row">
                     <div class="col-sm">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH33.png" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH33.png" style="max-width: 70%;" class="w-100 mx-auto">
                     </div>
                     <div class="col-sm">
                         <h4 class="pt-3">Software</h4>
@@ -265,6 +265,8 @@
                             <li>IFTTT / Tasmota / Home Assistant / OpenHAB / MQTT</li>
                         </ul>
                         <p> </p>
+                        <br>
+                        <br>
 
                     </div>
                 </div>
@@ -292,14 +294,18 @@
                         </ul>
                         <h6>Vibrant 16 x 16 LED dot-matrix display</h6>
                     </div>
+                
                     <div class="col-md">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH18.png" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH18.png" style="max-width: 60%; padding-top: 10px;" class="w-100 mx-auto">
                     </div>
+
                 </div>
                 <div class="row">
                     <div class="col-md">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH19.png" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH19.png" style="max-width: 60%; padding-top: 60px;" class="w-100 mx-auto">
                     </div>
+                    <br>
+                        <br>
                     <div class="col-md">
                         <h4 class="pt-3">Brain Smart Plug Module</h4>
 
@@ -321,10 +327,13 @@
                     </div>
 
                 </div>
+                
                 <div class="row mt-5">
 
                     <div class="col-md">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH21.png" class="w-100 mx-auto">
+                        <br>
+                        <br>
                         <h4 class="pt-3">Environment Module</h4>
                         <h6>DHT22 Temperature and Humidity Sensor</h6>
                         <h6>MAX44009 Ambient Light Sensor</h6>
@@ -344,6 +353,8 @@
 
                     <div class="col-md">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH22.png" class="w-100 mx-auto">
+                        <br>
+                        <br>
                         <h4 class="pt-3">Motion Sensor Module</h4>
                         <h6>PAJ7620 Motion and Gesture Sensor</h6>
                         <h6>Measurements</h6>
@@ -359,6 +370,9 @@
 
                     <div class="col-md">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH20.png" class="w-100 mx-auto">
+                        <br>
+                        <br>
+                        
                         <h4 class="pt-3">Multi Input Module</h4>
                         <h6>360 Degree Rotary Encoder</h6>
                         <h6>3 x Tactile Buttons</h6>
