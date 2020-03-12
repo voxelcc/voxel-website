@@ -106,14 +106,14 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                 </ol>
                 <div class="carousel-inner">
 
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO1.png" class="d-block">
                         <div class="carousel-caption">
                             <h2 style="white-space:nowrap">Discover</h2>
                             <p>Discover exciting and innovative projects to serve as inspiration for your smart home. Push the boundaries of what a smart home can be. </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item active">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO2.png" class="d-block">
                         <div class="carousel-caption">
                             <h2>Create</h2>
