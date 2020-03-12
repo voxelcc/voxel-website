@@ -21,12 +21,12 @@ body {
     visibility: hidden;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
-h6 {}
+h6 {} */
 
 h1 {
     font-weight: 700;
@@ -94,13 +94,13 @@ p {
     }
 }
 
-a {}
+/* a {}
 
 img {}
 
 caption {}
 
-button {}
+button {} */
 
 .jumbotron {
     border-radius: 0px;
@@ -134,21 +134,7 @@ button {}
     z-index: 1060;
 }
 
-.btn {
-    /*    border-radius: 1000px;*/
-}
 
-
-/* Increase container width on large screens, make it look nicer */
-
-
-/*
-@media (min-width: 1600px) {
-    .container {
-        max-width: 1500px;
-    }
-}
-*/
 
 .footer {
     background-color: #f5f5f5;
@@ -222,10 +208,10 @@ button {}
 
 /* When you mouse over the navigation links, change their color */
 
-.sidenav a:hover,
+/* .sidenav a:hover,
 .offcanvas a:focus {
-    /*    color: white;*/
-}
+        color: white;
+} */
 
 
 /* Position and style the close button (top right corner) */
