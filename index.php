@@ -167,8 +167,8 @@ function test_input($data)
             </div>
         </div>
         <div class="container flex-shrink-0 pt-5">
-                <div class="powr-instagram-feed" id="2c68eddf_1583944683"></div>
-                <script src="https://www.powr.io/powr.js?platform=html#"></script>
+            <div class="powr-instagram-feed" id="2c68eddf_1583944683"></div>
+            <script src="https://www.powr.io/powr.js?platform=html"></script>
         </div>
     </main>
 
