@@ -1,3 +1,10 @@
+<?php
+    header("Content-type: text/css; charset: UTF-8");
+
+    $primary_colour = "black";
+    $secondary_colour = "lightgrey"
+?>
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -6,8 +13,6 @@
  */
 
 :root {
-    --main-colour: black;
-    --secondary-colour: lightgrey;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -20,7 +25,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: var(--main-colour);
+    --primary: <?php echo $primary_colour; ?>;
     --secondary: #6c757d;
     --success: #28a745;
     --info: #17a2b8;
@@ -169,9 +174,18 @@ sup {
 }
 
 a {
-    color: var(--main-colour);
+    color: <?php echo $primary_colour; ?>;
     text-decoration: none;
     background-color: transparent;
+}
+
+
+.bar1,
+.bar2 {
+    width: 30px;
+    height: 5px;
+    background-color: <?php echo $primary_colour; ?>;
+    margin: 10px 0;
 }
 
 a:hover {
@@ -2561,8 +2575,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: var(--main-colour);
-    border-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
+    border-color: <?php echo $primary_colour; ?>;
 }
 
 .btn-primary:hover {
@@ -2579,8 +2593,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: var(--main-colour);
-    border-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
+    border-color: <?php echo $primary_colour; ?>;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -2864,14 +2878,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-    color: var(--main-colour);
-    border-color: var(--main-colour);
+    color: <?php echo $primary_colour; ?>;
+    border-color: <?php echo $primary_colour; ?>;
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: var(--main-colour);
-    border-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
+    border-color: <?php echo $primary_colour; ?>;
 }
 
 .btn-outline-primary:focus,
@@ -2881,7 +2895,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: var(--main-colour);
+    color: <?php echo $primary_colour; ?>;
     background-color: transparent;
 }
 
@@ -2889,8 +2903,8 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: var(--main-colour);
-    border-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
+    border-color: <?php echo $primary_colour; ?>;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
@@ -3153,7 +3167,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: var(--main-colour);
+    color: <?php echo $primary_colour; ?>;
     text-decoration: none;
 }
 
@@ -3461,7 +3475,7 @@ input[type="button"].btn-block {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
 }
 
 .dropdown-item.disabled,
@@ -3837,8 +3851,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    border-color: var(--main-colour);
-    background-color: var(--main-colour);
+    border-color: <?php echo $primary_colour; ?>;
+    background-color: <?php echo $primary_colour; ?>;
 }
 
 .custom-control-input:focus~.custom-control-label::before {
@@ -3902,8 +3916,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
-    border-color: var(--main-colour);
-    background-color: var(--main-colour);
+    border-color: <?php echo $primary_colour; ?>;
+    background-color: <?php echo $primary_colour; ?>;
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::after {
@@ -4132,7 +4146,7 @@ input[type="button"].btn-block {
     width: 1rem;
     height: 1rem;
     margin-top: -0.25rem;
-    background-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4163,7 +4177,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4197,7 +4211,7 @@ input[type="button"].btn-block {
     margin-top: 0;
     margin-right: 0.2rem;
     margin-left: 0.2rem;
-    background-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4340,7 +4354,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
 }
 
 .nav-fill .nav-item {
@@ -5077,7 +5091,7 @@ input[type="button"].btn-block {
     padding: 0.5rem 0.75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: var(--main-colour);
+    color: <?php echo $primary_colour; ?>;
     background-color: #fff;
     border: 1px solid #dee2e6;
 }
@@ -5110,8 +5124,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: var(--main-colour);
-    border-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
+    border-color: <?php echo $primary_colour; ?>;
 }
 
 .page-item.disabled .page-link {
@@ -5195,7 +5209,7 @@ a.badge:focus {
 
 .badge-primary {
     color: #fff;
-    background-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
 }
 
 a.badge-primary:hover,
@@ -5526,7 +5540,7 @@ a.badge-dark.focus {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
     transition: width 0.6s ease;
 }
 
@@ -5623,8 +5637,8 @@ a.badge-dark.focus {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: var(--main-colour);
-    border-color: var(--main-colour);
+    background-color: <?php echo $primary_colour; ?>;
+    border-color: <?php echo $primary_colour; ?>;
 }
 
 .list-group-horizontal {
@@ -6798,7 +6812,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: var(--main-colour) !important;
+    background-color: <?php echo $primary_colour; ?> !important;
 }
 
 a.bg-primary:hover,
@@ -6934,7 +6948,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-    border-color: var(--main-colour) !important;
+    border-color: <?php echo $primary_colour; ?> !important;
 }
 
 .border-secondary {
@@ -10148,7 +10162,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-    color: var(--main-colour) !important;
+    color: <?php echo $primary_colour; ?> !important;
 }
 
 a.text-primary:hover,

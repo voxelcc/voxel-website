@@ -1,8 +1,6 @@
-:root {
-    --main-color: black;
-    --secondary-colour: lightgrey;
-}
-
+<?php
+    header("Content-type: text/css; charset: UTF-8");
+?>
 
 html {
     word-break: break-word !important;
@@ -197,7 +195,7 @@ button {} */
     padding: 8px 8px 8px 32px;
     /*    text-decoration: none;*/
     /*    font-size: 25px;*/
-    /*    color: #818181;*/
+    color: white;
     display: block;
     transition: 0.3s;
     flex-wrap: nowrap;
@@ -208,10 +206,10 @@ button {} */
 
 /* When you mouse over the navigation links, change their color */
 
-/* .sidenav a:hover,
+.sidenav a:hover,
 .offcanvas a:focus {
-        color: white;
-} */
+        color: grey;
+} 
 
 
 /* Position and style the close button (top right corner) */
@@ -284,7 +282,7 @@ button {} */
 .bar2 {
     width: 30px;
     height: 5px;
-    background-color:var(--main-color);
+    background-color: <?php echo $primary_colour; ?>;
     margin: 10px 0;
 }
 
