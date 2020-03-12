@@ -4,7 +4,7 @@
 <head>
     <!-- Google Analytics meta tags and css-->
     <?php require_once('head.php'); ?>
-    <title>About</title>
+    <title>About Us</title>
 </head>
 
 <body class="d-flex flex-column h-100">

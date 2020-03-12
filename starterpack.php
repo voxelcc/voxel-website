@@ -4,7 +4,7 @@
 <head>
     <!-- Google Analytics meta tags and css-->
     <?php require_once('head.php'); ?>
-    <title>Product</title>
+    <title>Starter Pack</title>
 </head>
 
 <body>

@@ -4,7 +4,7 @@
 <head>
     <!-- Google Analytics meta tags and css-->
     <?php require_once('head.php'); ?>
-    <title>Hub</title>
+    <title>Voxel Hub</title>
 </head>
 
 <?php
