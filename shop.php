@@ -90,13 +90,13 @@ function test_input($data)
 
             <div class="row mt-3 mb-3">
                 <div class="col-md">
-                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
+                    <p>We're currently working on building our hardware, software and platform! This website serves to test interest in the idea - thanks for generously giving up your time to be here!
                     </p>
 
 
                 </div>
                 <div class="col-md">
-                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
+                    <p>Think Voxel is interesting? Why not sign up to our email newsletter, leave us some feedback or sign up to join discussion on our open source contributers group!
                     </p>
 
                 </div>

@@ -4,7 +4,7 @@
 <head>
     <!-- Google Analytics -->
     <?php require_once('head.php'); ?>
-    <title>voxel.cc</title>
+    <title>Voxel</title>
 </head>
 
 <?php
