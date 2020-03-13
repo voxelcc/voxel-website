@@ -2620,6 +2620,8 @@ fieldset:disabled a.btn {
     text-decoration: underline;
     font-style: italic;
     padding: 0px;
+    font-size: 18px;
+
 }
 
 .btn-secondary:hover {
