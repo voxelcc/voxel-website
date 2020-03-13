@@ -123,7 +123,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO3.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2 style= "color: white; white-space:nowrap">Discover</h2>
+                            <h2 style= "color: white; white-space:nowrap">Contribute</h2>
                             <p style= "color: white;">Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts, innovators and disruptors. </p>
                         </div>
                     </div>
