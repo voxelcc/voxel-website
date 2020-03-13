@@ -174,8 +174,9 @@ function test_input($data)
         <br>
         <div class="container flex-shrink-0 pt-5">
             <h3>Feed</h3>
-            <div class="powr-instagram-feed" id="2c68eddf_1583944683"></div>
-            <script src="https://www.powr.io/powr.js?platform=html"></script>
+            <!-- LightWidget WIDGET -->
+            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+            <iframe src="//lightwidget.com/widgets/93d269bd9e305556bfe48e18c0e2711e.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
         </div>
     </main>
 
