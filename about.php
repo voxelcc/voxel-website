@@ -42,19 +42,21 @@
         <div style="max-width: 90%; margin: auto;">
             <div class="slickcarousel mx-auto pt-5" style="padding: auto;">
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU2.png" class="slickimage">
-                    <!--                <p>Ben - CEO</p>-->
+                                   <p>Ben - CEO</p>
                 </div>
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU3.png" class="slickimage">
-                    <!--                <p>Ellie - COO</p>-->
+                                   <p>Ellie - COO</p>
                 </div>
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU4.png" class="slickimage">
-                    <!--                <p>Gabi - CCO</p>-->
+                                   <p>Gabi - CCO</p>
                 </div>
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU5.png" class="slickimage">
-                    <!--                <p>Melisa - CMO</p>-->
+                                   <p>Melisa - CMO</p>
                 </div>
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU6.png" class="slickimage">
-                    <!--                <p>Oli - CTO</p>-->
+                                   <p>Oli - CTO</p>
+                                   <br>
+                                   <p>Oli is a keen smart home enthusiast and has proffessional experience developing consumer facing IOT tech from his time at Magic Of Things ltd.</p>
                 </div>
             </div>
         </div>
