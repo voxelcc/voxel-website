@@ -110,10 +110,8 @@
                 <br>
 
                 <div class="col-lg-6 mb-3 p-5">
-                    <h2 style ="color: white;" class="pt-5">For makers, by makers</h2>
-                    <p style ="color: white;" class="pt-3">Smart homes should be a joy to work with. </p>
-                    <p style ="color: white;"> We designed, starting with this smart home controller, the Starter pack. Last section TBC
-                    </p>
+                    <h2 style ="color: white;" class="pt-4">For makers, by makers</h2>
+                    <p style ="color: white;" class="pt-2">Smart homes should be a joy to work with. Maker tech should be easier to get up and running. We're finding the best of both worlds, starting with this smart home controller. Built on principals of transparancy and privacy</p>
                     <a href="about" class="btn btn-secondary">Privacy ></a>
 
                 </div>
