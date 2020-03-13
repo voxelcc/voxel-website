@@ -131,7 +131,8 @@ function test_input($data)
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/HP/HP5.png" class="d-block h-100 w-100" style="object-fit: cover">
                 </div>
                 <div class="col-lg-6 mb-3 p-5">
-                    <h2 style ="color: white;" class="pt-4 pb-4">Starter pack</h2>
+                    <h6 style="color: white">Coming soon:</h6>
+                    <h2 style ="color: white;" class="pb-4">Starter pack</h2>
                     <h6 style ="color: white;" >Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
                     <p style ="color: white;" >Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
                     <a class="btn btn-secondary" href="starterpack">Explore ></a>
