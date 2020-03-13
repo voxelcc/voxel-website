@@ -11,7 +11,7 @@
 /* Your password */
 $email = getenv('PELIN_EMAIL') ?: die('"PELIN_EMAIL" config var in found in env!');
 $password = getenv('PELIN_PASSWORD') ?: die('"PELIN_PASSWORD" config var in found in env!');
-$loginerror ="";
+$loginerror = "";
 
 /* Redirects here after login */
 $redirect_after_login = 'secret_page';
@@ -62,8 +62,8 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                             <input type="checkbox" value="remember-me"> Remember me
                         </label>
                     </div>
-                    <?php echo($loginerror)?>
-                    <button class="btn btn-lg btn-primary btn-block"  type="submit" href="shop">Sign in</button>
+                    <?php echo ($loginerror) ?>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" href="shop">Sign in</button>
                 </form>
                 <a class="btn" href="shop">Sign Up</a>
             </div>
@@ -92,10 +92,10 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                 </div>
 
             </div>
-
-
-
-
+            <br>
+            <br>
+            <br>
+            <br>
             <div id="featuresCarousel" class="carousel slide pt-5 pb-5 mx-auto" data-ride="carousel" style="max-width: 1470px; background-color: #1D98B3;">
                 <ol class="carousel-indicators">
                     <li data-target="#featuresCarousel" data-slide-to="0" class="active"></li>
@@ -109,22 +109,22 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO1.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2 style= "color: white; white-space:nowrap">Discover</h2>
-                            <p style= "color: white;">Discover exciting and innovative projects to serve as inspiration for your smart home. Push the boundaries of what a smart home can be. </p>
+                            <h2 style="color: white; white-space:nowrap">Discover</h2>
+                            <p style="color: white;">Discover exciting and innovative projects to serve as inspiration for your smart home. Push the boundaries of what a smart home can be. </p>
                         </div>
                     </div>
                     <div class="carousel-item active">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO2.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2 style= "color: white;">Create</h2>
-                            <p style= "color: white;">Challenge yourself and develop new skills whilst creating exciting interactions with Voxel. Learn electronics and programming the fun way, by building something useful.</p>
+                            <h2 style="color: white;">Create</h2>
+                            <p style="color: white;">Challenge yourself and develop new skills whilst creating exciting interactions with Voxel. Learn electronics and programming the fun way, by building something useful.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO3.png" class="d-block">
                         <div class="carousel-caption">
-                            <h2 style= "color: white; white-space:nowrap">Contribute</h2>
-                            <p style= "color: white;">Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts, innovators and disruptors. </p>
+                            <h2 style="color: white; white-space:nowrap">Contribute</h2>
+                            <p style="color: white;">Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts, innovators and disruptors. </p>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO8.png">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Pong Game</h5>
                         <p class="card-text">I used 2 motion sensor tiles as game controllers for a multi-player game of pong, programmed in scratch.</p>
                         <p class="card-text"><small class="text-muted">othompson420</small></p>
                     </div>
@@ -182,7 +182,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO9.png">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Retro Pi</h5>
                         <p class="card-text">I interfaced my voxel with my retro-pi to show my most played games!</p>
                         <p class="card-text"><small class="text-muted">bencobley</small></p>
                     </div>
