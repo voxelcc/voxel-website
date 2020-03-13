@@ -81,12 +81,11 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
 
             <div class="row mt-3">
                 <div class="col-md">
-                    <h4>The powerful, modular smart home controller, open-sourced. he powerful, modular smart home controller, open-sourced. </h4>
+                    <h4>The powerful, modular smart home controller, open-sourced. </h4>
 
                 </div>
                 <div class="col-md">
-                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.Augment your smart home with handy environment sensors, brilliant dot
-                        matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
+                    <p>The Voxel Hub will be the home of projects, tutorials, community support and ideas. We want this to be an environment where ideas can be shared and  worked on collaboratively.
                     </p>
 
                 </div>
