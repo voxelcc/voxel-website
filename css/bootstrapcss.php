@@ -4398,6 +4398,7 @@ input[type="button"].btn-block {
     justify-content: space-between;
     padding: 0.5rem 1rem;
     z-index: 3;
+    backgrounf-color: white;
 }
 
 .navbar>.container,
