@@ -398,6 +398,7 @@
 
                     </div>
                 </div>
+
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH26.png">
                     <div class="card-body">
@@ -406,6 +407,7 @@
                         <a href="buy_shop" style="color: black" class="btn btn-secondary">Buy ></a>
                     </div>
                 </div>
+
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH31.png">
                     <div class="card-body">
@@ -420,19 +422,9 @@
                         <h5 class="card-title">Voice Assistant Pack</h5>
                         <p class="card-text">Microphone and speaker with Google Assistant, Alexa and Mycroft voice assistant functionality. </p>
                         <p class="card-text"><small class="text-muted">Coming soon</small></p>
+                    </div>
+                </div>
 
-                    </div>
-                </div>
-                <!--
-                <div class="card">
-                    <img class="card-img-top" src="http://drive.google.com/uc?id=1QMxk3GYw0pjWsix90JceQF1iyilB02Rc">
-                    <div class="card-body">
-                        <h5 class="card-title">Retro Gaming Pack</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Coming soon</small></p>
-                    </div>
-                </div>
--->
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH25.png">
                     <div class="card-body">
@@ -452,35 +444,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div style="background-color: var(--secondary-colour)">
-
-            <div class="container mt-5">
-
-                <div class="row">
-                    <div class="col-lg-5 mb-3">
-                        <div class="pt-5 pb-5">
-                            <h2>Why Voxel</h2>
-                            <h6 class="pt-3">Complete freedom to create</h6>
-                            <p>Build whatever you can dream up. Completely open source and customisable.</p>
-                            <a class="btn btn-primary" href="hub#tutorials">Tutorials</a>
-
-                            <h6 class="pt-5">Built with privacy first</h6>
-                            <p>Our business model is about selling great hardware, not your data. Find out more about us:</p>
-                            <a class="btn btn-primary" href="about">About us</a>
-
-                            <h6 class="pt-5">Join a growing movement</h6>
-                            <p>Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
-                            </p>
-                            <a class="btn btn-primary" href="hub#communityvibes">Voxel Hub</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/BA/BA1.jpg" class="d-block h-100 w-100" style="object-fit: cover">
-                    </div>
-                </div>
-            </div>
-
-        </div> -->
     </main>
 
     <?php require_once('footer.php'); ?>
