@@ -184,7 +184,7 @@ padding: 10px;
 
 .socialmediaimagesidenav {
 filter: invert(1);
-width: 60px;
+width: 65px;
 padding: 0px;
 padding-left: 25px;
 float: left;
