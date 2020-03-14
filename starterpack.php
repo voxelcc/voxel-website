@@ -310,7 +310,7 @@
                 <div class="row mt-5">
 
                     <div class="col-md">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH21.png" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH21.png" style="padding: 20px;" class="w-100 mx-auto">
                         <h4 class="pt-3">Environment Module</h4>
                         <p>DHT22 Temperature and Humidity Sensor</p>
                         <p>MAX44009 Ambient Light Sensor</p>
@@ -323,7 +323,7 @@
                     <div class="w-100 d-block d-lg-none"></div>
 
                     <div class="col-md">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH22.png" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH22.png" style="padding: 20px;" class="w-100 mx-auto">
                         <br>
                         <br>
                         <h4 class="pt-3">Motion Sensor Module</h4>
@@ -334,7 +334,7 @@
                     </div>
 
                     <div class="col-md">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH20.png" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH20.png" style="padding: 20px;" class="w-100 mx-auto">
                         <br>
                         <br>
 
