@@ -90,13 +90,13 @@ function test_input($data)
 
             <div class="row mt-3 mb-3">
                 <div class="col-md">
-                    <p>We're currently working on building our hardware, software and platform! This website serves to test interest in the idea - thanks for generously giving up your time to be here!
+                    <p>We're currently working on building our hardware, software and platform. This website serves to test interest in the idea - thanks for generously giving up your time to be here!
                     </p>
 
 
                 </div>
                 <div class="col-md">
-                    <p>Think Voxel is interesting? Why not sign up to our email newsletter, leave us some feedback or sign up to join discussion on our open source contributers group!
+                    <p>Think Voxel is interesting? Why not sign up to our email newsletter, leave us some feedback or sign up to join discussion on our open source contributers group.
                     </p>
 
                 </div>
@@ -132,11 +132,11 @@ function test_input($data)
 
             <div class="mb-4">
                 <div class="kickstarter-box mx-auto">
-                    <h4>Thoughts, ideas and feedback</h4>
+                    <h4>Thoughts, Ideas and Feedback</h4>
                     <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                         <!--Insert this line into action ="" when ready for deploy: -->
                         <div class="form-group">
-                            <label for="inputFeedback">For makers, by makers</label>
+                            <label for="inputFeedback">Designed for Makers, by Makers</label>
                             <textarea class="form-control" id="inputFeedback" rows="5" placeholder="What do you want to see from this project?" name="message"></textarea>
                         </div>
                         <input type="submit" class="btn btn-primary pull-right"></input>
@@ -172,7 +172,7 @@ function test_input($data)
             <div class="mb-4">
                 <div class="kickstarter-box" style="margin-left: auto">
                     <h4>We need you!</h4>
-                    <p>Calling all developers, smart home wizards and open source enthusiasts. Join our contributers Google Group:</p>
+                    <p>Calling all developers, smart home wizards and open source enthusiasts. Join our contributers' Google Group:</p>
                     <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                         <div class="form-group">
                             <p for="feedbackTextArea"></p>
