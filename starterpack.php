@@ -372,7 +372,7 @@
                         <br>
                         
                         <h4 class="pt-3">Multi Input Module</h4>
-                        <h6>360 Degree Rotary Encoder</h6>
+                        <h6>Rotary Encoder</h6>
                         <h6>3 x Tactile Buttons</h6>
                         <h6>Measurements</h6>
                         <ul>
