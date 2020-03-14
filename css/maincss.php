@@ -176,10 +176,16 @@ button {} */
 }
 
 .socialmediaimage {
-    max-width: 80px;
+    max-width: 60px;
     filter: grayscale(100%);
     padding: 10px;
 
+}
+
+.socialmediaimagesidenav {
+    filter: invert(1); 
+    width: 50px;
+    padding-left: 0px;
 }
 
 .sidenav {

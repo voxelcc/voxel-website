@@ -7,9 +7,9 @@
     <h4><a href="starterpack#upcoming">Upcoming&nbsp;Releases</a></h4>
     <h4><a href="about">About&nbsp;us</a></h4>
     <div class="col-sm">
-        <a href="https://www.facebook.com/Voxelcc-102399501326664/"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/facebook.svg" class="socialmediaimage" style="filter: invert(1); width: 50px;"></a>
-        <a href="https://www.instagram.com/voxel.cc/"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/instagram.svg" class="socialmediaimage" style="filter: invert(1); width: 50px;"></a>
-        <a href="https://www.github.com"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/github.svg" class="socialmediaimage" style="filter: invert(1); width: 50px;"></a>
+        <a href="https://www.facebook.com/Voxelcc-102399501326664/"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/facebook.svg" class="socialmediaimagesidenav"></a>
+        <a href="https://www.instagram.com/voxel.cc/"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/instagram.svg" class="socialmediaimagesidenav" ></a>
+        <a href="https://www.github.com"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/github.svg" class="socialmediaimagesidenav"></a>
     </div>
 </div>
 
