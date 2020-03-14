@@ -274,14 +274,6 @@
                 <div class="row">
                     <div class="col-md">
                         <h4 class="pt-3">Brain Module</h4>
-
-                        <h6>Measurements</h6>
-                        <ul>
-                            <li>Dimensions 60 x 60 x 60 mm</li>
-                            <li>Mass 30g</li>
-                        </ul>
-
-
                         <h6>Connectivity</h6>
                         <ul>
                             <li>3 x Magic Magnetic Voxel I2C connectors</li>
@@ -309,12 +301,6 @@
                     <br>
                     <div class="col-md">
                         <h4 class="pt-3">Brain Smart Plug Module</h4>
-
-                        <h6>Measurements</h6>
-                        <ul>
-                            <li>Dimensions 60 x 60 x 80 mm</li>
-                            <li>Mass 70g</li>
-                        </ul>
                         <h6>Connectivity</h6>
                         <ul>
                             <li>1 x Magic Magnetic Voxel I2C connector</li>
@@ -338,11 +324,6 @@
                         <h4 class="pt-3">Environment Module</h4>
                         <h6>DHT22 Temperature and Humidity Sensor</h6>
                         <h6>MAX44009 Ambient Light Sensor</h6>
-                        <h6>Measurements</h6>
-                        <ul>
-                            <li>Dimensions 60 x 60 x 12 mm</li>
-                            <li>Mass 15g</li>
-                        </ul>
                         <h6>Connectivity</h6>
                         <ul>
                             <li>2 x Magic Magnetic Voxel I2C connectors</li>
@@ -358,11 +339,6 @@
                         <br>
                         <h4 class="pt-3">Motion Sensor Module</h4>
                         <h6>PAJ7620 Motion and Gesture Sensor</h6>
-                        <h6>Measurements</h6>
-                        <ul>
-                            <li>Dimensions 60 x 60 x 12 mm</li>
-                            <li>Mass 15g</li>
-                        </ul>
                         <h6>Connectivity</h6>
                         <ul>
                             <li>2 x Magic Magnetic Voxel I2C connectors</li>
@@ -377,11 +353,6 @@
                         <h4 class="pt-3">Multi Input Module</h4>
                         <h6>Rotary Encoder</h6>
                         <h6>3 x Tactile Buttons</h6>
-                        <h6>Measurements</h6>
-                        <ul>
-                            <li>Dimensions 60 x 60 x 12 mm</li>
-                            <li>Mass 25g</li>
-                        </ul>
                         <h6>Connectivity</h6>
                         <ul>
                             <li>1 x Magic Magnetic Voxel I2C connectors</li>
