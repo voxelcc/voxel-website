@@ -254,18 +254,17 @@
                     </div>
                     <div class="col-sm">
                         <h4 class="pt-3">Software</h4>
-                        <h6>Program with custom Voxel Block Code, or code in Python or C++.</h6>
+                        <p>Program with custom Voxel Block Code, or code in Python or C++.</p>
                         <ul>
                             <li>Programmable over USB type-C with Windows, Mac and Linux</li>
                             <li>ESP-8266 functionality available as normal</li>
                             <li>Code straight in Arduino IDE</li>
                         </ul>
-                        <h6>Integrates with top Smart Home platforms</h6>
+                        <p>Integrates with top Smart Home platforms</p>
                         <ul>
                             <li>Google Home / Alexa / HomeKit</li>
                             <li>IFTTT / Tasmota / Home Assistant / OpenHAB / MQTT</li>
                         </ul>
-                        <p> </p>
                         <br>
                         <br>
 
@@ -274,18 +273,18 @@
                 <div class="row">
                     <div class="col-md">
                         <h4 class="pt-3">Brain Module</h4>
-                        <h6>Connectivity</h6>
+                        <h5>Connectivity</h5>
                         <ul>
                             <li>3 x Magic Magnetic Voxel I2C connectors</li>
                             <li>USB Type-C PD</li>
                         </ul>
-                        <h6>ESP-8266 WiFi microcontroller</h6>
+                        <p>ESP-8266 WiFi microcontroller</p>
                         <ul>
                             <li>4mb of flash / 80 MHz clock speed</li>
                             <li>11 x GPIO pins / 1 x Analog input ADC pin</li>
                             <li>Hardware SPI, UART and I2C</li>
                         </ul>
-                        <h6>Vibrant 16 x 16 LED dot-matrix display with SPI</h6>
+                        <p>Vibrant 16 x 16 LED dot-matrix display with SPI</p>
                     </div>
 
                     <div class="col-md">
@@ -301,16 +300,15 @@
                     <br>
                     <div class="col-md">
                         <h4 class="pt-3">Brain Smart Plug Module</h4>
-                        <h6>Connectivity</h6>
                         <ul>
                             <li>1 x Magic Magnetic Voxel I2C connector</li>
                         </ul>
-                        <h6>ESP-8266 WiFi microcontroller</h6>
+                        <p>ESP-8266 WiFi microcontroller</p>
                         <ul>
                             <li>4mb of flash / 80 MHz clock speed</li>
                             <li>Pins not accessible - shock risk!</li>
                         </ul>
-                        <h6>13A Relay / Reprogrammable tactile button </h6>
+                        <p>13A Relay / Reprogrammable tactile button </p>
                     </div>
 
                 </div>
@@ -322,9 +320,8 @@
                         <br>
                         <br>
                         <h4 class="pt-3">Environment Module</h4>
-                        <h6>DHT22 Temperature and Humidity Sensor</h6>
-                        <h6>MAX44009 Ambient Light Sensor</h6>
-                        <h6>Connectivity</h6>
+                        <p>DHT22 Temperature and Humidity Sensor</p>
+                        <p>MAX44009 Ambient Light Sensor</p>
                         <ul>
                             <li>2 x Magic Magnetic Voxel I2C connectors</li>
                         </ul>
@@ -338,8 +335,7 @@
                         <br>
                         <br>
                         <h4 class="pt-3">Motion Sensor Module</h4>
-                        <h6>PAJ7620 Motion and Gesture Sensor</h6>
-                        <h6>Connectivity</h6>
+                        <p>PAJ7620 Motion and Gesture Sensor</p>
                         <ul>
                             <li>2 x Magic Magnetic Voxel I2C connectors</li>
                         </ul>
@@ -351,9 +347,8 @@
                         <br>
 
                         <h4 class="pt-3">Multi Input Module</h4>
-                        <h6>Rotary Encoder</h6>
-                        <h6>3 x Tactile Buttons</h6>
-                        <h6>Connectivity</h6>
+                        <p>Rotary Encoder</p>
+                        <p>3 x Tactile Buttons</p>
                         <ul>
                             <li>1 x Magic Magnetic Voxel I2C connectors</li>
                         </ul>
@@ -366,21 +361,6 @@
 
         <div class="container flex-shrink-0 pt-5 pb-5">
             <h3>Upcoming releases</h3>
-            <!--
-            <div class="row mt-3">
-                <div class="col-md">
-                    <p>Augment your smart home with handy environment sensors, brilliant dot matrix displays, and tactile inputs, modularised. Compatible with all your favourite devices.
-                    </p>
-
-                </div>
-                <div class="col-md">
-                    <p>Open source open source
-                    </p>
-
-                </div>
-            </div>
--->
-
             <div class="card-deck pt-3">
                 <div class="card">
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH1.png">
