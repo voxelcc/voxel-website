@@ -93,15 +93,13 @@ function test_input($data)
                     <p>We're currently working on building our hardware, software and platform. This website serves to test interest in the idea - thanks for generously giving up your time to be here!
                     </p>
 
-
                 </div>
                 <div class="col-md">
-                    <p>Think Voxel is interesting? Why not sign up to our email newsletter, leave us some feedback or sign up to join discussion on our open source contributers group.
+                    <p>Think Voxel is interesting? Why not sign up to our email newsletter, leave us some feedback or sign up to join discussion on our open source contributers' group.
                     </p>
 
                 </div>
             </div>
-
 
             <div class="mb-4">
                 <div class="kickstarter-box">
@@ -123,12 +121,8 @@ function test_input($data)
                         ?>
                         <small id="emailHelp" class="form-text text-muted mt-0">We'll never share your email with anyone else. Unsubscribe at any time.</small>
                     </form>
-
                 </div>
-
             </div>
-
-
 
             <div class="mb-4">
                 <div class="kickstarter-box mx-auto">
@@ -191,16 +185,11 @@ function test_input($data)
                                 echo "Thanks!";
                             }
                             ?>
-                            <small id="emailHelp" class="form-text text-muted">You will recieve an email soon inviting you to our Google group. You can leave at any time.</small>
+                            <small id="emailHelp" class="form-text text-muted">You will receive an email soon inviting you to our Google group. You can leave at any time.</small>
                     </form>
                 </div>
             </div>
-
         </div>
-
-
-        </div>
-
     </main>
 
     <div class="container-fluid">
