@@ -186,8 +186,16 @@ padding: 10px;
 filter: invert(1);
 width: 60px;
 padding: 0px;
-padding-left: 20px;
+padding-left: 25px;
 float: left;
+}
+
+.socialmediaimagesidenav:hover {
+filter: invert(50%);
+}
+
+.socialmediaimage:hover {
+filter: invert(50%);
 }
 
 .socialmediaimagesidenavcontainer {
@@ -196,6 +204,7 @@ left: 10px;
 bottom: 30px;
 width: 100vw;
 }
+
 
 .sidenav {
 height: 100%;
