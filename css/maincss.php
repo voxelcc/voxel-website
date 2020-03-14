@@ -160,11 +160,10 @@ button {} */
 
 .navbar {
     position: absolute;
-    width: 100vw;
+    width: 180vw;
     height: 88px;
     top: 0px
     background-color: white;
-    padding-bottom: 30px;
 }
 
 .navbar-brand {
