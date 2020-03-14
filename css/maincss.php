@@ -159,7 +159,9 @@ button {} */
 }
 
 .navbar {
-    top: 0px;
+    position: absolute;
+    width: 100vw;
+    top: 0px
     background-color: white;
 }
 
