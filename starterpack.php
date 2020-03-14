@@ -178,14 +178,14 @@
                 <div class="carousel-item">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH17.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3 style="color: white;">Custom<br>Control</h3>
+                        <h3 style="color: white; white-space: nowrap">Custom<br>Control</h3>
                         <p style="color: white;">Augment your smart home routines and schedules with the Voxel Environment and Motion Sensor Modules. Now, even smarter.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH15.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3 style="color: white;">Magic Automation</h3>
+                        <h3 style="color: white; white-space: nowrap">Magic Automation</h3>
                         <p style="color: white;">Google Home and Alexa integration when you want to shout, good old knobs &amp; buttons when you don't.</p>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                 <div class="carousel-item">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH16.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3 style="color: white;">Wide Compatibility</h3>
+                        <h3 style="color: white; white-space: nowrap">Wide Compatibility</h3>
                         <p style="color: white;">Compatible with all things smart, with IFTTT. Turn dumb things smart, with smart plugs. </p>
                     </div>
                 </div>
