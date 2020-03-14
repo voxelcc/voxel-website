@@ -159,8 +159,8 @@ button {} */
 }
 
 .navbar {
-    padding-top: 50px;
-    height: 80px;
+    padding-top: 40px;
+    height: 120px;
     background-color: white;
 }
 
