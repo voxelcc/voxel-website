@@ -158,8 +158,16 @@ button {} */
     max-height: 294px;
 }
 
-.navbar {
+.internshiplogo {
+    margin: auto;
+    max-width: 50%;
+    max-height: 90px;
+    filter: grayscale(100%);
+}
 
+.aboutuscontainer {
+    max-width: 15vw;
+    margin: auto;
 }
 
 .navbar-brand {
@@ -240,14 +248,43 @@ button {} */
     .sidenav a {
         font-size: 18px;
     }
+    .aboutuscontainer {
+        max-width: 100vw;
+    }
+    .internshiplogo {
+        max-width: 100vw;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
     .sidenav.openclose {
         width: 100%;
     }
+    .aboutuscontainer {
+        max-width: 80vw;
+    }
+    .internshiplogo {
+        max-width: 80vw;
+    }
 }
 
+@media screen and (max-width: 1080px) {
+    .aboutuscontainer {
+        max-width: 30vw;
+    }
+    .internshiplogo {
+        max-width: 50vw;
+    }
+}
+@media screen and (max-width: 700px) {
+      .aboutuscontainer {
+        max-width: 30vw;
+    }
+    .internshiplogo {
+        max-width: 50vw;
+    }
+}
 
 /* Featurettes
 ------------------------- */

@@ -40,23 +40,40 @@
             </div>
         </div>
         <div style="max-width: 90%; margin: auto;">
-            <div class="slickcarousel mx-auto pt-5" style="padding: auto;">
+            <div class="slickcarousel mx-auto pt-5">
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU2.png" class="slickimage">
-                                   <p>Ben - CEO</p>
+                    <div class="aboutuscontainer">
+                        <p>Ben - CEO</p>
+                        <p>Oli is a keen smart home enthusiast and has proffessional experience developing consumer facing IOT tech from his time at Magic Of Things ltd.</p>
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU7.jpg" class="internshiplogo">
+                    </div>
                 </div>
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU3.png" class="slickimage">
-                                   <p>Ellie - COO</p>
+                    <div class="aboutuscontainer">
+                        <p>Ellie - COO</p>
+                        <p>Oli is a keen smart home enthusiast and has proffessional experience developing consumer facing IOT tech from his time at Magic Of Things ltd.</p>
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU8.png" class="internshiplogo" style="padding-top: 20px;">
+                    </div>
                 </div>
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU4.png" class="slickimage">
-                                   <p>Gabi - CCO</p>
+                    <div class="aboutuscontainer">
+                        <p>Gabi - CCO</p>
+                        <p>Oli is a keen smart home enthusiast and has proffessional experience developing consumer facing IOT tech from his time at Magic Of Things ltd.</p>
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU9.jpg" class="internshiplogo">
+                    </div>
                 </div>
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU5.png" class="slickimage">
-                                   <p>Melisa - CMO</p>
+                    <div class="aboutuscontainer">
+                        <p>Melisa - CMO</p>
+                        <p>Oli is a keen smart home enthusiast and has proffessional experience developing consumer facing IOT tech from his time at Magic Of Things ltd.</p>
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU10.png" class="internshiplogo">
+                    </div>
                 </div>
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU6.png" class="slickimage">
-                    <div style="max-width: 20%">
+                    <div class="aboutuscontainer">
                         <p>Oli - CTO</p>
                         <p>Oli is a keen smart home enthusiast and has proffessional experience developing consumer facing IOT tech from his time at Magic Of Things ltd.</p>
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU11.png" class="internshiplogo">
                     </div>
                 </div>
             </div>
