@@ -136,7 +136,7 @@ function test_input($data)
                     <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                         <!--Insert this line into action ="" when ready for deploy: -->
                         <div class="form-group">
-                            <label for="inputFeedback">Designed for Makers, by Makers</label>
+                            <label for="inputFeedback">Designed for makers, by makers</label>
                             <textarea class="form-control" id="inputFeedback" rows="5" placeholder="What do you want to see from this project?" name="message"></textarea>
                         </div>
                         <input type="submit" class="btn btn-primary pull-right"></input>
