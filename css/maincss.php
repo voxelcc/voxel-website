@@ -160,6 +160,7 @@ button {} */
 
 .navbar {
     position: absolute;
+    z-index: 3;
     width: 100vw;
     height: 128px;
     top: 0px
