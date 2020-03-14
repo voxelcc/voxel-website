@@ -161,6 +161,7 @@ button {} */
 .navbar {
     position: absolute;
     width: 100vw;
+    height: 88px;
     top: 0px
     background-color: white;
 }
