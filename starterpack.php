@@ -250,7 +250,7 @@
                 <h3 class="pb-5">Tech specs</h3>
                 <div class="row">
                     <div class="col-sm">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH33.png" style="max-width: 70%;" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH33.png" style="max-width: 70%; padding: 20px;" class="w-100 mx-auto">
                     </div>
                     <div class="col-sm">
                         <h4 class="pt-3">Software</h4>
@@ -265,15 +265,11 @@
                             <li>Google Home / Alexa / HomeKit</li>
                             <li>IFTTT / Tasmota / Home Assistant / OpenHAB / MQTT</li>
                         </ul>
-                        <br>
-                        <br>
-
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md">
                         <h4 class="pt-3">Brain Module</h4>
-                        <h5>Connectivity</h5>
                         <ul>
                             <li>3 x Magic Magnetic Voxel I2C connectors</li>
                             <li>USB Type-C PD</li>
@@ -288,16 +284,14 @@
                     </div>
 
                     <div class="col-md">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH18.png" style="max-width: 60%; padding-top: 10px;" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH18.png" style="max-width: 60%; padding: 20px;" class="w-100 mx-auto">
                     </div>
 
                 </div>
                 <div class="row">
                     <div class="col-md">
-                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH19.png" style="max-width: 60%; padding-top: 60px;" class="w-100 mx-auto">
+                        <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH19.png" style="max-width: 60%; padding: 20px;" class="w-100 mx-auto">
                     </div>
-                    <br>
-                    <br>
                     <div class="col-md">
                         <h4 class="pt-3">Brain Smart Plug Module</h4>
                         <ul>
@@ -317,8 +311,6 @@
 
                     <div class="col-md">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH21.png" class="w-100 mx-auto">
-                        <br>
-                        <br>
                         <h4 class="pt-3">Environment Module</h4>
                         <p>DHT22 Temperature and Humidity Sensor</p>
                         <p>MAX44009 Ambient Light Sensor</p>
