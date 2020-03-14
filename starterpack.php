@@ -19,9 +19,9 @@
         <h4><a href="starterpack#upcoming">Upcoming&nbsp;Releases</a></h4>
         <h4><a href="about">About&nbsp;us</a></h4>
         <div class="socialmediaimagesidenavcontainer">
-            <a href="https://www.facebook.com/Voxelcc-102399501326664/"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/facebook.svg" class="socialmediaimagesidenav"></a>
-            <a href="https://www.instagram.com/voxel.cc/"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/instagram.svg" class="socialmediaimagesidenav"></a>
-            <a href="https://www.github.com"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/github.svg" class="socialmediaimagesidenav"></a>
+            <a href="https://www.facebook.com/Voxelcc-102399501326664/" style="padding: 0px"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/facebook.svg" class="socialmediaimagesidenav"></a>
+            <a href="https://www.instagram.com/voxel.cc/" style="padding: 0px"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/instagram.svg" class="socialmediaimagesidenav"></a>
+            <a href="https://www.github.com" style="padding: 0px"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/github.svg" class="socialmediaimagesidenav"></a>
         </div>
     </div>
 
@@ -144,7 +144,7 @@
             <div class="row featurette pb-5">
                 <div class="col-md-6 order-md-2">
                     <h2 class="featurette-heading text-right">Code Your Way</h2>
-                    <p class="text-right">An intuitive custom coding interface for beginners lets you create quick projects based on <a href="https://developers.google.com/blockly">Blockly by Google.</a> Supports Python and C++ support for everything above.</p>
+                    <p class="text-right">An intuitive custom coding interface for beginners lets you create quick projects based on <a href="https://developers.google.com/blockly">Blockly by Google.</a> Supports Python and C++ for everything above.</p>
                     <a href="https://developers.google.com/blockly"><img src="media/blockly.png" style="height: 50px;" class="float-right"></a>
                 </div>
                 <div class="col-md-6 order-md-1">
