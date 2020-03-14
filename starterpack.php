@@ -290,7 +290,7 @@
                             <li>11 x GPIO pins / 1 x Analog input ADC pin</li>
                             <li>Hardware SPI, UART and I2C</li>
                         </ul>
-                        <h6>Vibrant 16 x 16 LED dot-matrix display</h6>
+                        <h6>Vibrant 16 x 16 LED dot-matrix display with SPI</h6>
                     </div>
                 
                     <div class="col-md">
