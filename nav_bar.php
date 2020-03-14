@@ -8,7 +8,7 @@
     <h4><a href="about">About&nbsp;us</a></h4>
 </div>
 
-<nav class="navbar navbar-expand sticky-top">
+<nav class="navbar navbar-expand sticky-top" style="background-color: white;">
     <div class="container justify-content-center">
         <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
             <li>
@@ -35,6 +35,6 @@
     </div>
 
 </nav>
-<br>
-<br>
-<br>
+
+
+
