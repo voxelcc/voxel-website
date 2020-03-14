@@ -8,7 +8,7 @@
     <h4><a href="about">About&nbsp;us</a></h4>
 </div>
 
-<nav class="navbar navbar-expand sticky-top" style ="position: absolute;">
+<nav class="navbar navbar-expand ">
     <div class="container justify-content-center">
         <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
             <li>
