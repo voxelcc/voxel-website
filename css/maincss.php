@@ -158,11 +158,11 @@ button {} */
     max-height: 294px;
 }
 
-.navbar {
+<!-- .navbar {
     padding-top: 10px;
     height: 140px;
     background-color: white;
-}
+} -->
 
 .navbar-brand {
     margin: 0px;
