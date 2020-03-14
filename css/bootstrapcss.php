@@ -4388,6 +4388,9 @@ input[type="button"].btn-block {
 
 .navbar {
     position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0; 
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
