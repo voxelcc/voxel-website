@@ -71,7 +71,7 @@ function test_input($data)
 
             <div class="row pt-5 pb-5">
                 <div class="col-lg-7">
-                    <h2 class="text-break pb-3">The smart home for <span class="replace-me1">freedom.<span style="display:none">,community.,privacy.</span></span>
+                    <h2 class="text-break pb-3">The smart home for <span class="replace-me1">freedom.<span style="display:none">,community,privacy.</span></span>
                     </h2>
 
 
@@ -134,7 +134,7 @@ function test_input($data)
                     <h6 style="color: white">Coming soon:</h6>
                     <h2 style ="color: white;" class="pb-4">Starter pack</h2>
                     <h6 style ="color: white;" >Voxel’s first module pack: a powerful smart home controller, open-sourced. </h6>
-                    <p style ="color: white;" >Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs; modularised. Compatible with all your favourite devices. </p>
+                    <p style ="color: white;" >Augment your smart home with handy environment sensors, brilliant dot matrix displays and tactile inputs. Compatible with most of your favourite devices. </p>
                     <a class="btn btn-secondary" href="starterpack">Explore ></a>
                 </div>
             </div>
@@ -151,16 +151,16 @@ function test_input($data)
                 <div class="row">
                     <div class="col-lg-5 mb-3">
                         <div class="pt-5 pb-5">
-                            <h2 style ="color: white;">Why Voxel</h2>
-                            <h6 style ="color: white;" class="pt-3">Complete freedom to create</h6>
+                            <h2 style ="color: white;">Why Voxel?</h2>
+                            <h4 style ="color: white;" class="pt-3">Complete freedom to create</h4>
                             <p style ="color: white;">Build whatever you can dream up. Completely open source and customisable.</p>
                             <a class="btn btn-secondary" href="hub#tutorials">Tutorials ></a>
 
-                            <h6 style ="color: white;" class="pt-5">Built with privacy first</h6>
+                            <h4 style ="color: white;" class="pt-5">Built with privacy first</h4>
                             <p style ="color: white;">Our business model is about selling great hardware, not your data. Find out more about us:</p>
                             <a class="btn btn-secondary" href="about">About us ></a>
 
-                            <h6 style ="color: white;" class="pt-5">Join a growing movement</h6>
+                            <h4 style ="color: white;" class="pt-5">Join a growing movement</h4>
                             <p style ="color: white;">Get ideas and support from the wonderful Voxel community. Share your creations with 1 click.
                             </p>
                             <a class="btn btn-secondary" href="hub#communityvibes">Voxel Hub ></a>

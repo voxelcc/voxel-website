@@ -175,6 +175,13 @@ button {} */
     font-size: 40px;
 }
 
+.socialmediaimage {
+    max-width: 80px;
+    filter: grayscale(100%);
+    padding: 10px;
+
+}
+
 .sidenav {
     height: 100%;
     /* 100% Full-height */
