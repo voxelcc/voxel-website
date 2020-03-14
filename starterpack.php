@@ -18,7 +18,7 @@
         <h4><a href="starterpack#techspecs">Tech&nbsp;Specs</a></h4>
         <h4><a href="starterpack#upcoming">Upcoming&nbsp;Releases</a></h4>
         <h4><a href="about">About&nbsp;us</a></h4>
-        <div class="col-sm">
+        <div class="socialmediaimagesidenavcontainer">
             <a href="https://www.facebook.com/Voxelcc-102399501326664/"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/facebook.svg" class="socialmediaimagesidenav"></a>
             <a href="https://www.instagram.com/voxel.cc/"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/instagram.svg" class="socialmediaimagesidenav"></a>
             <a href="https://www.github.com"><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/github.svg" class="socialmediaimagesidenav"></a>
@@ -115,7 +115,7 @@
                 <br>
 
                 <div class="col-lg-6 mb-3 p-5">
-                    <h3 style="color: white;" class="pt-4">Designed for makers, by makers</h3>
+                    <h3 style="color: white;" class="pt-4">Designed for Makers, by Makers</h3>
                     <p style="color: white;" class="pt-2">Smart homes should be a joy to work with and maker tech should be easy to get up and running.<br /> Our new smart home controller, built on principles of transparency and privacy combines the best of both these worlds.</p>
                     <a href="about" class="btn btn-secondary">Privacy ></a>
 
@@ -130,7 +130,7 @@
 
             <div class="row featurette pt-5">
                 <div class="col-md-6">
-                    <h2 class="featurette-heading">Idea to invention in record time</h2>
+                    <h2 class="featurette-heading">Idea to Invention in Record Time</h2>
                     <p>Don't let wiring, compatability or drivers get in the way of creativity. Magnetic modularity allows you to make, break, rebuild, combine, mix, match and repeat.
                     </p>
                 </div>
@@ -143,7 +143,7 @@
 
             <div class="row featurette pb-5">
                 <div class="col-md-6 order-md-2">
-                    <h2 class="featurette-heading text-right">Code your way</h2>
+                    <h2 class="featurette-heading text-right">Code Your Way</h2>
                     <p class="text-right">An intuitive custom coding interface for beginners lets you create quick projects based on <a href="https://developers.google.com/blockly">Blockly by Google.</a> Supports Python and C++ support for everything above.</p>
                     <a href="https://developers.google.com/blockly"><img src="media/blockly.png" style="height: 50px;" class="float-right"></a>
                 </div>
@@ -179,22 +179,22 @@
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH17.png" class="d-block">
                     <div class="carousel-caption">
                         <h3 style="color: white; white-space: nowrap">Custom<br>Control</h3>
-                        <p style="color: white;">Augment your smart home routines and schedules with the Voxel Environment and Motion Sensor Modules. Now, even smarter.</p>
+                        <p style="color: white;">Augment your smart home routines and schedules with the Voxel Environment and Motion Sensor Modules. Now even smarter.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH15.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3 style="color: white; white-space: nowrap">Magic Automation</h3>
-                        <p style="color: white;">Google Home and Alexa integration when you want to shout, good old knobs &amp; buttons when you don't.</p>
+                        <h3 style="color: white; white-space: nowrap">Magic<br>Automation</h3>
+                        <p style="color: white;">Google Home and Alexa integration for when you want to shout, good old knobs &amp; buttons for when you don't.</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH16.png" class="d-block">
                     <div class="carousel-caption">
-                        <h3 style="color: white; white-space: nowrap">Wide Compatibility</h3>
-                        <p style="color: white;">Compatible with all things smart, with IFTTT. Turn dumb things smart, with smart plugs. </p>
+                        <h3 style="color: white; white-space: nowrap">Wide<br>Compatibility</h3>
+                        <p style="color: white;">Compatible with all things smart using IFTTT, Home Assistant and more. Use smart plugs to turn dumb things smart. </p>
                     </div>
                 </div>
 
@@ -220,7 +220,7 @@
                 <div class="col-md-6">
                     <h2 class="featurette-heading">Endless Possibilities</h2>
                     <p>Download creations for your modules from a huge selection on <a href="hub#communityvibes">the community
-                            Hub.</a> All completely free and open source. Modify and customise, then share your new creation with one click.
+                            Hub.</a> All completely free and open source. Modify and customise, then share your new creation with just one click.
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -248,8 +248,6 @@
         <div class="techspecs mt-5 mb-5" id="techspecs">
             <div class="container flex-shrink-0 pt-5 pb-5">
                 <h3 class="pb-5">Tech specs</h3>
-
-
                 <div class="row">
                     <div class="col-sm">
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH33.png" style="max-width: 70%;" class="w-100 mx-auto">
@@ -433,7 +431,7 @@
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/WH/WH26.png">
                     <div class="card-body">
                         <h5 class="card-title">Smart Plug Pack</h5>
-                        <p class="card-text">3 x Voxel Brain Smart plugs with Magic Magnetic I2C Connectors. </p>
+                        <p class="card-text">3 x Voxel Brain Smart plugs with Magic Magnetic I2C connectors. </p>
                         <a href="buy_shop" style="color: black" class="btn btn-secondary">Buy ></a>
                     </div>
                 </div>
