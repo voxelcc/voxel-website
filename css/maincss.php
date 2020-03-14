@@ -159,8 +159,8 @@ button {} */
 }
 
 .navbar {
-    position: absolute;
     top: 0px;
+    background-color: white;
 }
 
 .navbar-brand {
