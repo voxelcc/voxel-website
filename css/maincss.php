@@ -184,16 +184,17 @@ padding: 10px;
 
 .socialmediaimagesidenav {
 filter: invert(1);
-width: 50px;
-padding-left: 0px;
+width: 60px;
+padding: 0px;
+padding-left: 20px;
+float: left;
 }
 
 .socialmediaimagesidenavcontainer {
-overflow:auto;
 position: fixed;
+left: 10px;
 bottom: 30px;
-left: 0px;
-justify-content: center;
+width: 100vw;
 }
 
 .sidenav {

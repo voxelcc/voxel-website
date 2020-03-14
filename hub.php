@@ -74,7 +74,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
 
             <div class="row pt-5">
                 <div class="col text-center">
-                    <h2 class="text-break">Community vibes</h2>
+                    <h2 class="text-break">Community Vibes</h2>
                 </div>
 
             </div>
@@ -85,7 +85,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
 
                 </div>
                 <div class="col-md">
-                    <p>The Voxel Hub will be the home of projects, tutorials, community support and ideas. We want this to be an environment where ideas can be shared and  worked on collaboratively.
+                    <p>We invite you to join the Voxel Hub, home of projects, tutorials, community support and ideas. This is an environment where ideas can be shared and worked on collaboratively.
                     </p>
 
                 </div>
@@ -123,7 +123,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                         <img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO3.png" class="d-block">
                         <div class="carousel-caption">
                             <h2 style="color: white; white-space:nowrap">Contribute</h2>
-                            <p style="color: white;">Work with other makers to build and contribute to open source software, see your work in the hands of fellow smart home enthusiasts, innovators and disruptors. </p>
+                            <p style="color: white;">Work with other makers to build and contribute to open source software. See your work in the hands of fellow smart home enthusiasts, innovators and disruptors. </p>
                         </div>
                     </div>
                 </div>
@@ -182,7 +182,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO9.png">
                     <div class="card-body">
                         <h5 class="card-title">Retro Pi</h5>
-                        <p class="card-text">I interfaced my voxel with my retro-pi to show my most played games!</p>
+                        <p class="card-text">I interfaced my Voxel with my retro-pi to show my most played games!</p>
                         <p class="card-text"><small class="text-muted">bencobley</small></p>
                     </div>
                 </div>
@@ -202,7 +202,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO10.png">
                     <div class="card-body">
                         <h5 class="card-title">Funding News</h5>
-                        <p class="card-text">New funding recieved, Kickstarter scheduled to start early October!</p>
+                        <p class="card-text">New funding received, Kickstarter scheduled to start early October!</p>
                         <p class="card-text"><small class="text-muted">Voxel Press</small></p>
                     </div>
                 </div>
@@ -210,7 +210,7 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                     <img class="card-img-top" src="https://voxelmedia.s3.eu-west-2.amazonaws.com/CO/CO11.png">
                     <div class="card-body">
                         <h5 class="card-title">Prototyping News</h5>
-                        <p class="card-text">Voxel starter pack is at the final prototype stage, nearly ready for batch manufacture.</p>
+                        <p class="card-text">Voxel starter pack at the final prototype stage, nearly ready for batch manufacture.</p>
                         <p class="card-text"><small class="text-muted">Voxel Press</small></p>
                     </div>
                 </div>
