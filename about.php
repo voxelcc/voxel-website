@@ -56,7 +56,6 @@
                 <div><img src="https://voxelmedia.s3.eu-west-2.amazonaws.com/AU/AU6.png" class="slickimage">
                     <div style="max-width: 20%">
                         <p>Oli - CTO</p>
-                        <br>
                         <p>Oli is a keen smart home enthusiast and has proffessional experience developing consumer facing IOT tech from his time at Magic Of Things ltd.</p>
                     </div>
                 </div>
