@@ -4397,7 +4397,7 @@ input[type="button"].btn-block {
     <!-- -ms-flex-pack: justify; -->
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    z-index: 3;
+    transform: translate3d(0, 0, 200px);
     background-color: white;
 }
 
