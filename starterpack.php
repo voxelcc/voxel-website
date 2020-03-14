@@ -115,7 +115,7 @@
                 <br>
 
                 <div class="col-lg-6 mb-3 p-5">
-                    <h2 style="color: white;" class="pt-4">Designed for makers, by makers</h2>
+                    <h3 style="color: white;" class="pt-4">Designed for makers, by makers</h3>
                     <p style="color: white;" class="pt-2">Smart homes should be a joy to work with and maker tech should be easy to get up and running.<br /> Our new smart home controller, built on principles of transparency and privacy combines the best of both these worlds.</p>
                     <a href="about" class="btn btn-secondary">Privacy ></a>
 
